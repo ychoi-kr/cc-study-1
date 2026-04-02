@@ -320,6 +320,29 @@
   .lb.show { display: flex; }
   .lb img { max-width: 92vw; max-height: 92vh; border-radius: 8px; }
 
+  /* Exit modal */
+  .exit-modal {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 16px; padding: 2rem; text-align: center;
+    max-width: 360px; width: 100%; margin-top: 30vh;
+  }
+  .exit-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .exit-dest { font-size: 0.82rem; color: var(--text-dim); margin-bottom: 1.5rem; word-break: break-all; }
+  .exit-btns { display: flex; gap: 10px; justify-content: center; }
+  .exit-cancel, .exit-go {
+    padding: 8px 24px; border-radius: 8px; font-size: 0.88rem;
+    cursor: pointer; font-family: inherit; font-weight: 600;
+    text-decoration: none; display: inline-flex; align-items: center;
+  }
+  .exit-cancel {
+    background: var(--surface2); border: 1px solid var(--border); color: var(--text-dim);
+  }
+  .exit-cancel:hover { border-color: var(--text-dim); }
+  .exit-go {
+    background: var(--accent); border: 1px solid var(--accent); color: #fff;
+  }
+  .exit-go:hover { opacity: 0.85; }
+
   @media (max-width: 768px) {
     .stats { grid-template-columns: repeat(2,1fr); }
     .cur-grid { grid-template-columns: repeat(2,1fr); }
@@ -339,8 +362,8 @@
   <div class="nav-links">
     <button class="nav-btn active" data-sec="overview">개요</button>
     <button class="nav-btn" data-sec="participants">참가자</button>
-    <a href="https://wikibook.co.kr/claude-code/" target="_blank" rel="noopener" class="nav-btn" style="text-decoration:none">📘 도서</a>
-    <a href="https://cafe.naver.com/f-e/cafes/30853297/menus/154" target="_blank" rel="noopener" class="nav-btn" style="text-decoration:none">☕ 카페</a>
+    <button class="nav-btn" onclick="confirmExit('https://wikibook.co.kr/claude-code/','위키북스 도서 페이지')">📘 도서</button>
+    <button class="nav-btn" onclick="confirmExit('https://cafe.naver.com/f-e/cafes/30853297/menus/153','네이버 카페')">☕ 카페</button>
   </div>
 </nav>
 
@@ -399,6 +422,17 @@
 <div class="overlay" id="overlay"><div class="detail" id="detail"></div></div>
 <!-- Lightbox -->
 <div class="lb" id="lb" onclick="this.classList.remove('show')"><img id="lb-img" /></div>
+<!-- Exit confirm -->
+<div class="overlay" id="exit-overlay" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="exit-modal">
+    <p class="exit-title">외부 사이트로 이동합니다</p>
+    <p class="exit-dest" id="exit-dest"></p>
+    <div class="exit-btns">
+      <button class="exit-cancel" onclick="document.getElementById('exit-overlay').classList.remove('show')">취소</button>
+      <a class="exit-go" id="exit-go" href="#" target="_blank" rel="noopener">이동하기</a>
+    </div>
+  </div>
+</div>
 
 <script src="data.js"></script>
 <script>
@@ -656,6 +690,16 @@ function esc(s) {
   const d = document.createElement('div');
   d.textContent = s;
   return d.innerHTML;
+}
+
+function confirmExit(url, name) {
+  document.getElementById('exit-dest').textContent = name + ' (' + url + ')';
+  const goBtn = document.getElementById('exit-go');
+  goBtn.href = url;
+  goBtn.onclick = function() {
+    document.getElementById('exit-overlay').classList.remove('show');
+  };
+  document.getElementById('exit-overlay').classList.add('show');
 }
 </script>
 </body>
