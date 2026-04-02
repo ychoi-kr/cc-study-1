@@ -474,7 +474,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "후보1. 신혼부부용 가계부 앱\n후보2. 옷입히기 게임 앱\n후보3. 해빗트래커 앱",
-      "max_day": 4
+      "max_day": 4,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTgy/MDAxNzc1MTQwMDQzNzI5.i-waqYvDZncOM3siGWi2ewuKV5jodPDduLTUa6AapFcg.l31kqXkU5vUGZB5qKeQkYYk3lwJDdLll7ZoTKUjCFskg.PNG/image.png?type=w1600"
     },
     {
       "id": "1e341f83",
@@ -542,7 +543,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "- ChatGPT랑 프로젝트\n- CLAUDE.md 작성\n하는 방법을 알아봤어요",
-      "max_day": 4
+      "max_day": 4,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjQ3/MDAxNzc1MTEzNjU2NjI3.zGbV2Sx3_xdBme7HzaTK6yniYZHMfWpTcwbrdJRZbEkg.Zxd8YRcxKgaDU3TI32443SCGolY4i7hJAH3GTeJK3uAg.PNG/%7B6DB02B83-FE2F-4D9C-95FD-9139F7ED2378%7D.png?type=w1600"
     },
     {
       "id": "26307ecc",
@@ -590,7 +592,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "사다리 게임 앱",
-      "max_day": 3
+      "max_day": 3,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg5/MDAxNzc1MDU3MzU3ODE1.5AWH2NH7ULiYngw5pnhklYb9BWeuUhxOOmXxsq7R54wg.gsx9bxoANuspXIfDzBNMdpbesOFDgmKHFqURY8mpQW0g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002448.png?type=w1600"
     },
     {
       "id": "792d2759",
@@ -648,7 +651,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "<후보 3가지>\n(1) 불량현황 실시간 대시보드",
-      "max_day": 3
+      "max_day": 3,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMzcg/MDAxNzc1MDE3MjI0NTU0.RuEhDq9d_RrzCykEjeDw2GJ8iz-Y1MwPY2QRDuz5ygIg.U26GuR-VsVCsasM-skxaGpFeTSLnl_o7e73_UR04Fbcg.PNG/%EA%B7%B8%EB%A6%BC2.png?type=w1600"
     },
     {
       "id": "c6909e97",
@@ -711,7 +715,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "문제풀이 사이트\n- 회원가입, 로그인, 회원정보수정, 회원관리 등 (일반회원, 관리자)\n- 과목 등록 (관리자), 문제 등록/ 수정 / 삭제 (회원만)",
-      "max_day": 3
+      "max_day": 3,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNjgg/MDAxNzc1MDQ3MTc4OTk0.pUT9hRnznPa8itjIseUmjK4DOeYm9MNe5UqYcyAg4BQg.G-4924ZfOcvSapn6OkwLjcL657QNZX90AvgbywB3xvIg.PNG/image.png?type=w1600"
     },
     {
       "id": "bd0f1799",
@@ -762,7 +767,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "기록하는 앱을 만들고 싶다.\n스터디를 하면서 1-3 중에 도전할 예정\n1. 투두리스트",
-      "max_day": 3
+      "max_day": 3,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjI2/MDAxNzc1MTQwNjc3MDgx.yBZoYhh6xOuqaySkSk1h-zszxlartg4d-G-pkI1Cfusg.cF8-F1-lvLm5YpfXG2XC92wJERUv5aRwe6N-_hvcKD4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.37.15.png?type=w1600"
     },
     {
       "id": "d55c8e67",
@@ -864,7 +870,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "고객별 코칭 기록 관리 시스템",
-      "max_day": 3
+      "max_day": 3,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjYx/MDAxNzc1MDU3MTgxNTI2.5WHBuc3WgorhOi-MBFm-MB6---OBVJONKNmdCDCCzkgg.iOAwiJdyVKovSq8E6BA43Dd0WBn7yj0y1VuRMkc6yZsg.PNG/image.png?type=w1600"
     },
     {
       "id": "d1241897",
@@ -1007,7 +1014,8 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "",
-      "max_day": 2
+      "max_day": 2,
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjkw/MDAxNzc0OTk3MjY0OTMz.blxhZv53bQfjQGAnVoTDwVADAr0W7egNz2nF8YPbxdYg.C8BjgR1HLcV-TdnjdcCQjVuaApQIvd1KvIxTtlEpLOAg.PNG/image.png?type=w1600"
     },
     {
       "id": "e86d5c15",

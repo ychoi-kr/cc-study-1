@@ -554,12 +554,14 @@ function renderGrid() {
 
     let tags = '';
 
-    // 대표 이미지: 가장 마지막 day의 첫 번째 이미지
-    let thumb = '';
-    const sortedDayKeys = Object.keys(p.days).map(Number).sort((a,b)=>b-a);
-    for (const dk of sortedDayKeys) {
-      const imgs = p.days[dk]?.images;
-      if (imgs && imgs.length > 0) { thumb = imgs[0]; break; }
+    // 대표 이미지: 수동 선별(thumb) 우선, 없으면 가장 마지막 day의 첫 번째 이미지
+    let thumb = p.thumb || '';
+    if (!thumb) {
+      const sortedDayKeys = Object.keys(p.days).map(Number).sort((a,b)=>b-a);
+      for (const dk of sortedDayKeys) {
+        const imgs = p.days[dk]?.images;
+        if (imgs && imgs.length > 0) { thumb = imgs[0]; break; }
+      }
     }
     const thumbHtml = thumb
       ? `<img class="p-thumb" src="${thumb}" loading="lazy" alt="${esc(p.masked_nickname)}" />`
