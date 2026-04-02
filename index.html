@@ -207,7 +207,8 @@
   .badge {
     font-size: 0.72rem; padding: 3px 10px; border-radius: 10px; font-weight: 650;
   }
-  .badge-4 { background: var(--green-dim); color: var(--green); }
+  .badge-5 { background: var(--green-dim); color: var(--green); }
+  .badge-4 { background: var(--accent-glow); color: var(--accent-light); }
   .badge-3 { background: var(--cyan-dim); color: var(--cyan); }
   .badge-2 { background: var(--amber-dim); color: var(--amber); }
   .badge-1 { background: rgba(136,136,160,0.12); color: var(--text-dim); }
@@ -631,7 +632,7 @@ function renderGrid() {
 
   const el = document.getElementById('pgrid');
   el.innerHTML = list.map(p => {
-    const bCls = p.max_day>=totalDays?'badge-4':p.max_day>=3?'badge-3':p.max_day>=2?'badge-2':'badge-1';
+    const bCls = p.max_day>=totalDays?'badge-5':p.max_day>=7?'badge-4':p.max_day>=4?'badge-3':p.max_day>=2?'badge-2':'badge-1';
     const bTxt = p.max_day>=totalDays?'완주':`Day ${p.max_day}`;
 
     let idea = p.app_idea ? p.app_idea.split('\n')[0].replace(/^[>\-#\s✔️]+/,'').trim() : '';
