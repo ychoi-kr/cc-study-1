@@ -145,7 +145,7 @@
   .funnel-fill {
     height: 100%; border-radius: 6px; display: flex; align-items: center;
     padding-left: 10px; font-size: 0.75rem; font-weight: 700;
-    transition: width 1s ease; min-width: 30px;
+    transition: width 1s ease-out; min-width: 30px;
   }
   .ff-1 { background: linear-gradient(90deg, #4338ca, var(--accent)); }
   .ff-2 { background: linear-gradient(90deg, #6d28d9, #a78bfa); }
@@ -526,10 +526,30 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
     const pct = Math.round(cnt/tot*100);
     html += `<div class="funnel-row">
       <div class="funnel-label"><span>Day ${d} — ${dayLabels[d]||''}</span><span class="fl-r">${cnt}명 (${pct}%)</span></div>
-      <div class="funnel-track"><div class="funnel-fill ff-${d}" style="width:${pct}%">${cnt}</div></div>
+      <div class="funnel-track"><div class="funnel-fill ff-${d}" data-width="${pct}" style="width:0">${cnt}</div></div>
     </div>`;
   }
   el.innerHTML = html;
+})();
+
+/* ── FUNNEL SCROLL ANIMATION ── */
+(function(){
+  const funnel = document.getElementById('funnel');
+  if (!funnel) return;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const bars = funnel.querySelectorAll('.funnel-fill');
+        bars.forEach((bar, i) => {
+          setTimeout(() => {
+            bar.style.width = bar.dataset.width + '%';
+          }, i * 300);
+        });
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  observer.observe(funnel);
 })();
 
 /* ── HERO IDEA ROTATION ── */
