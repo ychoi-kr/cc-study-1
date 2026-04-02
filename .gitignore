@@ -1,0 +1,4 @@
+# 개인정보 포함 파일 (배포 제외)
+check_privacy.py
+excluded_images.json
+cafe_articles_full.json

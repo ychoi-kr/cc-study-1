@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클로드 코드 바이브 코딩 스터디 1기</title>
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+  :root {
+    --bg: #0c0c10;
+    --surface: #16161e;
+    --surface2: #1e1e2a;
+    --surface3: #262636;
+    --border: #2a2a3d;
+    --text: #e8e8f0;
+    --text-dim: #7d7d96;
+    --accent: #7c6ff7;
+    --accent-light: #a49bfa;
+    --accent-glow: rgba(124,111,247,0.12);
+    --green: #34d399;
+    --green-dim: rgba(52,211,153,0.12);
+    --amber: #fbbf24;
+    --amber-dim: rgba(251,191,36,0.12);
+    --rose: #fb7185;
+    --cyan: #22d3ee;
+    --cyan-dim: rgba(34,211,238,0.10);
+    --radius: 14px;
+    --radius-sm: 8px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg); color: var(--text);
+    line-height: 1.7; overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top:0; left:0; right:0; z-index:100;
+    background: rgba(12,12,16,0.82); backdrop-filter: blur(24px);
+    border-bottom: 1px solid var(--border);
+    height: 56px; display: flex; align-items: center;
+    padding: 0 max(1.5rem, calc((100vw - 1100px)/2));
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 0.95rem; font-weight: 800; letter-spacing: -0.02em;
+    background: linear-gradient(135deg, var(--accent-light), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .nav-links { display:flex; gap:4px; }
+  .nav-btn {
+    background: none; border: 1px solid transparent; color: var(--text-dim);
+    padding: 6px 14px; border-radius: 8px; cursor: pointer;
+    font-size: 0.82rem; font-weight: 500; transition: all 0.2s; font-family: inherit;
+  }
+  .nav-btn:hover { color: var(--text); }
+  .nav-btn.active { color: var(--accent-light); border-color: rgba(124,111,247,0.3); background: var(--accent-glow); }
+
+  main {
+    padding-top: 72px;
+    max-width: 1100px; margin: 0 auto;
+    padding-left: 1.5rem; padding-right: 1.5rem; padding-bottom: 5rem;
+  }
+  section { display: none; }
+  section.active { display: block; }
+
+  /* ─── HERO ─── */
+  .hero { text-align: center; padding: 3.5rem 0 1.5rem; }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent-glow); border: 1px solid rgba(124,111,247,0.2);
+    border-radius: 20px; padding: 5px 14px; font-size: 0.78rem;
+    color: var(--accent-light); font-weight: 600; margin-bottom: 1.2rem;
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 850; line-height: 1.25;
+    letter-spacing: -0.03em;
+    background: linear-gradient(160deg, #fff 20%, var(--accent-light) 80%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero .sub {
+    color: var(--text-dim); font-size: 1.05rem; margin-top: 0.8rem; font-weight: 400;
+  }
+  .hero-meta {
+    display: inline-flex; gap: 1.5rem; margin-top: 1.5rem;
+    font-size: 0.85rem; color: var(--text-dim);
+  }
+  .hero-meta span { display: flex; align-items: center; gap: 5px; }
+
+  /* STATS */
+  .stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin: 2.5rem 0; }
+  .stat {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.3rem; text-align: center;
+    transition: border-color 0.2s;
+  }
+  .stat:hover { border-color: var(--accent); }
+  .stat .n {
+    font-size: 2rem; font-weight: 850; letter-spacing: -0.03em;
+    background: linear-gradient(135deg, var(--accent-light), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .stat .l { color: var(--text-dim); font-size: 0.82rem; margin-top: 2px; }
+
+  /* CURRICULUM */
+  .cur-section { margin: 3rem 0; }
+  .sec-head {
+    font-size: 1.2rem; font-weight: 750; margin-bottom: 1.2rem;
+    letter-spacing: -0.02em;
+  }
+  .cur-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 8px; }
+  .cur-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 1rem 0.8rem;
+    text-align: center; position: relative; transition: all 0.2s;
+  }
+  .cur-card.done { border-color: rgba(124,111,247,0.3); }
+  .cur-card.upcoming { opacity: 0.45; }
+  .cur-card .cur-day {
+    font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; margin-bottom: 4px;
+  }
+  .cur-card.done .cur-day { color: var(--accent-light); }
+  .cur-card.upcoming .cur-day { color: var(--text-dim); }
+  .cur-card .cur-title { font-size: 0.78rem; color: var(--text-dim); line-height: 1.4; }
+  .cur-card .cur-count {
+    margin-top: 6px; font-size: 0.72rem; font-weight: 600;
+    color: var(--green);
+  }
+
+  /* FUNNEL */
+  .funnel { margin: 2.5rem 0; }
+  .funnel-row { margin-bottom: 10px; }
+  .funnel-label { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 4px; }
+  .funnel-label .fl-r { color: var(--text-dim); }
+  .funnel-track { height: 28px; background: var(--surface); border-radius: 6px; overflow: hidden; }
+  .funnel-fill {
+    height: 100%; border-radius: 6px; display: flex; align-items: center;
+    padding-left: 10px; font-size: 0.75rem; font-weight: 700;
+    transition: width 1s ease; min-width: 30px;
+  }
+  .ff-1 { background: linear-gradient(90deg, #4338ca, var(--accent)); }
+  .ff-2 { background: linear-gradient(90deg, #6d28d9, #a78bfa); }
+  .ff-3 { background: linear-gradient(90deg, #1d4ed8, var(--cyan)); }
+  .ff-4 { background: linear-gradient(90deg, #047857, var(--green)); }
+
+  /* OVERVIEW CARDS */
+  .ov-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 2.5rem 0; }
+  .ov-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.4rem;
+  }
+  .ov-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--accent-light); margin-bottom: 0.8rem; }
+  .ov-card ul { list-style: none; }
+  .ov-card li {
+    padding: 3px 0; font-size: 0.88rem; color: var(--text-dim);
+    display: flex; gap: 8px; align-items: baseline;
+  }
+  .ov-card li::before { content:'▸'; color: var(--accent); flex-shrink:0; }
+
+  /* ─── PARTICIPANTS ─── */
+  .filter-bar { display: flex; gap: 6px; margin-bottom: 1.2rem; flex-wrap: wrap; }
+  .fbtn {
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--text-dim); padding: 5px 14px; border-radius: 20px;
+    cursor: pointer; font-size: 0.82rem; transition: all 0.2s; font-family: inherit;
+  }
+  .fbtn:hover { border-color: var(--accent); color: var(--text); }
+  .fbtn.active { border-color: var(--accent); color: var(--accent-light); background: var(--accent-glow); }
+
+  .p-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+  .p-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer; transition: all 0.25s; position: relative;
+    overflow: hidden;
+  }
+  .p-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(124,111,247,0.08); }
+  .p-thumb {
+    width: 100%; height: 160px; object-fit: cover;
+    display: block; background: var(--surface2);
+  }
+  .p-thumb-empty {
+    width: 100%; height: 80px;
+    background: linear-gradient(135deg, var(--surface2), var(--surface3));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.8rem; opacity: 0.3;
+  }
+  .p-body { padding: 1rem 1.3rem 1.2rem; }
+  .p-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .p-nick { font-size: 1rem; font-weight: 700; }
+  .badge {
+    font-size: 0.72rem; padding: 3px 10px; border-radius: 10px; font-weight: 650;
+  }
+  .badge-4 { background: var(--green-dim); color: var(--green); }
+  .badge-3 { background: var(--cyan-dim); color: var(--cyan); }
+  .badge-2 { background: var(--amber-dim); color: var(--amber); }
+  .badge-1 { background: rgba(136,136,160,0.12); color: var(--text-dim); }
+  .p-idea {
+    font-size: 0.83rem; color: var(--text-dim); margin-bottom: 10px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    min-height: 2.4em;
+  }
+  .dots { display: flex; gap: 3px; }
+  .dot {
+    flex: 1; height: 5px; border-radius: 3px; background: var(--surface3);
+    max-width: 40px;
+  }
+  .dot.on { background: var(--accent); }
+  .dot.on.g { background: var(--green); }
+  .dot-labels { display: flex; gap: 3px; margin-top: 3px; }
+  .dot-labels span { flex:1; text-align:center; font-size:0.65rem; color:var(--text-dim); max-width:40px; }
+  .p-tags { display: flex; gap: 5px; margin-top: 8px; flex-wrap: wrap; }
+  .p-tag {
+    font-size: 0.7rem; padding: 2px 8px; border-radius: 5px;
+    display: inline-flex; align-items: center; gap: 3px;
+  }
+  .p-tag.deploy { background: var(--cyan-dim); color: var(--cyan); }
+  .p-tag.gh { background: rgba(136,136,160,0.1); color: var(--text-dim); }
+
+  /* ─── DETAIL ─── */
+  .overlay {
+    position: fixed; inset:0; background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(6px); z-index: 200;
+    display: none; justify-content: center; align-items: flex-start;
+    overflow-y: auto; padding: 1rem;
+  }
+  .overlay.show { display: flex; }
+  .detail {
+    background: var(--bg); border: 1px solid var(--border);
+    border-radius: 18px; max-width: 720px; width: 100%;
+    margin: 3rem auto; overflow: hidden;
+  }
+  .d-head {
+    padding: 2rem 2rem 1.5rem;
+    background: linear-gradient(160deg, rgba(124,111,247,0.1), rgba(34,211,238,0.05));
+    border-bottom: 1px solid var(--border); position: relative;
+  }
+  .d-close {
+    position: absolute; top:14px; right:14px;
+    background: var(--surface2); border: 1px solid var(--border);
+    color: var(--text-dim); width: 34px; height: 34px;
+    border-radius: 50%; cursor: pointer; font-size: 1.1rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s; font-family: inherit;
+  }
+  .d-close:hover { border-color: var(--accent); color: var(--text); }
+  .d-head h2 { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; }
+  .d-progress {
+    display: flex; gap: 4px; margin-top: 12px;
+  }
+  .d-progress .dp {
+    flex: 1; height: 6px; border-radius: 3px; background: var(--surface3); max-width: 60px;
+  }
+  .d-progress .dp.on { background: var(--accent); }
+  .d-progress .dp.on.g { background: var(--green); }
+  .d-progress-label {
+    font-size: 0.78rem; color: var(--text-dim); margin-top: 6px;
+  }
+  .idea-box {
+    margin-top: 14px; padding: 12px 14px;
+    background: rgba(124,111,247,0.06); border: 1px solid rgba(124,111,247,0.15);
+    border-radius: var(--radius-sm);
+  }
+  .idea-box .ib-label {
+    font-size: 0.72rem; color: var(--accent-light); font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;
+  }
+  .idea-box .ib-text { font-size: 0.88rem; color: var(--text); line-height: 1.6; white-space: pre-wrap; }
+  .d-body { padding: 0 2rem 2rem; }
+
+  /* Timeline */
+  .tl { position: relative; margin-top: 1.5rem; }
+  .tl::before { content:''; position:absolute; left:14px; top:0; bottom:0; width:2px; background:var(--border); }
+  .tl-item { position: relative; padding-left: 42px; margin-bottom: 1.8rem; }
+  .tl-item:last-child { margin-bottom: 0; }
+  .tl-dot {
+    position: absolute; left:6px; top:3px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--accent); border: 3px solid var(--bg); z-index:1;
+  }
+  .tl-dot.g { background: var(--green); }
+  .tl-day-label {
+    font-size: 0.75rem; font-weight: 700; color: var(--accent-light);
+    text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 3px;
+  }
+  .tl-title { font-size: 0.95rem; font-weight: 650; margin-bottom: 6px; }
+  .tl-text { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; white-space: pre-wrap; }
+  .tl-imgs { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .tl-imgs img {
+    max-width: 260px; max-height: 180px; border-radius: var(--radius-sm);
+    border: 1px solid var(--border); object-fit: cover; cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .tl-imgs img:hover { transform: scale(1.03); }
+  .tl-links { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .tl-lnk {
+    font-size: 0.78rem; padding: 4px 10px; border-radius: 6px;
+    text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
+    transition: opacity 0.2s;
+  }
+  .tl-lnk:hover { opacity: 0.7; }
+  .tl-lnk.deploy { background: var(--cyan-dim); color: var(--cyan); }
+  .tl-lnk.gh { background: rgba(136,136,160,0.1); color: var(--text-dim); }
+  .tl-cafe {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;
+    text-decoration: none; opacity: 0.5;
+  }
+  .tl-cafe:hover { opacity: 1; color: var(--accent-light); }
+
+  /* Lightbox */
+  .lb {
+    position: fixed; inset:0; background: rgba(0,0,0,0.92);
+    z-index: 300; display: none; align-items: center; justify-content: center;
+    cursor: zoom-out;
+  }
+  .lb.show { display: flex; }
+  .lb img { max-width: 92vw; max-height: 92vh; border-radius: 8px; }
+
+  @media (max-width: 768px) {
+    .stats { grid-template-columns: repeat(2,1fr); }
+    .cur-grid { grid-template-columns: repeat(2,1fr); }
+    .p-grid { grid-template-columns: 1fr; }
+    .ov-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 1.5rem; }
+    .detail { margin: 0; border-radius: 0; min-height: 100vh; }
+    .overlay { padding: 0; }
+    .d-head, .d-body { padding-left: 1.2rem; padding-right: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Claude Code Vibe Coding Study</div>
+  <div class="nav-links">
+    <button class="nav-btn active" data-sec="overview">개요</button>
+    <button class="nav-btn" data-sec="participants">참가자</button>
+    <a href="https://wikibook.co.kr/claude-code/" target="_blank" rel="noopener" class="nav-btn" style="text-decoration:none">📘 도서</a>
+    <a href="https://cafe.naver.com/f-e/cafes/30853297/menus/154" target="_blank" rel="noopener" class="nav-btn" style="text-decoration:none">☕ 카페</a>
+  </div>
+</nav>
+
+<main>
+  <!-- ═══ OVERVIEW ═══ -->
+  <section id="overview" class="active">
+    <div class="hero">
+      <div class="hero-badge">🔥 2주 완성 · 10일 과정 · 현재 Day 4 진행중</div>
+      <h1>클로드 코드 바이브 코딩<br>온라인 스터디 1기</h1>
+      <p class="sub">비전공자도 AI와 함께 나만의 앱을 만들 수 있다</p>
+      <div class="hero-meta">
+        <span>📘 위키북스</span>
+        <span>📅 2026.03.30 ~</span>
+        <span>👥 26명</span>
+      </div>
+    </div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="cur-section">
+      <h3 class="sec-head">📚 커리큘럼</h3>
+      <div class="cur-grid" id="curriculum"></div>
+    </div>
+
+    <div class="funnel">
+      <h3 class="sec-head">📊 일차별 참가 현황</h3>
+      <div id="funnel"></div>
+    </div>
+
+    <div class="ov-grid">
+      <div class="ov-card">
+        <h3>🎯 스터디 방식</h3>
+        <ul>
+          <li>책을 따라 실습하고 인증글 작성</li>
+          <li>에디터(위키북스)가 직접 질문 답변</li>
+          <li>10일 완주 시 완주 상장 수여</li>
+          <li>우수 스터디원에게 위키북스 전자책 증정</li>
+        </ul>
+      </div>
+      <div class="ov-card">
+        <h3>💡 참가자들이 꿈꾸는 앱</h3>
+        <ul id="ideas"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PARTICIPANTS ═══ -->
+  <section id="participants">
+    <h2 class="sec-head" style="margin-top:1rem">👥 참가자 여정</h2>
+    <div class="filter-bar" id="filters"></div>
+    <div class="p-grid" id="pgrid"></div>
+  </section>
+</main>
+
+<!-- Detail overlay -->
+<div class="overlay" id="overlay"><div class="detail" id="detail"></div></div>
+<!-- Lightbox -->
+<div class="lb" id="lb" onclick="this.classList.remove('show')"><img id="lb-img" /></div>
+
+<script src="data.js"></script>
+<script>
+const D = STUDY_DATA;
+const totalDays = D.meta.total_days;
+const curDay = D.meta.current_day;
+
+/* ── NAV ── */
+document.querySelectorAll('.nav-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('main > section').forEach(s => s.classList.remove('active'));
+    document.getElementById(btn.dataset.sec).classList.add('active');
+  };
+});
+
+/* ── STATS ── */
+(function(){
+  const totalPosts = Object.values(D.stats.day_counts).reduce((a,b)=>a+b,0);
+  const items = [
+    {n: D.stats.total_participants, l: '참가자'},
+    {n: `${curDay}/${totalDays}`, l: '진행 일차'},
+    {n: D.stats.deploy_count, l: '앱 배포'},
+    {n: totalPosts, l: '인증글'},
+  ];
+  document.getElementById('stats').innerHTML = items.map(i =>
+    `<div class="stat"><div class="n">${i.n}</div><div class="l">${i.l}</div></div>`
+  ).join('');
+})();
+
+/* ── CURRICULUM ── */
+(function(){
+  const el = document.getElementById('curriculum');
+  el.innerHTML = D.curriculum.map(c => {
+    const cnt = D.stats.day_counts[c.day] || 0;
+    return `<div class="cur-card ${c.status}">
+      <div class="cur-day">Day ${c.day}</div>
+      <div class="cur-title">${c.title}</div>
+      ${c.status === 'done' ? `<div class="cur-count">${cnt}명 인증</div>` : ''}
+    </div>`;
+  }).join('');
+})();
+
+/* ── FUNNEL ── */
+(function(){
+  const el = document.getElementById('funnel');
+  const tot = D.stats.total_participants;
+  const dayLabels = {
+    1:'설치 + 앱 구상', 2:'5분 앱 만들기',
+    3:'GitHub 배포 + MCP', 4:'Vercel 배포 + 테스트'
+  };
+  let html = '';
+  for (let d = 1; d <= curDay; d++) {
+    const cnt = D.stats.day_counts[d] || 0;
+    const pct = Math.round(cnt/tot*100);
+    html += `<div class="funnel-row">
+      <div class="funnel-label"><span>Day ${d} — ${dayLabels[d]||''}</span><span class="fl-r">${cnt}명 (${pct}%)</span></div>
+      <div class="funnel-track"><div class="funnel-fill ff-${d}" style="width:${pct}%">${cnt}</div></div>
+    </div>`;
+  }
+  el.innerHTML = html;
+})();
+
+/* ── IDEAS ── */
+(function(){
+  const el = document.getElementById('ideas');
+  const ideas = D.curated_ideas || [];
+  el.innerHTML = ideas.slice(0, 8).map(i => `<li>${esc(i)}</li>`).join('');
+})();
+
+/* ── PARTICIPANTS ── */
+let curFilter = 'all';
+function renderFilters() {
+  const el = document.getElementById('filters');
+  const filters = [
+    {key:'all', label:`전체 ${D.participants.length}`},
+    {key:'4', label:'Day 4 완주'},
+    {key:'3', label:'Day 3+'},
+    {key:'deploy', label:'🚀 배포 완료'},
+  ];
+  el.innerHTML = filters.map(f =>
+    `<button class="fbtn ${f.key===curFilter?'active':''}" onclick="setFilter('${f.key}')">${f.label}</button>`
+  ).join('');
+}
+function setFilter(f) {
+  curFilter = f;
+  renderFilters();
+  renderGrid();
+}
+function renderGrid() {
+  let list = D.participants;
+  if (curFilter==='4') list = list.filter(p => p.max_day>=4);
+  else if (curFilter==='3') list = list.filter(p => p.max_day>=3);
+  else if (curFilter==='deploy') list = list.filter(p =>
+    Object.values(p.days).some(d => d.deploy_urls?.length)
+  );
+
+  const el = document.getElementById('pgrid');
+  el.innerHTML = list.map(p => {
+    const bCls = p.max_day>=4?'badge-4':p.max_day>=3?'badge-3':p.max_day>=2?'badge-2':'badge-1';
+    const bTxt = p.max_day>=4?'완주':`Day ${p.max_day}`;
+
+    let idea = p.app_idea ? p.app_idea.split('\n')[0].replace(/^[>\-#\s✔️]+/,'').trim() : '';
+    if (idea.length > 65) idea = idea.substring(0,63)+'…';
+    if (!idea || idea.length < 5) idea = '앱 구상 중...';
+
+    const dots = Array.from({length: Math.min(totalDays, curDay)}, (_,i) => {
+      const d = i+1;
+      const on = p.days[d] ? 'on' : '';
+      const g = d >= 4 && on ? 'g' : '';
+      return `<div class="dot ${on} ${g}"></div>`;
+    }).join('');
+    const labels = Array.from({length: Math.min(totalDays, curDay)}, (_,i) =>
+      `<span>D${i+1}</span>`
+    ).join('');
+
+    const hasDeploy = Object.values(p.days).some(d => d.deploy_urls?.length);
+    const hasGh = Object.values(p.days).some(d => d.github_urls?.length);
+    let tags = '';
+    if (hasDeploy || hasGh) {
+      tags = '<div class="p-tags">';
+      if (hasDeploy) tags += '<span class="p-tag deploy">🚀 배포됨</span>';
+      if (hasGh) tags += '<span class="p-tag gh">📦 GitHub</span>';
+      tags += '</div>';
+    }
+
+    // 대표 이미지: 가장 마지막 day의 첫 번째 이미지
+    let thumb = '';
+    const sortedDayKeys = Object.keys(p.days).map(Number).sort((a,b)=>b-a);
+    for (const dk of sortedDayKeys) {
+      const imgs = p.days[dk]?.images;
+      if (imgs && imgs.length > 0) { thumb = imgs[0]; break; }
+    }
+    const thumbHtml = thumb
+      ? `<img class="p-thumb" src="${thumb}" loading="lazy" alt="${esc(p.masked_nickname)}" />`
+      : `<div class="p-thumb-empty">💻</div>`;
+
+    return `<div class="p-card" onclick="openDetail('${p.id}')">
+      ${thumbHtml}
+      <div class="p-body">
+        <div class="p-top">
+          <span class="p-nick">${esc(p.masked_nickname)}</span>
+          <span class="badge ${bCls}">${bTxt}</span>
+        </div>
+        <div class="p-idea">${esc(idea)}</div>
+        <div class="dots">${dots}</div>
+        <div class="dot-labels">${labels}</div>
+        ${tags}
+      </div>
+    </div>`;
+  }).join('');
+}
+renderFilters();
+renderGrid();
+
+/* ── DETAIL ── */
+const dayDesc = {1:'설치 + 앱 구상', 2:'기본 사용법 + 5분 앱', 3:'GitHub 배포 + MCP', 4:'Vercel 배포 + 테스트'};
+
+function openDetail(pid) {
+  const p = D.participants.find(x => x.id === pid);
+  if (!p) return;
+
+  const dots = Array.from({length: Math.min(totalDays, curDay)}, (_,i) => {
+    const d = i+1, on = p.days[d] ? 'on' : '', g = d>=4&&on ? 'g' : '';
+    return `<div class="dp ${on} ${g}"></div>`;
+  }).join('');
+
+  const completedDays = Object.keys(p.days).length;
+  const progressPct = Math.round(completedDays / totalDays * 100);
+
+  let ideaHtml = '';
+  if (p.app_idea && p.app_idea.length > 5) {
+    const ideaClean = p.app_idea.split('\n').filter(l=>l.trim()).slice(0,4).join('\n');
+    ideaHtml = `<div class="idea-box">
+      <div class="ib-label">💡 만들고 싶은 앱</div>
+      <div class="ib-text">${esc(ideaClean)}</div>
+    </div>`;
+  }
+
+  const sortedDays = Object.keys(p.days).map(Number).sort();
+  const tlHtml = sortedDays.map(d => {
+    const day = p.days[d];
+    let text = day.learned || day.content || '';
+    text = text.replace(/^🧡[^\n]*\n?/, '').replace(/^✔[^\n]*\n?/gm, '').trim();
+    if (text.length > 500) text = text.substring(0,500)+'…';
+
+    const imgs = [...new Set(day.images||[])].filter(s => !s.includes('default') && !s.includes('profile'));
+    let imgHtml = '';
+    if (imgs.length) {
+      imgHtml = '<div class="tl-imgs">' +
+        imgs.slice(0,4).map(s => `<img src="${s}" loading="lazy" onclick="event.stopPropagation();showLb('${s}')" />`).join('') +
+        '</div>';
+    }
+
+    let linksHtml = '';
+    const links = [];
+    (day.deploy_urls||[]).forEach(u => links.push({u, t:'deploy'}));
+    (day.github_urls||[]).forEach(u => links.push({u, t:'gh'}));
+    if (links.length) {
+      linksHtml = '<div class="tl-links">' +
+        links.map(l => {
+          const label = l.t==='deploy' ? '🚀 배포된 앱' : '📦 GitHub';
+          return `<a href="${l.u}" target="_blank" rel="noopener" class="tl-lnk ${l.t}" onclick="event.stopPropagation()">${label}</a>`;
+        }).join('') + '</div>';
+    }
+
+    const cafeLink = day.cafe_url
+      ? `<a href="${day.cafe_url}" target="_blank" rel="noopener" class="tl-cafe" onclick="event.stopPropagation()">📝 원문 보기</a>`
+      : '';
+
+    return `<div class="tl-item">
+      <div class="tl-dot ${d>=4?'g':''}"></div>
+      <div class="tl-day-label">Day ${d} — ${dayDesc[d]||''}</div>
+      <div class="tl-title">${esc(day.title)}</div>
+      <div class="tl-text">${esc(text)}</div>
+      ${imgHtml}${linksHtml}${cafeLink}
+    </div>`;
+  }).join('');
+
+  document.getElementById('detail').innerHTML = `
+    <div class="d-head">
+      <button class="d-close" onclick="closeDetail()">✕</button>
+      <h2>${esc(p.masked_nickname)}의 여정</h2>
+      <div class="d-progress">${dots}</div>
+      <div class="d-progress-label">${completedDays}/${totalDays}일 완료 (${progressPct}%)</div>
+      ${ideaHtml}
+    </div>
+    <div class="d-body"><div class="tl">${tlHtml}</div></div>
+  `;
+
+  document.getElementById('overlay').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+function closeDetail() {
+  document.getElementById('overlay').classList.remove('show');
+  document.body.style.overflow = '';
+}
+document.getElementById('overlay').onclick = function(e) { if(e.target===this) closeDetail(); };
+
+function showLb(src) {
+  document.getElementById('lb-img').src = src;
+  document.getElementById('lb').classList.add('show');
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key==='Escape') {
+    if (document.getElementById('lb').classList.contains('show'))
+      document.getElementById('lb').classList.remove('show');
+    else closeDetail();
+  }
+});
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+</script>
+</body>
+</html>
