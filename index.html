@@ -321,10 +321,16 @@
   .lb img { max-width: 92vw; max-height: 92vh; border-radius: 8px; }
 
   /* Exit modal */
+  .exit-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(6px); z-index: 250;
+    display: none; align-items: center; justify-content: center;
+  }
+  .exit-overlay.show { display: flex; }
   .exit-modal {
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 16px; padding: 2rem; text-align: center;
-    max-width: 360px; width: 100%; margin-top: 30vh;
+    max-width: 360px; width: 100%;
   }
   .exit-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
   .exit-dest { font-size: 0.82rem; color: var(--text-dim); margin-bottom: 1.5rem; word-break: break-all; }
@@ -423,7 +429,7 @@
 <!-- Lightbox -->
 <div class="lb" id="lb" onclick="this.classList.remove('show')"><img id="lb-img" /></div>
 <!-- Exit confirm -->
-<div class="overlay" id="exit-overlay" onclick="if(event.target===this)this.classList.remove('show')">
+<div class="exit-overlay" id="exit-overlay" onclick="if(event.target===this)this.classList.remove('show')">
   <div class="exit-modal">
     <p class="exit-title">외부 사이트로 이동합니다</p>
     <p class="exit-dest" id="exit-dest"></p>
