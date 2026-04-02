@@ -429,7 +429,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3284?menuid=154&referrerAllArticles=false&page=2"
         }
       },
-      "app_idea": "",
+      "app_idea": "사다리 게임 앱",
       "max_day": 3
     },
     {
