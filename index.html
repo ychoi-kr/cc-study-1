@@ -558,16 +558,16 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
   if (!items.length) return;
   const el = document.getElementById('hero-idea');
   let idx = 0;
-  function rotate() {
+  el.textContent = items[idx].short;
+  idx = 1;
+  setInterval(() => {
     el.classList.add('fade');
     setTimeout(() => {
       el.textContent = items[idx].short;
       el.classList.remove('fade');
       idx = (idx + 1) % items.length;
     }, 400);
-  }
-  rotate();
-  setInterval(rotate, 3000);
+  }, 3000);
 })();
 
 /* ── IDEAS (auto-scroll) ── */
