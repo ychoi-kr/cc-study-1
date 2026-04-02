@@ -204,7 +204,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3258?menuid=154&referrerAllArticles=false&page=3"
         }
       },
-      "app_idea": "",
+      "app_idea": "순공 시간 관리 앱",
       "max_day": 4
     },
     {
