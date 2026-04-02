@@ -516,7 +516,7 @@ function renderFilters() {
   const el = document.getElementById('filters');
   const filters = [
     {key:'all', label:`전체 ${D.participants.length}`},
-    {key:'4', label:'Day 4 완주'},
+    {key:'4', label:'Day 4+'},
     {key:'3', label:'Day 3+'},
   ];
   el.innerHTML = filters.map(f =>
@@ -535,8 +535,8 @@ function renderGrid() {
 
   const el = document.getElementById('pgrid');
   el.innerHTML = list.map(p => {
-    const bCls = p.max_day>=4?'badge-4':p.max_day>=3?'badge-3':p.max_day>=2?'badge-2':'badge-1';
-    const bTxt = p.max_day>=4?'완주':`Day ${p.max_day}`;
+    const bCls = p.max_day>=totalDays?'badge-4':p.max_day>=3?'badge-3':p.max_day>=2?'badge-2':'badge-1';
+    const bTxt = p.max_day>=totalDays?'완주':`Day ${p.max_day}`;
 
     let idea = p.app_idea ? p.app_idea.split('\n')[0].replace(/^[>\-#\s✔️]+/,'').trim() : '';
     if (idea.length > 65) idea = idea.substring(0,63)+'…';
