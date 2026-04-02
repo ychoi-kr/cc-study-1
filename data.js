@@ -74,8 +74,8 @@ const STUDY_DATA = {
     "day_counts": {
       "1": 26,
       "2": 19,
-      "3": 12,
-      "4": 4,
+      "3": 13,
+      "4": 6,
       "5": 0,
       "6": 0,
       "7": 0,
@@ -83,10 +83,148 @@ const STUDY_DATA = {
       "9": 0,
       "10": 0
     },
-    "deploy_count": 10,
+    "deploy_count": 11,
     "current_day": 4
   },
+  "curated_ideas": [
+    "프리랜서 디자이너를 위한 고객 자동응대 툴",
+    "불량현황 실시간 대시보드 — 공정별 불량률·추이 시각화",
+    "냉장고 재료로 만들 수 있는 메뉴 추천기",
+    "신혼부부용 가계부 앱",
+    "반려동물 입양 홍보 및 입양신청서 관리",
+    "학생별 과목별 숙제 관리 + 마감일 알림",
+    "교육 개정안 기반 수업계획서 자동 생성기",
+    "문제풀이 사이트 — 회원관리, 과목별 풀이 기능",
+    "고객별 코칭 기록 관리 시스템",
+    "회의록 자동 정리기 — 결정사항·액션아이템 추출",
+    "순공 시간 관리 앱",
+    "스레드·블로그 자동화 도구"
+  ],
   "participants": [
+    {
+      "id": "c3bb0578",
+      "nickname": "Glowtogo",
+      "masked_nickname": "G******o",
+      "days": {
+        "3": {
+          "day": 3,
+          "title": "[day3]TODO 앱 GitHub 배포 및 MCP 설치",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nmcp / node.js\n새롭게 알게되는 게 너무나 많았습니당..ㅎ\n앞으로 진행될 내용이 기대가됩니다~\n✔ 실습한 내용을 캡처해주세요.\nhttps://f**********o.github.io/ffe400/\nTodo\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0개 남음 완료 항목 삭제\nf**********o.github.io\nmcp context 7 설치완...!\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "mcp / node.js\n새롭게 알게되는 게 너무나 많았습니당..ㅎ\n앞으로 진행될 내용이 기대가됩니다~",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQ4/MDAxNzc1MDQ2NTEyMjgy.SrlDG4N7Lft2cHHkBgMqUng6xKqw1Hl4-EaQyq7O18wg._WD4MO9v66l-GYgAlSw7uTp74bMHsZy8uEnP9kgjXIsg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_8.57.35.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [
+            "https://f**********o.github.io/ffe400/"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3285?menuid=154&referrerAllArticles=false&page=2"
+        },
+        "2": {
+          "day": 2,
+          "title": "[day2]기본 사용법 + 5분 앱 만들기",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n터미널 사용법... 전반에 대한 내용이 새로워요..\n깃헙도 회사에서 대충 디자인고치는 용도로만 사용했었는데... 클로드로 바로 github에 올릴수있다니..\n✔ 실습한 내용을 캡처해주세요.\n신기한 클로드..\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "터미널 사용법... 전반에 대한 내용이 새로워요..\n깃헙도 회사에서 대충 디자인고치는 용도로만 사용했었는데... 클로드로 바로 github에 올릴수있다니..",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNjcg/MDAxNzc0OTYxMDM5MzA4.COzsMymBt3FhQ0zkiOcU87DYbd1e9lNuTRpZDo10g0Yg.IwZ1OyQNI8hRplLtxS3TA0J0ZrD5hEzynlFsIowLCIMg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_9.35.25.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3269?menuid=154&referrerAllArticles=false&page=3"
+        },
+        "1": {
+          "day": 1,
+          "title": "[day1]설치 + 내가 만들 앱",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n뭔가 어렵다는 생각이 들었다..\n아직까지는 뭐가 뭔지 솔직히 잘 모르겟음..\n✔ 실습한 내용을 캡처해주세요.\n만들고싶은 앱\n> 프리랜서 디자이너를 위한 고객 자동응대 툴\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "뭔가 어렵다는 생각이 들었다..\n아직까지는 뭐가 뭔지 솔직히 잘 모르겟음..",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTU2/MDAxNzc0ODc3NTYwMDQ5.TSD1sl9nDf-dlLX0dfH2rxCFfPVpr5uBvRn3MPjiAiMg.aqQC_zMeC3lSvoaRyr1Qv33BFK6OXC8WNmBnEg1yVUMg.PNG/image.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3245?menuid=154&referrerAllArticles=false&page=4"
+        },
+        "4": {
+          "day": 4,
+          "title": "[day4]4일차 스터디 인증[vercel/핵심기능 테스트코드]",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nNext.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\nhttps://todo-nextjs-woad-nu.vercel.app\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\ntodo-nextjs-woad-nu.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\nhttps://todo-nextjs-woad-nu.vercel.app\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\ntodo-nextjs-woad-nu.vercel.app",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTQy/MDAxNzc1MTM1MjczMjYw.h1aH9C1XLqacE2pTNicF7yF_jU8N5PR3gPNfZBiqJH0g.JSHE-WCnUubeHW2m3phrzetZAApyUXZg0wnDFHc2FmYg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_10.04.47.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [
+            "https://todo-nextjs-woad-nu.vercel.app/",
+            "https://todo-nextjs-woad-nu.vercel.app"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3312?menuid=154&referrerAllArticles=false"
+        }
+      },
+      "app_idea": "> 프리랜서 디자이너를 위한 고객 자동응대 툴",
+      "max_day": 4
+    },
+    {
+      "id": "3225d24e",
+      "nickname": "Katy",
+      "masked_nickname": "K**y",
+      "days": {
+        "3": {
+          "day": 3,
+          "title": "[day3]GitHub Pages 배포 + MCP 체험",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n내가 만든 앱을 인터넷에서 접속하게 한 것. 신기하다! 😀\n✔ 실습한 내용을 캡처해주세요.\n✔️ gh 명령(GitHub CLI)을 아직 설치하지 않았다면 책 pp.45~46을 참고해 설치하세요. -> 설치 완료!\n✔️ Day 2에서 만든 TODO 앱을 GitHub Pages에 배포하고, 배포 URL을 인증글에 공유하세요.\nTodo\nTodo\nTodo 🌙 + 전체 미완료 완료 ✓ 할 일이 없습니다 0개 남음\nk*****r.github.io\n처음 시도했을 때 어제 만들어 놓은 앱이 아니라 오늘 새롭게 To Do 앱을 다시 만들더니 그걸로 배포했음\n클로드 도움으로 어제 만들어 놓은 것으로 수정\n클로드가 시키는대로 복붙하고 결과 캡처로 보여주길 수십번 반복하다가 결국 바꾸는데 성공했고\n뭐가 문제였냐고 물어 아래와 같이 답변을 받았는데 무슨 말인지 모르겠음.\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\n배포된 것 수정하는데 너무 힘들어서 이건 내일의 나에게로 미루겠습니다.\n그래도 원하는 앱 배포로 수정까지 성공해서 오늘도 뿌듯합니다.\n내일의 내가 한 MCP Server Checking 인증\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "내가 만든 앱을 인터넷에서 접속하게 한 것. 신기하다! 😀",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTE5/MDAxNzc1MDUxNDYxMzk3.0NPoMSnyuWmxtDUwOnqz6KD1PhDyMCkThctU4kW9DZQg.aCRx9vZFfAvrwuiLH6avkcol02XCtCK9dElxH5fPzjcg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNyAg/MDAxNzc1MTMxMTY4ODQ0.SAqzentqvs64QuU9ohUjYoo1DwBzPB1JLkyqkv93S_Qg.cy1osVY3qOIOks-P2oybNsLDDAb93JaEqCh9PR_U70og.PNG/image.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [
+            "https://k*****r.github.io/todo-list/"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3289?menuid=154&referrerAllArticles=false&page=2"
+        },
+        "2": {
+          "day": 2,
+          "title": "[day2]기본 사용법 + 5분 앱 만들기",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [2] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n여전히 터미널(PowerShell)에서의 작업은 낯설고\nIDE, VS code, CLAUDE.md... 외계어같고 이해도 잘 되지는 않지만\n개떡같이 넣은 명령어에 찰떡같이 TODO앱을 짠 내놓는 모습에 감탄!\n✔ 실습한 내용을 캡처해주세요.\n✔️VS Code를 설치하세요. -> 설치 완료\n✔️GitHub에 가입하세요. -> 가입 완료\n✔️책 p.72의 안내를 따라 TODO 앱을 만들고, 로컬 서버에서 실행한 화면을 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "여전히 터미널(PowerShell)에서의 작업은 낯설고\nIDE, VS code, CLAUDE.md... 외계어같고 이해도 잘 되지는 않지만\n개떡같이 넣은 명령어에 찰떡같이 TODO앱을 짠 내놓는 모습에 감탄!",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjY5/MDAxNzc0OTQ3Nzc0NjU4.pE5_15F55EP1lK-ZSavQzn1n_apBHeb89hTttosHDpog.ecoU9IRiNcu5gPN7sxcnN4uK7PZSZ1pomXZfHYz_oI0g.PNG/image.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3265?menuid=154&referrerAllArticles=false&page=3"
+        },
+        "1": {
+          "day": 1,
+          "title": "[day1]설치 + 내가 만들 앱",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [1] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n모든 것이 다 새로웠다. 죄다 외계어처럼 보였지만😭\n클로드에 물어보며 어떻게든 설치는 했놨다는 것에 일단 만족!\n✔ 실습한 내용을 캡처해주세요.\n만들고 싶은 앱 : 생리주기에 맞춰 몸과 돈을 함께 관리하는 여성 웰니스 플래너\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "모든 것이 다 새로웠다. 죄다 외계어처럼 보였지만😭\n클로드에 물어보며 어떻게든 설치는 했놨다는 것에 일단 만족!",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTcw/MDAxNzc0ODc2ODc4ODg1.m3riD8aNsoalE5w42JFM6xf9WDPQPFjAd6Sz87f6Hwwg.76h21l_4b-iJdN1LPYQGMOnSR7xJnIJwyWxQysOnex0g.PNG/image.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3244?menuid=154&referrerAllArticles=false&page=4"
+        },
+        "4": {
+          "day": 4,
+          "title": "[day4]Vercel 배포 + 디버깅 + 테스트",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [4] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nVercel배포.\n전반적인 개념은 아직 잘 안 잡히는데 뭔가 뚝딱 나오는게 신기하다.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nhttps://todo-nu-gray-20.vercel.app/\nTodo\nTodo 🌙 + 전체 미완료 완료 ✓ 할 일이 없습니다 0개 남음\ntodo-nu-gray-20.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "Vercel배포.\n전반적인 개념은 아직 잘 안 잡히는데 뭔가 뚝딱 나오는게 신기하다.",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTcw/MDAxNzc1MTMyMjU1NjYw.l44XG0n5RgvDWevzhZL2vLYO1aK0Nf6C3b6RX_OWdwYg.2g4fOrBKAoNib_yKf5ISRYHT75Q1295vVzbMVNY0AsIg.PNG/image.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [
+            "https://todo-nu-gray-20.vercel.app/"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3311?menuid=154&referrerAllArticles=false"
+        }
+      },
+      "app_idea": "",
+      "max_day": 4
+    },
     {
       "id": "ed148fa6",
       "nickname": "드림톡",
@@ -112,7 +250,8 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ 3 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- gh 명령 통해서 이렇게 간단히 깃헙 푸쉬가 가능한 게 좋았다!\n- 깃헙이 무료배포하는 거라는 것을 이제 알았다. 근데 바이브코딩 다른 인강에서는 깃헙배포하고 버셀도\n또 따로 배포했는데, 왜 그렇게 해야하는 지 알아봐야겠다.\n- 클로드.md 가 중요하다는 것을 이번에 사건이 일어나면서 더 부각된것같았는데 여기도 md 를 통해 설정해두는 것이 나와서 조금 더 알게 되었다.\n✔ 실습한 내용을 캡처해주세요.\n▶mcp 설치\n▶앱 배포 URL\nhttps://k*******8.github.io/todo-app/\nVibe Todo | 프리미엄 투두\n나만의 할 일 ✨ 오늘도 빛나는 하루를 만들어봐요! + 데이터 로드 완료! ✨  Frontend Integration Test   우유 2팩, 계란 한 판 사오기 (이마트)   리액트 투두앱 컴포넌트 구조 1차 설계   개발 관련 기술 블로그 주간 회고 작성   아침 7시 조깅 후 샤워하기 \nk*******8.github.io\n-----------------------------------------------------------------\n✨ 지금 무슨 일이 일어나고 있는 걸까?\nMCP(Model Context Protocol)란? 클로드 코드에 “외부 능력”을 달아주는 플러그인 규격입니다. 기본 클로드 코드는 프로젝트 폴더 안의 파일만 볼 수 있지만, MCP 서버를 연결하면 웹 검색, 데이터베이스 조회, 외부 API 호출 같은 일도 할 수 있게 됩니다. 스마트폰에 앱을 설치해서 기능을 추가하는 것과 비슷해요.\n배포(Deploy)란? 내 컴퓨터에서만 보이던 앱을 인터넷에 올려서 누구나 접속할 수 있게 만드는 것입니다.\nGitHub Pages란? GitHub가 제공하는 무료 정적 웹사이트 호스팅 서비스입니다. 코드를 GitHub에 올리면 자동으로 웹사이트 URL이 생겨서 누구나 접속할 수 있어요. 서버가 필요 없는 앱, 즉 프론트엔드만 있는 앱을 배포하기에 적합합니다.\n오늘의 미션\n✔️ gh 명령(GitHub CLI)을 아직 설치하지 않았다면 책 pp.45~46을 참고해 설치하세요.\n✔️ Day 2에서 만든 TODO 앱을 GitHub Pages에 배포하고, 배포 URL을 인증글에 공유하세요.\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\nTip\n🔌 MCP 설정이 어렵다면 claude.ai에 “클로드 코드에서 [MCP 서버 이름] 설정하는 법 알려줘”라고 물어보면서 진행하세요.\n🚀 배포가 처음이라 어렵게 느껴진다면, 클로드 코드에게 “이 앱을 GitHub Pages에 배포해줘”라고 말하면 과정을 안내해 줍니다.\n📌 내 앱 메모: 내 앱에 MCP를 어떻게 활용할 수 있을지 생각해 보세요. 웹 검색이 필요한가요? 외부 데이터를 가져와야 하나요?",
           "learned": "- gh 명령 통해서 이렇게 간단히 깃헙 푸쉬가 가능한 게 좋았다!\n- 깃헙이 무료배포하는 거라는 것을 이제 알았다. 근데 바이브코딩 다른 인강에서는 깃헙배포하고 버셀도\n또 따로 배포했는데, 왜 그렇게 해야하는 지 알아봐야겠다.\n- 클로드.md 가 중요하다는 것을 이번에 사건이 일어나면서 더 부각된것같았는데 여기도 md 를 통해 설정해두는 것이 나와서 조금 더 알게 되었다.",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjg5/MDAxNzc1MDM1NDk2ODY3.BgQE4TIv6wKEDvH5AJA5QFFz2O5cXr5b4H5Anhl_HoUg.wfExo7fcqdup_4IWZoLQRRTjgY_skrnTtCxBm3Q8Jtwg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjg5/MDAxNzc1MDM1NDk2ODY3.BgQE4TIv6wKEDvH5AJA5QFFz2O5cXr5b4H5Anhl_HoUg.wfExo7fcqdup_4IWZoLQRRTjgY_skrnTtCxBm3Q8Jtwg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNDkg/MDAxNzc1MDM4NjU0ODc1.Yw12XDo7-zHtcHakaY_I34V2ma5K-soF8An8miWP_dgg.QCAZQs4ibn_yzYwuti6FBUTONbmc7a8WDoieUjPcZNEg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [
@@ -138,7 +277,8 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ 1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- 클로드코드 코워크, 프로젝트, 스킬 등 다양한 도구가 있다는 것을 알게되었음.\n- 코워크로 프로젝트 두개 만들어보고, 코워크로 바탕화면 폴더정리 / 일정 및 가이드북 노션으로 제작 했습니다.\n- 코드에서 터미널로 오픈하는것은 생각보다 쉽지않은데, 한번 잘 보고 따라해볼게요\n-> 유튜브 영상 찾아보고, ai 한테 물어봐서 성공!!\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- 클로드코드 코워크, 프로젝트, 스킬 등 다양한 도구가 있다는 것을 알게되었음.\n- 코워크로 프로젝트 두개 만들어보고, 코워크로 바탕화면 폴더정리 / 일정 및 가이드북 노션으로 제작 했습니다.\n- 코드에서 터미널로 오픈하는것은 생각보다 쉽지않은데, 한번 잘 보고 따라해볼게요\n-> 유튜브 영상 찾아보고, ai 한테 물어봐서 성공!!",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjcw/MDAxNzc0ODY3OTk2NzA2.wDOxuGdFy5dTG2Syn00cojQh_OPkPiNhK9Go989qBisg.TIAUaDhJ2p8D6wzeexs27XoBPA-m154BGq4FdwQi3rQg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjcw/MDAxNzc0ODY3OTk2NzA2.wDOxuGdFy5dTG2Syn00cojQh_OPkPiNhK9Go989qBisg.TIAUaDhJ2p8D6wzeexs27XoBPA-m154BGq4FdwQi3rQg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTIw/MDAxNzc0ODU5NzE2OTUx.E_frsXkbUwFVy-onAXrb2MwjdHwFED4-LxUfAIF5JqYg.pNQWAGJLjCwpB6_Lx9bkAZPximx5mOcDt_B_2_SSNxgg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -286,7 +426,7 @@ const STUDY_DATA = {
           ],
           "github_urls": [],
           "deploy_urls": [
-            "https://study-todo-jxawweulc-h********2-5593s*-projects.vercel.app/"
+            "https://study-todo-jxawweulc-h********2-5593s-projects.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3304?menuid=154&referrerAllArticles=false"
         },
@@ -339,53 +479,6 @@ const STUDY_DATA = {
       "max_day": 4
     },
     {
-      "id": "c3bb0578",
-      "nickname": "Glowtogo",
-      "masked_nickname": "G******o",
-      "days": {
-        "3": {
-          "day": 3,
-          "title": "[day3]TODO 앱 GitHub 배포 및 MCP 설치",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nmcp / node.js\n새롭게 알게되는 게 너무나 많았습니당..ㅎ\n앞으로 진행될 내용이 기대가됩니다~\n✔ 실습한 내용을 캡처해주세요.\nhttps://f**********o.github.io/ffe400/\nTodo\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0개 남음 완료 항목 삭제\nf**********o.github.io\nmcp context 7 설치완...!\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "mcp / node.js\n새롭게 알게되는 게 너무나 많았습니당..ㅎ\n앞으로 진행될 내용이 기대가됩니다~",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQ4/MDAxNzc1MDQ2NTEyMjgy.SrlDG4N7Lft2cHHkBgMqUng6xKqw1Hl4-EaQyq7O18wg._WD4MO9v66l-GYgAlSw7uTp74bMHsZy8uEnP9kgjXIsg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_8.57.35.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://f**********o.github.io/ffe400/"
-          ],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3285?menuid=154&referrerAllArticles=false&page=2"
-        },
-        "2": {
-          "day": 2,
-          "title": "[day2]기본 사용법 + 5분 앱 만들기",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n터미널 사용법... 전반에 대한 내용이 새로워요..\n깃헙도 회사에서 대충 디자인고치는 용도로만 사용했었는데... 클로드로 바로 github에 올릴수있다니..\n✔ 실습한 내용을 캡처해주세요.\n신기한 클로드..\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "터미널 사용법... 전반에 대한 내용이 새로워요..\n깃헙도 회사에서 대충 디자인고치는 용도로만 사용했었는데... 클로드로 바로 github에 올릴수있다니..",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNjcg/MDAxNzc0OTYxMDM5MzA4.COzsMymBt3FhQ0zkiOcU87DYbd1e9lNuTRpZDo10g0Yg.IwZ1OyQNI8hRplLtxS3TA0J0ZrD5hEzynlFsIowLCIMg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_9.35.25.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3269?menuid=154&referrerAllArticles=false&page=3"
-        },
-        "1": {
-          "day": 1,
-          "title": "[day1]설치 + 내가 만들 앱",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n뭔가 어렵다는 생각이 들었다..\n아직까지는 뭐가 뭔지 솔직히 잘 모르겟음..\n✔ 실습한 내용을 캡처해주세요.\n만들고싶은 앱\n> 프리랜서 디자이너를 위한 고객 자동응대 툴\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "뭔가 어렵다는 생각이 들었다..\n아직까지는 뭐가 뭔지 솔직히 잘 모르겟음..",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTU2/MDAxNzc0ODc3NTYwMDQ5.TSD1sl9nDf-dlLX0dfH2rxCFfPVpr5uBvRn3MPjiAiMg.aqQC_zMeC3lSvoaRyr1Qv33BFK6OXC8WNmBnEg1yVUMg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3245?menuid=154&referrerAllArticles=false&page=4"
-        }
-      },
-      "app_idea": "> 프리랜서 디자이너를 위한 고객 자동응대 툴",
-      "max_day": 3
-    },
-    {
       "id": "26307ecc",
       "nickname": "Joy",
       "masked_nickname": "J*y",
@@ -396,7 +489,8 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ 3 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nMCP라는 걸 처음 알게되었어요.\n클로드 코드와 다른 애플리케이션 간 상호작용을 중개하는 서버. MCP는 그 통신 규격을 의\n아직도 클로드 채팅에서 알려준대로 하고 있어서, 얼떨떨하지만, 뭔가 앞으로 재미있을 것 같은 느낌이 들어요.\nhttps://i*****************u.github.io/todo-app/\nTodo\nTodo 추가 전체 0 진행중 0 완료 0 할 일을 추가해보세요!\ni*****************u.github.io\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "MCP라는 걸 처음 알게되었어요.\n클로드 코드와 다른 애플리케이션 간 상호작용을 중개하는 서버. MCP는 그 통신 규격을 의\n아직도 클로드 채팅에서 알려준대로 하고 있어서, 얼떨떨하지만, 뭔가 앞으로 재미있을 것 같은 느낌이 들어요.\nhttps://i*****************u.github.io/todo-app/\nTodo\nTodo 추가 전체 0 진행중 0 완료 0 할 일을 추가해보세요!\ni*****************u.github.io",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjgx/MDAxNzc1MDU3MzQ1MDg4.OFzpZrtzKp4Dy4obVnxbyRTXesdoHEiVfOnJCkaZ8B4g.eDxsFedePEplFdJmtlpliOMM6euyj1emQXmUrwD9Ysgg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002024.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjgx/MDAxNzc1MDU3MzQ1MDg4.OFzpZrtzKp4Dy4obVnxbyRTXesdoHEiVfOnJCkaZ8B4g.eDxsFedePEplFdJmtlpliOMM6euyj1emQXmUrwD9Ysgg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002024.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg5/MDAxNzc1MDU3MzU3ODE1.5AWH2NH7ULiYngw5pnhklYb9BWeuUhxOOmXxsq7R54wg.gsx9bxoANuspXIfDzBNMdpbesOFDgmKHFqURY8mpQW0g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002448.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [
@@ -430,53 +524,6 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "사다리 게임 앱",
-      "max_day": 3
-    },
-    {
-      "id": "3225d24e",
-      "nickname": "Katy",
-      "masked_nickname": "K**y",
-      "days": {
-        "3": {
-          "day": 3,
-          "title": "[day3]GitHub Pages 배포 + MCP 체험",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n내가 만든 앱을 인터넷에서 접속하게 한 것. 신기하다! 😀\n✔ 실습한 내용을 캡처해주세요.\n✔️ gh 명령(GitHub CLI)을 아직 설치하지 않았다면 책 pp.45~46을 참고해 설치하세요. -> 설치 완료!\n✔️ Day 2에서 만든 TODO 앱을 GitHub Pages에 배포하고, 배포 URL을 인증글에 공유하세요.\nTodo\nTodo\nTodo 🌙 + 전체 미완료 완료 ✓ 할 일이 없습니다 0개 남음\nk*****r.github.io\n처음 시도했을 때 어제 만들어 놓은 앱이 아니라 오늘 새롭게 To Do 앱을 다시 만들더니 그걸로 배포했음\n클로드 도움으로 어제 만들어 놓은 것으로 수정\n클로드가 시키는대로 복붙하고 결과 캡처로 보여주길 수십번 반복하다가 결국 바꾸는데 성공했고\n뭐가 문제였냐고 물어 아래와 같이 답변을 받았는데 무슨 말인지 모르겠음.\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\n배포된 것 수정하는데 너무 힘들어서 이건 내일의 나에게로 미루겠습니다.\n그래도 원하는 앱 배포로 수정까지 성공해서 오늘도 뿌듯합니다.\n내일의 내가 한 MCP Server Checking 인증\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "내가 만든 앱을 인터넷에서 접속하게 한 것. 신기하다! 😀",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTE5/MDAxNzc1MDUxNDYxMzk3.0NPoMSnyuWmxtDUwOnqz6KD1PhDyMCkThctU4kW9DZQg.aCRx9vZFfAvrwuiLH6avkcol02XCtCK9dElxH5fPzjcg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://k*****r.github.io/todo-list/"
-          ],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3289?menuid=154&referrerAllArticles=false&page=2"
-        },
-        "2": {
-          "day": 2,
-          "title": "[day2]기본 사용법 + 5분 앱 만들기",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [2] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n여전히 터미널(PowerShell)에서의 작업은 낯설고\nIDE, VS code, CLAUDE.md... 외계어같고 이해도 잘 되지는 않지만\n개떡같이 넣은 명령어에 찰떡같이 TODO앱을 짠 내놓는 모습에 감탄!\n✔ 실습한 내용을 캡처해주세요.\n✔️VS Code를 설치하세요. -> 설치 완료\n✔️GitHub에 가입하세요. -> 가입 완료\n✔️책 p.72의 안내를 따라 TODO 앱을 만들고, 로컬 서버에서 실행한 화면을 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "여전히 터미널(PowerShell)에서의 작업은 낯설고\nIDE, VS code, CLAUDE.md... 외계어같고 이해도 잘 되지는 않지만\n개떡같이 넣은 명령어에 찰떡같이 TODO앱을 짠 내놓는 모습에 감탄!",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjY5/MDAxNzc0OTQ3Nzc0NjU4.pE5_15F55EP1lK-ZSavQzn1n_apBHeb89hTttosHDpog.ecoU9IRiNcu5gPN7sxcnN4uK7PZSZ1pomXZfHYz_oI0g.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3265?menuid=154&referrerAllArticles=false&page=3"
-        },
-        "1": {
-          "day": 1,
-          "title": "[day1]설치 + 내가 만들 앱",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [1] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n모든 것이 다 새로웠다. 죄다 외계어처럼 보였지만😭\n클로드에 물어보며 어떻게든 설치는 했놨다는 것에 일단 만족!\n✔ 실습한 내용을 캡처해주세요.\n만들고 싶은 앱 : 생리주기에 맞춰 몸과 돈을 함께 관리하는 여성 웰니스 플래너\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "모든 것이 다 새로웠다. 죄다 외계어처럼 보였지만😭\n클로드에 물어보며 어떻게든 설치는 했놨다는 것에 일단 만족!",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTcw/MDAxNzc0ODc2ODc4ODg1.m3riD8aNsoalE5w42JFM6xf9WDPQPFjAd6Sz87f6Hwwg.76h21l_4b-iJdN1LPYQGMOnSR7xJnIJwyWxQysOnex0g.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3244?menuid=154&referrerAllArticles=false&page=4"
-        }
-      },
-      "app_idea": "",
       "max_day": 3
     },
     {
@@ -548,7 +595,17 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\ngithub cli 설치\ngithub 커밋, 푸시\ngithub pages 배포\nMCP가 무엇인지\n✔ 실습한 내용을 캡처해주세요.\n✔️ gh 명령(GitHub CLI)을 아직 설치하지 않았다면 책 pp.45~46을 참고해 설치하세요.\n✔️ Day 2에서 만든 TODO 앱을 GitHub Pages에 배포하고, 배포 URL을 인증글에 공유하세요.\n이렇게 2줄만 적으니 github pages에 배포까지 완료됐다! 완전 신기함!!!\nTODO 앱\nTODO 앱\n✅ TODO 추가 전체 미완료 완료\nl***********1.github.io\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\n- Context7 설치\n- MCP 설치 확인\n- MCP 사용\ncontext7 MCP는 현재 세션에서 사용 불가? ??\n다시보니 위에 context7이 connecting... 으로 되어있음\n눌러서 connected로 변경하고 다시 실행\n이제 제대로 하는거 같음!\n생성 완료!!\n시키는대로 따라하기\ncd C:/workspace/claudemd/todo-app\nnpm install\nnpm run dev\nnextjs 앱 실행 완료!\n👉 스터디 | 인증하기\nhttps://cafe.naver.com/wikibookstudy/menu/154\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "github cli 설치\ngithub 커밋, 푸시\ngithub pages 배포\nMCP가 무엇인지",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjA4/MDAxNzc1MDQ1OTg3MzMz.vGrvT2CpMXe_LXfgOqyza4KbW5mxnpZIMP-zHNAXa5Ig.QCt7PHTx2ofyfFVO3WtIZzHWuMujrquUuNPb-aaN6VMg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjA4/MDAxNzc1MDQ1OTg3MzMz.vGrvT2CpMXe_LXfgOqyza4KbW5mxnpZIMP-zHNAXa5Ig.QCt7PHTx2ofyfFVO3WtIZzHWuMujrquUuNPb-aaN6VMg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjYw/MDAxNzc1MDQ2MDQyMTUy.Fd5f-lJIbIoc6P3j7vAiLZmEE5ytAXHGr_TIzGxXXAkg.gvi1HNP_Z9ZfQMSanmkyjdm1vajAZLvS2IAWGzT-v-Mg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjI0/MDAxNzc1MDQ2MDYzMDAz.7LHjxKRuF2Oib5CN_7JqdRNulpm3JKJgdL2tcogy5_Mg.L3AxEDqdghElO9VDmwECaFnTGugJNaPTUYRH6n-ZB7Ig.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTQ3/MDAxNzc1MDQ2MjUwMTI2.Fu5qVUsuOQ3ZgL9VeWfTrHPj6QRxa_sLJNs2EEAvhi4g.zWexrgOFFPv7ViXiiyQgpIC1CjiuGvEFX777JQwI0h4g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNjgg/MDAxNzc1MDQ3MTc4OTk0.pUT9hRnznPa8itjIseUmjK4DOeYm9MNe5UqYcyAg4BQg.G-4924ZfOcvSapn6OkwLjcL657QNZX90AvgbywB3xvIg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjYx/MDAxNzc1MDQ3MzkxMTk2._NEj0tNEOfitoD_g3pDugVjZCcSKr-uZ8ZZnQRkEGFsg.S3KRVU9mWz4ZUnGJJzyMgQWzBAU4NcdhNkgJIdzRpzMg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTk0/MDAxNzc1MDQ3NTIyNzE2.8LvorIX2OkBV9pBPx18v-0SbqgXX5UuHDPm7f49sSx8g.YoiqXN2llcU2xOlu-GEQDfzwykECLi4fzkAySqrGypgg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMzAw/MDAxNzc1MDQ3NTk0NDMz.yiEoXMXQIphRgnkKfP_fl_yw10I6oKtF53zTtVjihb8g.pJgWQSMmXgPIC9TVkg650l7Bi-SnJxZXroVIQxKu8Isg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMzIg/MDAxNzc1MDQ3OTQ3MDI0.vnOg7544qlROeva7onqvKXu8UbGwSTc_7ddHz_OM0Lgg.Tfeor252KF6ZvY_GtFTrZsCKrR4AbMgTNHJlupD83Asg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjU5/MDAxNzc1MDQ3OTk1NjY0.IoJrJrfGlzy_e_tcrcZN3UKqjcMEvX9u3v4771z4V_Yg.lm6I-fDLEKo8dyWg2K40apJLdZA3cwZFVCaGoziRJTUg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQy/MDAxNzc1MDQ4MDM2ODAy.SDbDJY-JhJknKY7hTpYkuUL62ViQHQGakDpgpdLOJrYg.F2XSSgM73dpl79w9ed63bO_p56VQjeFrsrKINpL-yv4g.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [
@@ -562,7 +619,9 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [2 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n1. claude code 명령어 테스트\n- /usage\n2. 초기화\n- /init\n3. 특정 파일을 컨텍스트에 추가\n- @index.html\n4. Live Server 설치\n✔ 실습한 내용을 캡처해주세요.\n- TODO 앱을 만들어주세요. 로 요청하니 백엔드까지 같이 만들어주길래..\n프론트엔드만 해달라고 다시 요청했습니다.\n(claude pro 버전이라.. ultrathink 쓰기엔 컨텍스트가 부족해서 ㅠㅠ)\n- Live Server 실행 후 페이지 확인\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "1. claude code 명령어 테스트\n- /usage\n2. 초기화\n- /init\n3. 특정 파일을 컨텍스트에 추가\n- @index.html\n4. Live Server 설치",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjcx/MDAxNzc0OTU4NzM3Mzg4.WVnskF-1ge2VDiw8WKxcIXRNpS-dD2-6Ivu9g78IwG4g.VIaO420N8bUt4dySHDgwIHSgIefhF-sMX3RsYTcPUCwg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjcx/MDAxNzc0OTU4NzM3Mzg4.WVnskF-1ge2VDiw8WKxcIXRNpS-dD2-6Ivu9g78IwG4g.VIaO420N8bUt4dySHDgwIHSgIefhF-sMX3RsYTcPUCwg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjQ0/MDAxNzc0OTU4Mjc3NDEy.mxBbO6tmxg9v_t1k5-UfhYrmIVDkfhsj65F_V1zLThQg.ZR1lBpi7txDUqtTz9TOyMSb2xKTbmryznBwfga7_mGIg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfOTcg/MDAxNzc0OTU4NDE3MTY5.2_eJPtlqYmykpIUMMeJ5Ek2HVND4EKz1R_mUDYHXt7wg.CSdd4ue7HI_SutTPHbqwHT_kxvWeoTxKOD1aIAIbE_8g.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -571,10 +630,14 @@ const STUDY_DATA = {
         "1": {
           "day": 1,
           "title": "[day1]클로드 설치 + 만들앱 구상",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n1. vscode 설치\n- vscode 공식 홈페이지(https://code.visualstudio.com/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n2. git 설치\n- github 공식 홈페이지(https://desktop.github.com/d******d/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n3. claude 설치\n- vscode에서 터미널(파워쉘) 실행 : 컨트롤 + ` (키보드 숫자 1 왼쪽 키) 누르기\n- 파워쉘에서 명령어 입력 (교재 35페이지) : irm https://claude.ai/install.ps1 | iex\n아래와 같이 뜨면 설치 성공\n- 환경변수 등록\n본인의 파워쉘에 나온 로그중 Setup Notes: 안에 C:\\Users\\ ~~ \\.local\\bin 부분을 복사한다.\n그리고 탐색기 - [내 PC] 우클릭 - 속성 - 고급 시스템 설정 - 환경 변수 - [사용자이름]에 대한 사용자 변수에서 Path 선택 후 아래에 편집 클릭 - 새로 만들기 클릭 - 여기에 아까 복사한 부분을 넣고 확인을 누른다. 확인 확인\n그리고 pc를 재부팅하면 환경변수 적용 완료.\n4. claude 실행하기\n- vscode 에서 터미널(파워쉘) 실행하고 claude 입력 후 엔터 누르면 클로드 실행됨\n5. 클로드코드 명령어 테스트 :\n/cost\n/usage\n✔ 실습한 내용을 캡처해주세요.\n✔ 내가 만들고 싶은 아이디어\n문제풀이 사이트\n- 회원가입, 로그인, 회원정보수정, 회원관리 등 (일반회원, 관리자)\n- 과목 등록 (관리자), 문제 등록/ 수정 / 삭제 (회원만)\n(수정 삭제는 본인이 등록한것만 가능, 관리자는 모든 문제 가능, 실제 삭제는 아니고 상태값만 변경)\n- 과목 선택 -> 문제 풀기 시작 / 조회 방법 순차, 랜덤중 선택 (누구나 가능)\n- 관심 문제 등록 / 관심 문제만 보기 (회원만)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "1. vscode 설치\n- vscode 공식 홈페이지(https://code.visualstudio.com/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n2. git 설치\n- github 공식 홈페이지(https://desktop.github.com/d******d/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n3. claude 설치\n- vscode에서 터미널(파워쉘) 실행 : 컨트롤 + ` (키보드 숫자 1 왼쪽 키) 누르기\n- 파워쉘에서 명령어 입력 (교재 35페이지) : irm https://claude.ai/install.ps1 | iex\n아래와 같이 뜨면 설치 성공\n- 환경변수 등록\n본인의 파워쉘에 나온 로그중 Setup Notes: 안에 C:\\Users\\ ~~ \\.local\\bin 부분을 복사한다.\n그리고 탐색기 - [내 PC] 우클릭 - 속성 - 고급 시스템 설정 - 환경 변수 - [사용자이름]에 대한 사용자 변수에서 Path 선택 후 아래에 편집 ",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n1. vscode 설치\n- vscode 공식 홈페이지(https://code.visualstudio.com/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n2. git 설치\n- github 공식 홈페이지(https://desktop.github.com/download/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n3. claude 설치\n- vscode에서 터미널(파워쉘) 실행 : 컨트롤 + ` (키보드 숫자 1 왼쪽 키) 누르기\n- 파워쉘에서 명령어 입력 (교재 35페이지) : irm https://claude.ai/install.ps1 | iex\n아래와 같이 뜨면 설치 성공\n- 환경변수 등록\n본인의 파워쉘에 나온 로그중 Setup Notes: 안에 C:\\Users\\ ~~ \\.local\\bin 부분을 복사한다.\n그리고 탐색기 - [내 PC] 우클릭 - 속성 - 고급 시스템 설정 - 환경 변수 - [사용자이름]에 대한 사용자 변수에서 Path 선택 후 아래에 편집 클릭 - 새로 만들기 클릭 - 여기에 아까 복사한 부분을 넣고 확인을 누른다. 확인 확인\n그리고 pc를 재부팅하면 환경변수 적용 완료.\n4. claude 실행하기\n- vscode 에서 터미널(파워쉘) 실행하고 claude 입력 후 엔터 누르면 클로드 실행됨\n5. 클로드코드 명령어 테스트 :\n/cost\n/usage\n✔ 실습한 내용을 캡처해주세요.\n✔ 내가 만들고 싶은 아이디어\n문제풀이 사이트\n- 회원가입, 로그인, 회원정보수정, 회원관리 등 (일반회원, 관리자)\n- 과목 등록 (관리자), 문제 등록/ 수정 / 삭제 (회원만)\n(수정 삭제는 본인이 등록한것만 가능, 관리자는 모든 문제 가능, 실제 삭제는 아니고 상태값만 변경)\n- 과목 선택 -> 문제 풀기 시작 / 조회 방법 순차, 랜덤중 선택 (누구나 가능)\n- 관심 문제 등록 / 관심 문제만 보기 (회원만)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "1. vscode 설치\n- vscode 공식 홈페이지(https://code.visualstudio.com/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n2. git 설치\n- github 공식 홈페이지(https://desktop.github.com/download/) 들어가서 설치파일 다운로드 후 실행 (next 쭉쭉)\n3. claude 설치\n- vscode에서 터미널(파워쉘) 실행 : 컨트롤 + ` (키보드 숫자 1 왼쪽 키) 누르기\n- 파워쉘에서 명령어 입력 (교재 35페이지) : irm https://claude.ai/install.ps1 | iex\n아래와 같이 뜨면 설치 성공\n- 환경변수 등록\n본인의 파워쉘에 나온 로그중 Setup Notes: 안에 C:\\Users\\ ~~ \\.local\\bin 부분을 복사한다.\n그리고 탐색기 - [내 PC] 우클릭 - 속성 - 고급 시스템 설정 - 환경 변수 - [사용자이름]에 대한 사용자 변수에서 Path 선택 후 아래에 편집 ",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNTcg/MDAxNzc0OTU3NDY3NjU3.OvDDm_R6tOZ7JZYT1mlJvY9LbvqCtT9eJzMiRRrrcukg.KIzmipnk7xm4_nks96adsbYcpFW8uL3npN-8XNi-PiAg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNTcg/MDAxNzc0OTU3NDY3NjU3.OvDDm_R6tOZ7JZYT1mlJvY9LbvqCtT9eJzMiRRrrcukg.KIzmipnk7xm4_nks96adsbYcpFW8uL3npN-8XNi-PiAg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjEz/MDAxNzc0OTU3NDkxNDY0.xkDE9aggr6aegppIVtvTdliZ9rhrbm80SUWOSICnLx8g.k_9b-fOsMBmyhH65lcmG9xzWaPyxUSrUeo7w_Txp5Cgg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfODIg/MDAxNzc0OTU3Nzk0NjA3.EaRNDCXCMW2U8zpNYF3oSJkPfrYZJ231nlteVQQN5dsg.ChYP0iSJWjlzuSJQN1l7Ao9ZkCLEvQfeZggXboZ321Yg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTEg/MDAxNzc0OTU3ODQ4Mzk5.eSaMfqUREbRxD3g-7qBJFbgtT4WLhiksViwrAFy8KLEg.rTRlnDvWIMx6iuqyKnn9nrnMgLQXAW_cNR3U8x6cE1wg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjYw/MDAxNzc0ODczNTM2NjAy.37vPv38iMWiGqrvJr7Li-gLKadPc1ITzJp0JzmoWrf8g.gaPixGLTyl-ObIJV2zLvP7ruLMlSPDWBo1kXvft8UCUg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -582,6 +645,57 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "문제풀이 사이트\n- 회원가입, 로그인, 회원정보수정, 회원관리 등 (일반회원, 관리자)\n- 과목 등록 (관리자), 문제 등록/ 수정 / 삭제 (회원만)",
+      "max_day": 3
+    },
+    {
+      "id": "bd0f1799",
+      "nickname": "라뚠",
+      "masked_nickname": "라*",
+      "days": {
+        "2": {
+          "day": 2,
+          "title": "Day 2 | 기본 사용법 + 5분 앱 만들기",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 2 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n책이 드디어 와서 실습을 진행했다.\n사실 이해를 하고 한다기 보다는 시키는대로\n적히는 대로 작업을 진행했다.(가입하라는 대로, 입력하라는대로)\n정말 스터디 내용처럼\n이게 돌아가네? 약간의 얼떨떨하면서 세부 CSS는 손보면 복잡할것같아서\n만들었다는것에 대한 감동만 느끼려고한다. ㅎㅎㅎ 내일 스터디도 기대된다!!\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "책이 드디어 와서 실습을 진행했다.\n사실 이해를 하고 한다기 보다는 시키는대로\n적히는 대로 작업을 진행했다.(가입하라는 대로, 입력하라는대로)\n정말 스터디 내용처럼\n이게 돌아가네? 약간의 얼떨떨하면서 세부 CSS는 손보면 복잡할것같아서\n만들었다는것에 대한 감동만 느끼려고한다. ㅎㅎㅎ 내일 스터디도 기대된다!!",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjM1/MDAxNzc1MDUzNTg4NTc2.P5paJPq9xIcTWT_lSXpf1Rq6Lnfe79lQN4U-0qso3mcg.ZpR5AlRTXkUXewDkFgTBdvUrpqteOgOXXvRarlBiGEkg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-01_%EC%98%A4%ED%9B%84_11.25.15.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3291?menuid=154&referrerAllArticles=false"
+        },
+        "1": {
+          "day": 1,
+          "title": "[day1]클로드 코드 바이브 코딩 1일차",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n설치부터 막혀서 난감했었다...\n그래도 결국 깔았고! 간단한 명령어 까지 입력 완료했다.\n얼른 책 배송이 왔으면 좋겠다.\n✔ 내가 만들고 싶은 앱 아이디어\n기록하는 앱을 만들고 싶다.\n스터디를 하면서 1-3 중에 도전할 예정\n1. 투두리스트\n2. 아카이빙앱\n3. 영화 기록앱\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "설치부터 막혀서 난감했었다...\n그래도 결국 깔았고! 간단한 명령어 까지 입력 완료했다.\n얼른 책 배송이 왔으면 좋겠다.",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjQx/MDAxNzc0ODc4ODQ3ODU4.Myo25DOmU-AIttYFYHTUnlN7SQ9kYhvPF9-kB7qeOBAg.d8J9w8EMleVG9MEkNdCr2U9SqCH4BoXee8TO_yJBx-Mg.PNG/day1_screen.png?type=w1600"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3247?menuid=154&referrerAllArticles=false&page=4"
+        },
+        "3": {
+          "day": 3,
+          "title": "[day3]GitHub Page 배포 + MCP 체험",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n이번 스터디는 이해보다 일단 시키는대로 해서 결과를 보는것에 의의를 뒀습니다.\n이번에도 homebrew설치하는것 부터 잘안되서 헤맸는데\n배포를 하게됐네여!!!!\nhttps://u******m.github.io/todo/\nTODO\n갓생호소인의 TODO 추가 전체 진행 중 완료 할 일을 추가해보세요! 0개 남음 완료 항목 삭제\nu******m.github.io\n✔ 실습한 내용을 캡처해주세요.\nhttps://github.com/U******m/todo\nGitHub - U******m/todo\nContribute to U******m/todo development by creating an account on GitHub.\ngithub.com\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\n-context7서버 설정\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "이번 스터디는 이해보다 일단 시키는대로 해서 결과를 보는것에 의의를 뒀습니다.\n이번에도 homebrew설치하는것 부터 잘안되서 헤맸는데\n배포를 하게됐네여!!!!\nhttps://u******m.github.io/todo/\nTODO\n갓생호소인의 TODO 추가 전체 진행 중 완료 할 일을 추가해보세요! 0개 남음 완료 항목 삭제\nu******m.github.io",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTIx/MDAxNzc1MTM5Njg5ODM4.2Zj2oPn8JYMXdbN5f2PzjaWpcqfidswD8q7ll9ODq0Mg.UZA_XvlXaeITFcQzSoKx0sU10WDfpFlLgVa_We4_x1Ig.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.21.04.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg3/MDAxNzc1MTM5NzQwMTEz.p6jyIjWI7Ka1JNmgiLNBVGGlgHl9ra_q_PYilkMpfS0g.nDGIBNDXatGmyHqEV1bZxhvuD3-IqSb4t3DIqdFOvSAg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.22.11.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjI2/MDAxNzc1MTQwNjc3MDgx.yBZoYhh6xOuqaySkSk1h-zszxlartg4d-G-pkI1Cfusg.cF8-F1-lvLm5YpfXG2XC92wJERUv5aRwe6N-_hvcKD4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.37.15.png?type=w1600"
+          ],
+          "github_urls": [
+            "https://github.com/U******m/todo"
+          ],
+          "deploy_urls": [
+            "https://u******m.github.io/todo/"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3313?menuid=154&referrerAllArticles=false"
+        }
+      },
+      "app_idea": "기록하는 앱을 만들고 싶다.\n스터디를 하면서 1-3 중에 도전할 예정\n1. 투두리스트",
       "max_day": 3
     },
     {
@@ -609,7 +723,12 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [2 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvs code 연계\nclaude.md\n✔ 실습한 내용을 캡처해주세요.\n1. VS CODE 설치\n2. /init\n2. claude.md\n3. vs code 연동\n4. todo 앱만들기\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "vs code 연계\nclaude.md",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjUg/MDAxNzc0OTQ0ODk2MDgy.2cGrMI6dDptRBuuJZAExJKCIeyNtszDD3gZJ-jkvMTMg.q-R3lik8HCHHWqqR02RnymRyux0IVjnSjoOqTTeYhAIg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjUg/MDAxNzc0OTQ0ODk2MDgy.2cGrMI6dDptRBuuJZAExJKCIeyNtszDD3gZJ-jkvMTMg.q-R3lik8HCHHWqqR02RnymRyux0IVjnSjoOqTTeYhAIg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTEz/MDAxNzc0OTQ1MDQxOTYy.ZHSXo4LDcCrhJcBqHOme8P6plLCxkvNVFgwCHtqvbU0g.uMEWSPcG1HvrQrRz2s4LFVsNymW_MqK6EUv5XePOuowg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjM0/MDAxNzc0OTQ1NDc1MzM1.LQLwfrNU7HHUvWJZJ6sLcA5pU3tdjTnT1STgOfMklb0g.shWqpuTdCuxdaRRB2Y8skzrHUvdULiQGf8F4Bov22u0g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNyAg/MDAxNzc0OTQ1OTU0MzY3.4MZrYgIz0IE9bv6LELZ_r-H8uI5AKmvwxVJ6yNCzBQUg.SDsceWf1MLtf0ct6uN9X-W0RBnm76Gt7--lgxHm7nREg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTQ1/MDAxNzc0OTQ2MTc2MzMw.2Arizw1D-k_hu98Mu_1Gsms3xmWZtbIvCtC0H5FxGsMg.95qdZ-D80QWEFj4twpboPmocckvO3pj6cuJhEYLZMm4g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjI2/MDAxNzc0OTQ2NDA0NjE1.S2rem0p1Hcdo0IR7vbaYzpJkt4bQ-EeDvlB9jn1ddsYg.-y-9eCYLN_leBHnH073Oj2P4t1UYC-UNgfP9T5VyFWYg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -642,7 +761,8 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- Git 배포하는 방법 => 터미널 명령어 없이 자연어로도 배포가 가능한 것이 신세계다..!\n- MCP란?: 클로드 코드와 다른 애플리케이션 간 상호작용을 중개하는 서버\n- 추천 MCP: Context7, Playwright, Serena\nContext7\n라이브러리의 최신 공식 문서를 참조하는 MCP 서버로, 기술 스택을 선정할 때 더 정확한 정보를 제공한다.\nPlaywright\n다양한 브라우저를 조작하여 E2E 테스트를 자동화하기 위한 소프트웨어\nSerena\n코드의 구조와 문맥에 관한 이해를 클로드에 제공해 코드 생성 품질을 높일 수 있는 MCP\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- Git 배포하는 방법 => 터미널 명령어 없이 자연어로도 배포가 가능한 것이 신세계다..!\n- MCP란?: 클로드 코드와 다른 애플리케이션 간 상호작용을 중개하는 서버\n- 추천 MCP: Context7, Playwright, Serena\nContext7\n라이브러리의 최신 공식 문서를 참조하는 MCP 서버로, 기술 스택을 선정할 때 더 정확한 정보를 제공한다.\nPlaywright\n다양한 브라우저를 조작하여 E2E 테스트를 자동화하기 위한 소프트웨어\nSerena\n코드의 구조와 문맥에 관한 이해를 클로드에 제공해 코드 생성 품질을 높일 수 있는 MCP",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjMg/MDAxNzc1MDUyOTcxNjU3.Nni3MKaeu5sd8w3lT5qi7LXwy7aq4Q3sAI1nsM93Bokg.NioJiNUAAyc--sQMaWx3G4m-bNYLtwAq3Z68P4PoZPsg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjMg/MDAxNzc1MDUyOTcxNjU3.Nni3MKaeu5sd8w3lT5qi7LXwy7aq4Q3sAI1nsM93Bokg.NioJiNUAAyc--sQMaWx3G4m-bNYLtwAq3Z68P4PoZPsg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTM5/MDAxNzc1MDU0MTI1MzMw.HDpl5OAFIzoli48n3_TpM9L9uhvuEQfD_2Obcv1H0AEg.ubkt2nVRPe6UWZyx12GiVWh1ugntXIc7QGtyOx15sZUg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -654,7 +774,10 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [2] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- 클로드코드의 CLAUDE.md와 계층적 배치\n- esc, shift+tab, resume, rewind, ctrl+r, ctrl+t 등의 명령어\n- 메모리에 추가하는 방법 (#)\n- 4가지 권한모드 (default, acceptEdits, plan, bypassPermission)\n- 디렉터리 종류 (.claude의 사용자 루트와 프로젝트 루트)\n- claude update\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- 클로드코드의 CLAUDE.md와 계층적 배치\n- esc, shift+tab, resume, rewind, ctrl+r, ctrl+t 등의 명령어\n- 메모리에 추가하는 방법 (#)\n- 4가지 권한모드 (default, acceptEdits, plan, bypassPermission)\n- 디렉터리 종류 (.claude의 사용자 루트와 프로젝트 루트)\n- claude update",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjI5/MDAxNzc0OTY0OTUxNzMz.CYqbzlEBcju94TV296ojB-w-k2N4foKexYm0-rmJ2oIg.0WCAqyRCGWlnuxkjrx9NRSqYFcJELCi4ge7wWWtxVeMg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjI5/MDAxNzc0OTY0OTUxNzMz.CYqbzlEBcju94TV296ojB-w-k2N4foKexYm0-rmJ2oIg.0WCAqyRCGWlnuxkjrx9NRSqYFcJELCi4ge7wWWtxVeMg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNDIg/MDAxNzc0OTY1MDUwOTgz.xIMAbRrI7y4z2zb0QKLzUyCogIbD3o8KxhGnaKd34Vcg.TLopk3VBLvsU-vCjSJex_ZPv5QuGaeoDsDuAzEp6BYQg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjk3/MDAxNzc0OTY1MzE5ODkx.uSROKYIw86FnBfhTgqNV4HpkBJWNU43_rKe_aQa22yMg.R0Vdd5cKJCVDlOFC6_y57i5xUK7XY_xclsVooKvPQosg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTMg/MDAxNzc0OTY1NTcxOTE4.XAH_F-7fY2sAHY8xZqfHT3J5SwNDhaxULvoJZH9Lk6og.a-8NKJcFPxjhPPAIw89T0AAU16CG8FgdtmckmGOn50Qg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -687,7 +810,10 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n깃허브와 연결해서 바로 배포가 가능한 것\nmcp 라는 것을 처음 알게 됨. MCP 서버를 연결하면 웹 검색, 데이터베이스 조회, 외부 API 호출 같은 일도 할 수 있게 됩니다. 스마트폰에 앱을 설치해서 기능을 추가하는 것과 비슷하다고 하는데 아직은 잘 모르겠음. 근데 서버에 연결되는 것이 신기함.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Day 2에서 만든 TODO 앱을 GitHub Pages에 배포하고, 배포 URL을 인증글에 공유하세요.\np*********s/todo2: Todo App\nGitHub - p*********s/todo2: Todo App\nTodo App. Contribute to p*********s/todo2 development by creating an account on GitHub.\ngithub.com\n✔️ [옵션] 추천 MCP 서버(p.97~104) 중 하나를 설정하고, 클로드 코드에서 사용한 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "깃허브와 연결해서 바로 배포가 가능한 것\nmcp 라는 것을 처음 알게 됨. MCP 서버를 연결하면 웹 검색, 데이터베이스 조회, 외부 API 호출 같은 일도 할 수 있게 됩니다. 스마트폰에 앱을 설치해서 기능을 추가하는 것과 비슷하다고 하는데 아직은 잘 모르겠음. 근데 서버에 연결되는 것이 신기함.",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTY4/MDAxNzc1MDU2MzIxNDk1.qAnMkGdnDlJdobuFsOj1r9IGtuJ3bBIHQHcjwyAkWjUg.Ea7lkAtcx3PDHZQ4QVIppXfaEpIcvAEK64sCNqfH8Rwg.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTY4/MDAxNzc1MDU2MzIxNDk1.qAnMkGdnDlJdobuFsOj1r9IGtuJ3bBIHQHcjwyAkWjUg.Ea7lkAtcx3PDHZQ4QVIppXfaEpIcvAEK64sCNqfH8Rwg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOTQg/MDAxNzc1MDU3MDg4MjU1.ce301U9loWUaYnxeTTN00YeWSvdfFNNb09kMuB3tBBYg.WgSzcxgrZxVlGq8Xar3fiSTnpoBkjnI0AD9T3wMsrGEg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTI0/MDAxNzc1MDU3MTY0MTg1.IGjJo9ntwekvitMi3jrwjKmfyQW2j3GKzt8gKpAR0y8g.cFCuTqPeHam3Ril9XvBDDMR4Z1XtaJ1UUHpkE6APbD0g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjYx/MDAxNzc1MDU3MTgxNTI2.5WHBuc3WgorhOi-MBFm-MB6---OBVJONKNmdCDCCzkgg.iOAwiJdyVKovSq8E6BA43Dd0WBn7yj0y1VuRMkc6yZsg.PNG/image.png?type=w1600"
           ],
           "github_urls": [
             "https://github.com/p*********s/todo2"
@@ -823,39 +949,6 @@ const STUDY_DATA = {
       "max_day": 2
     },
     {
-      "id": "bd0f1799",
-      "nickname": "라뚠",
-      "masked_nickname": "라*",
-      "days": {
-        "2": {
-          "day": 2,
-          "title": "Day 2 | 기본 사용법 + 5분 앱 만들기",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 2 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n책이 드디어 와서 실습을 진행했다.\n사실 이해를 하고 한다기 보다는 시키는대로\n적히는 대로 작업을 진행했다.(가입하라는 대로, 입력하라는대로)\n정말 스터디 내용처럼\n이게 돌아가네? 약간의 얼떨떨하면서 세부 CSS는 손보면 복잡할것같아서\n만들었다는것에 대한 감동만 느끼려고한다. ㅎㅎㅎ 내일 스터디도 기대된다!!\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "책이 드디어 와서 실습을 진행했다.\n사실 이해를 하고 한다기 보다는 시키는대로\n적히는 대로 작업을 진행했다.(가입하라는 대로, 입력하라는대로)\n정말 스터디 내용처럼\n이게 돌아가네? 약간의 얼떨떨하면서 세부 CSS는 손보면 복잡할것같아서\n만들었다는것에 대한 감동만 느끼려고한다. ㅎㅎㅎ 내일 스터디도 기대된다!!",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjM1/MDAxNzc1MDUzNTg4NTc2.P5paJPq9xIcTWT_lSXpf1Rq6Lnfe79lQN4U-0qso3mcg.ZpR5AlRTXkUXewDkFgTBdvUrpqteOgOXXvRarlBiGEkg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-01_%EC%98%A4%ED%9B%84_11.25.15.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3291?menuid=154&referrerAllArticles=false"
-        },
-        "1": {
-          "day": 1,
-          "title": "[day1]클로드 코드 바이브 코딩 1일차",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n설치부터 막혀서 난감했었다...\n그래도 결국 깔았고! 간단한 명령어 까지 입력 완료했다.\n얼른 책 배송이 왔으면 좋겠다.\n✔ 내가 만들고 싶은 앱 아이디어\n기록하는 앱을 만들고 싶다.\n스터디를 하면서 1-3 중에 도전할 예정\n1. 투두리스트\n2. 아카이빙앱\n3. 영화 기록앱\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "설치부터 막혀서 난감했었다...\n그래도 결국 깔았고! 간단한 명령어 까지 입력 완료했다.\n얼른 책 배송이 왔으면 좋겠다.",
-          "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjQx/MDAxNzc0ODc4ODQ3ODU4.Myo25DOmU-AIttYFYHTUnlN7SQ9kYhvPF9-kB7qeOBAg.d8J9w8EMleVG9MEkNdCr2U9SqCH4BoXee8TO_yJBx-Mg.PNG/day1_screen.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [],
-          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3247?menuid=154&referrerAllArticles=false&page=4"
-        }
-      },
-      "app_idea": "기록하는 앱을 만들고 싶다.\n스터디를 하면서 1-3 중에 도전할 예정\n1. 투두리스트",
-      "max_day": 2
-    },
-    {
       "id": "6d905eaa",
       "nickname": "스터프",
       "masked_nickname": "스*프",
@@ -866,7 +959,18 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n너무 많은 기능을 넣지 말자.\nultrathink는 너무 많은 걸 아는거 같다.\n클로드코드가 혼자서 밤새 돌아간다는 선배들의 말을 이해하게 되었다.\n✔ 실습한 내용을 캡처해주세요.\n2.1.1 첫번째 프롬프트를 넣었다.\n바로 2.3.1 로 넘어가는 느낌. 그냥 Next.js로 진행한다.\n책하고 다르게 뭘 자꾸 물어본다. 욕심껏 다 선택했다. 그 후로도 이것저것 물어보던데 내 대답은 전부 \"Yes\"였다. 20분이 넘었다. 욕심이 과했나?? 아직도 돌아간다. 다시해야하나 싶다가도 오기가 생긴다. 무려 28분이라는 시간과 18k 라는 토큰을 사용하고 겨우 끝났다.\n로컬호스트에 접속해보니 뭔가 그럴싸한게 번쩍 뜨다가 사라지고, 에러메세지 같은 페이지가 뜬다.\n아무래도 실패인거 같다. 기다리다가 오늘 시간이 다 갔다. 다음에 다시해보겠다.\n아침 일찍 재도전. 이번엔 조언받은데로 단순하게.\n어제완 조금 다른 반응. 추천사항으로 진행.\n기본만 진행. 그런데, CRUD는 뭘까? 데이터베이스의 기본 4대 요소. Create, Read, Update, Delete 의 앞글자를 따와서 만들어졌다네요. 나만 몰랐던듯.\n2분 30초 만에 종료. 책은 거짓말하지 않았다.\n오호라\n일단 로컬에서 추가 삭제까지는 잘된다.\n리포에도 잘 올라감.\n뭔가 잘못되어서 물어보고 수정함.\nvercel도 마찬가지.\n추측은 public으로 접근해야하는데 root로 접근하는듯.\n무식한 상식으로는 index.html 같은게 있어야 할텐데 없음.\n오전 공부는 여기까지.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "너무 많은 기능을 넣지 말자.\nultrathink는 너무 많은 걸 아는거 같다.\n클로드코드가 혼자서 밤새 돌아간다는 선배들의 말을 이해하게 되었다.",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjU5/MDAxNzc0OTQ4NTYwMTIx.fhJuR0R_RfZEAEoqgBLhcMfM9BcgbdP5DAJcWHKXoZ0g.UWUwn8A0bxu6iBTZSHkSjK6H9gj8SydntZlFdy1CNm4g.PNG/image.png?type=w1600"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjU5/MDAxNzc0OTQ4NTYwMTIx.fhJuR0R_RfZEAEoqgBLhcMfM9BcgbdP5DAJcWHKXoZ0g.UWUwn8A0bxu6iBTZSHkSjK6H9gj8SydntZlFdy1CNm4g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNjAg/MDAxNzc0OTQ4NjczODU3.HmtxRLb94TVOEbvSz2e31AqiaF_6weHN6ypvQJ6xSzEg.ARfVPFIVYdkwuY3dL72vaWDuy1nNZbURAbC-Rfn7iOMg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjkz/MDAxNzc0OTQ4NzkyMDg5.e0SMHlsruZuvk_hJkxr6HlhNDAIn7NCQykhGtRDPSegg.9xprU5tU5QmceeTvIahN2exJed-iiZMHqVdHW5wCkswg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNjUg/MDAxNzc0OTUwODY1NDk0.VEkKX_wWeY17kv8oUhEMRbkB2pVNhPvBaE0X7TTS2fQg.CBbXCAr--QaebDoVGQ8cPia24-Be47PoQh60tyduqbcg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjkw/MDAxNzc0OTk3MjY0OTMz.blxhZv53bQfjQGAnVoTDwVADAr0W7egNz2nF8YPbxdYg.C8BjgR1HLcV-TdnjdcCQjVuaApQIvd1KvIxTtlEpLOAg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTI3/MDAxNzc0OTk3MzIzNzk1.ozfhFSuBCNb51xYh-vlatlf5oau17wV70OiZ50u5KJ0g._yKcPgv0zq6yLB1AhUG2hRyefIeclC2J6c4ie4ErpZ8g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjAx/MDAxNzc0OTk3NjIwMTQ5.Aizx79oUOE7M0fwyDp8R3AHk8d5WfZFJd1RCBLi2TtMg.8TUdWDwbZ1Z5LLmVyvimxcWxBiri2HE9PAi8zVR4CN4g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMzAg/MDAxNzc0OTk3NjYyMzEw.mZTnwzfpXExLAiJTAej6QlilggRDcEeUaoVUktkMIM8g.7VNxrCNfxY8J6Rs6XCgiPuWqeKcEnAiopRYZUjZ7Jfcg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTI4/MDAxNzc0OTk3OTI2Nzg4.qgZuZ0wbN-aoKFgsvnFOc30IpMkPHbosLo3Z5P4gEjAg.yXHpkGFxU6WlbwJJr7o_09RLvr4jRrnr5mMAQo7yOSMg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTU3/MDAxNzc0OTk4NTQ1NzI4.SqfFn0DHK2uuQiOZCcrNth2KhKVTiGbq10D5QlMW8Dcg.FImLAYjxK3SOJy0nat5FHnCzkhfus39M1TkjGglujUcg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTIz/MDAxNzc0OTk4NTA2ODg5.AzsaMC-VVfYOo8oM7g4h5msv3zHDFBcQeyflHdkMheUg.SFtS1QFvsyEoIn3a8O8J6DMHh0wNCYkaqHcfPT6KWwQg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQw/MDAxNzc0OTk5MDYwODU1.P1cVqCwRKrst76R0oGhEosCbDK-XmLRx9i1z7LbAXhsg.3U1NSsvTQXyP-ggfLPK7iXirWGp_8RoeAYYS7OgvBu0g.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -1101,19 +1205,5 @@ const STUDY_DATA = {
       "app_idea": "",
       "max_day": 1
     }
-  ],
-  "curated_ideas": [
-    "프리랜서 디자이너를 위한 고객 자동응대 툴",
-    "불량현황 실시간 대시보드 — 공정별 불량률·추이 시각화",
-    "냉장고 재료로 만들 수 있는 메뉴 추천기",
-    "신혼부부용 가계부 앱",
-    "반려동물 입양 홍보 및 입양신청서 관리",
-    "학생별 과목별 숙제 관리 + 마감일 알림",
-    "교육 개정안 기반 수업계획서 자동 생성기",
-    "문제풀이 사이트 — 회원관리, 과목별 풀이 기능",
-    "고객별 코칭 기록 관리 시스템",
-    "회의록 자동 정리기 — 결정사항·액션아이템 추출",
-    "순공 시간 관리 앱",
-    "스레드·블로그 자동화 도구"
   ]
 };
