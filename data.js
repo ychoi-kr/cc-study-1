@@ -107,7 +107,11 @@ const STUDY_DATA = {
     "스레드·블로그 자동화 도구",
     "연령 맞춤 컬러링 도안 생성기",
     "사다리 게임 앱",
-    "음악놀이 게임과 무한 AI 음악 생성"
+    "음악놀이 게임과 무한 AI 음악 생성",
+    "생리주기 기반 여성 웰니스 플래너",
+    "작업자 관리보드",
+    "공공조달데이터 투찰분석",
+    "독서 기록앱 + 습관 달성률 트래커"
   ],
   "participants": [
     {
@@ -232,7 +236,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3311?menuid=154&referrerAllArticles=false"
         }
       },
-      "app_idea": "",
+      "app_idea": "생리주기에 맞춰 몸과 돈을 함께 관리하는 여성 웰니스 플래너",
       "thumb": "",
       "max_day": 4
     },
@@ -1008,7 +1012,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3253?menuid=154&referrerAllArticles=false&page=3"
         }
       },
-      "app_idea": "",
+      "app_idea": "작업자 관리보드",
       "thumb": "",
       "max_day": 2
     },
@@ -1053,7 +1057,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3239?menuid=154&referrerAllArticles=false&page=4"
         }
       },
-      "app_idea": "",
+      "app_idea": "스레드 자동화 또는 공공조달데이터 투찰분석",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjkw/MDAxNzc0OTk3MjY0OTMz.blxhZv53bQfjQGAnVoTDwVADAr0W7egNz2nF8YPbxdYg.C8BjgR1HLcV-TdnjdcCQjVuaApQIvd1KvIxTtlEpLOAg.PNG/image.png?type=w1600",
       "max_day": 2
     },
@@ -1143,7 +1147,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3309?menuid=154&referrerAllArticles=false"
         }
       },
-      "app_idea": "",
+      "app_idea": "독서 기록앱, 습관 및 달성률 트래커",
       "thumb": "",
       "max_day": 1
     },
@@ -1364,6 +1368,22 @@ const STUDY_DATA = {
     {
       "full": "음악놀이 게임과 무한 AI 음악 생성",
       "short": "AI 음악 생성기"
+    },
+    {
+      "full": "생리주기 기반 여성 웰니스 플래너",
+      "short": "웰니스 플래너"
+    },
+    {
+      "full": "작업자 관리보드",
+      "short": "작업자 관리보드"
+    },
+    {
+      "full": "공공조달데이터 투찰분석",
+      "short": "투찰분석 도구"
+    },
+    {
+      "full": "독서 기록앱 + 습관 달성률 트래커",
+      "short": "독서 기록앱"
     }
   ]
 };
