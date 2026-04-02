@@ -512,7 +512,6 @@ function renderFilters() {
     {key:'all', label:`전체 ${D.participants.length}`},
     {key:'4', label:'Day 4 완주'},
     {key:'3', label:'Day 3+'},
-    {key:'deploy', label:'🚀 배포 완료'},
   ];
   el.innerHTML = filters.map(f =>
     `<button class="fbtn ${f.key===curFilter?'active':''}" onclick="setFilter('${f.key}')">${f.label}</button>`
@@ -527,9 +526,6 @@ function renderGrid() {
   let list = D.participants;
   if (curFilter==='4') list = list.filter(p => p.max_day>=4);
   else if (curFilter==='3') list = list.filter(p => p.max_day>=3);
-  else if (curFilter==='deploy') list = list.filter(p =>
-    Object.values(p.days).some(d => d.deploy_urls?.length)
-  );
 
   const el = document.getElementById('pgrid');
   el.innerHTML = list.map(p => {
@@ -550,15 +546,7 @@ function renderGrid() {
       `<span>D${i+1}</span>`
     ).join('');
 
-    const hasDeploy = Object.values(p.days).some(d => d.deploy_urls?.length);
-    const hasGh = Object.values(p.days).some(d => d.github_urls?.length);
     let tags = '';
-    if (hasDeploy || hasGh) {
-      tags = '<div class="p-tags">';
-      if (hasDeploy) tags += '<span class="p-tag deploy">🚀 배포됨</span>';
-      if (hasGh) tags += '<span class="p-tag gh">📦 GitHub</span>';
-      tags += '</div>';
-    }
 
     // 대표 이미지: 가장 마지막 day의 첫 번째 이미지
     let thumb = '';
@@ -629,16 +617,6 @@ function openDetail(pid) {
     }
 
     let linksHtml = '';
-    const links = [];
-    (day.deploy_urls||[]).forEach(u => links.push({u, t:'deploy'}));
-    (day.github_urls||[]).forEach(u => links.push({u, t:'gh'}));
-    if (links.length) {
-      linksHtml = '<div class="tl-links">' +
-        links.map(l => {
-          const label = l.t==='deploy' ? '🚀 배포된 앱' : '📦 GitHub';
-          return `<a href="${l.u}" target="_blank" rel="noopener" class="tl-lnk ${l.t}" onclick="event.stopPropagation()">${label}</a>`;
-        }).join('') + '</div>';
-    }
 
     const cafeLink = day.cafe_url
       ? `<a href="${day.cafe_url}" target="_blank" rel="noopener" class="tl-cafe" onclick="event.stopPropagation()">📝 원문 보기</a>`
