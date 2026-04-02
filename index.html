@@ -349,6 +349,33 @@
   }
   .exit-go:hover { opacity: 0.85; }
 
+  /* Idea ticker */
+  .idea-ticker {
+    position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 50;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 12px 18px;
+    max-width: 320px; min-width: 200px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    transition: opacity 0.3s;
+  }
+  .idea-ticker.hidden { opacity: 0; pointer-events: none; }
+  .idea-ticker-label {
+    font-size: 0.68rem; color: var(--accent-light); font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;
+  }
+  .idea-ticker-text {
+    font-size: 0.85rem; color: var(--text); line-height: 1.5;
+    min-height: 2.5em;
+    transition: opacity 0.4s;
+  }
+  .idea-ticker-text.fade { opacity: 0; }
+  .idea-ticker-close {
+    position: absolute; top: 6px; right: 8px;
+    background: none; border: none; color: var(--text-dim);
+    cursor: pointer; font-size: 0.9rem; padding: 2px 5px;
+  }
+  .idea-ticker-close:hover { color: var(--text); }
+
   @media (max-width: 768px) {
     .stats { grid-template-columns: repeat(2,1fr); }
     .cur-grid { grid-template-columns: repeat(2,1fr); }
@@ -358,6 +385,7 @@
     .detail { margin: 0; border-radius: 0; min-height: 100vh; }
     .overlay { padding: 0; }
     .d-head, .d-body { padding-left: 1.2rem; padding-right: 1.2rem; }
+    .idea-ticker { bottom: 0.8rem; right: 0.8rem; max-width: 260px; }
   }
 </style>
 </head>
@@ -423,6 +451,13 @@
     <div class="p-grid" id="pgrid"></div>
   </section>
 </main>
+
+<!-- Idea ticker -->
+<div class="idea-ticker" id="idea-ticker">
+  <button class="idea-ticker-close" onclick="document.getElementById('idea-ticker').classList.add('hidden')">&times;</button>
+  <div class="idea-ticker-label">💡 참가자가 꿈꾸는 앱</div>
+  <div class="idea-ticker-text" id="idea-ticker-text"></div>
+</div>
 
 <!-- Detail overlay -->
 <div class="overlay" id="overlay"><div class="detail" id="detail"></div></div>
@@ -677,6 +712,24 @@ function esc(s) {
   d.textContent = s;
   return d.innerHTML;
 }
+
+// Idea ticker
+(function(){
+  const ideas = D.curated_ideas || [];
+  if (!ideas.length) return;
+  const el = document.getElementById('idea-ticker-text');
+  let idx = 0;
+  function show() {
+    el.classList.add('fade');
+    setTimeout(() => {
+      el.textContent = ideas[idx];
+      el.classList.remove('fade');
+      idx = (idx + 1) % ideas.length;
+    }, 400);
+  }
+  show();
+  setInterval(show, 4000);
+})();
 
 function confirmExit(url, name) {
   document.getElementById('exit-dest').textContent = name + ' (' + url + ')';
