@@ -1014,7 +1014,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3278?menuid=154&referrerAllArticles=false&page=2"
         }
       },
-      "app_idea": "",
+      "app_idea": "음악놀이 게임과 무한 AI 음악 생성",
       "max_day": 1
     },
     {
