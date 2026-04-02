@@ -368,8 +368,8 @@
   <div class="nav-links">
     <button class="nav-btn active" data-sec="overview">개요</button>
     <button class="nav-btn" data-sec="participants">참가자</button>
-    <button class="nav-btn" onclick="confirmExit('https://wikibook.co.kr/claude-code/','위키북스 도서 페이지')">📘 도서</button>
-    <button class="nav-btn" onclick="confirmExit('https://cafe.naver.com/f-e/cafes/30853297/menus/153','네이버 카페')">☕ 카페</button>
+    <button class="nav-btn nav-ext" onclick="confirmExit('https://wikibook.co.kr/claude-code/','위키북스 도서 페이지')">📘 도서</button>
+    <button class="nav-btn nav-ext" onclick="confirmExit('https://cafe.naver.com/f-e/cafes/30853297/menus/153','네이버 카페')">☕ 카페</button>
   </div>
 </nav>
 
@@ -447,9 +447,9 @@ const totalDays = D.meta.total_days;
 const curDay = D.meta.current_day;
 
 /* ── NAV ── */
-document.querySelectorAll('.nav-btn').forEach(btn => {
+document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
   btn.onclick = () => {
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     document.querySelectorAll('main > section').forEach(s => s.classList.remove('active'));
     document.getElementById(btn.dataset.sec).classList.add('active');
