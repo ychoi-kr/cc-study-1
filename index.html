@@ -554,23 +554,16 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
 
 /* ── HERO IDEA ROTATION ── */
 (function(){
-  const ideas = D.curated_ideas || [];
-  if (!ideas.length) return;
+  const items = D.hero_ideas || [];
+  if (!items.length) return;
   const el = document.getElementById('hero-idea');
-  // 짧은 버전으로 표시 (히어로에 맞게 간결하게)
-  const short = ideas.map(i => {
-    // "— 설명" 부분 제거, 앞부분만
-    let s = i.split('—')[0].trim();
-    if (s.length > 20) s = s.substring(0, 18) + '…';
-    return s;
-  });
   let idx = 0;
   function rotate() {
     el.classList.add('fade');
     setTimeout(() => {
-      el.textContent = short[idx];
+      el.textContent = items[idx].short;
       el.classList.remove('fade');
-      idx = (idx + 1) % short.length;
+      idx = (idx + 1) % items.length;
     }, 400);
   }
   rotate();
