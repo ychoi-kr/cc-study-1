@@ -83,6 +83,12 @@
   .hero .sub {
     color: var(--text-dim); font-size: 1.05rem; margin-top: 0.8rem; font-weight: 400;
   }
+  .hero-idea {
+    color: var(--accent-light); font-weight: 600;
+    display: inline-block; min-width: 4em;
+    transition: opacity 0.4s;
+  }
+  .hero-idea.fade { opacity: 0; }
   .hero-meta {
     display: inline-flex; gap: 1.5rem; margin-top: 1.5rem;
     font-size: 0.85rem; color: var(--text-dim);
@@ -400,7 +406,7 @@
     <div class="hero">
       <div class="hero-badge">🔥 2주 완성 · 10일 과정 · 현재 Day 4 진행중</div>
       <h1>클로드 코드 바이브 코딩<br>온라인 스터디 1기</h1>
-      <p class="sub">비전공자도 AI와 함께 나만의 앱을 만들 수 있다</p>
+      <p class="sub">비전공자도 AI와 함께 나만의 <span class="hero-idea" id="hero-idea"></span>을 만들 수 있다</p>
       <div class="hero-meta">
         <span>📘 위키북스</span>
         <span>📅 2026.03.30 ~</span>
@@ -524,6 +530,31 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
     </div>`;
   }
   el.innerHTML = html;
+})();
+
+/* ── HERO IDEA ROTATION ── */
+(function(){
+  const ideas = D.curated_ideas || [];
+  if (!ideas.length) return;
+  const el = document.getElementById('hero-idea');
+  // 짧은 버전으로 표시 (히어로에 맞게 간결하게)
+  const short = ideas.map(i => {
+    // "— 설명" 부분 제거, 앞부분만
+    let s = i.split('—')[0].trim();
+    if (s.length > 20) s = s.substring(0, 18) + '…';
+    return s;
+  });
+  let idx = 0;
+  function rotate() {
+    el.classList.add('fade');
+    setTimeout(() => {
+      el.textContent = short[idx];
+      el.classList.remove('fade');
+      idx = (idx + 1) % short.length;
+    }, 400);
+  }
+  rotate();
+  setInterval(rotate, 3000);
 })();
 
 /* ── IDEAS (auto-scroll) ── */
