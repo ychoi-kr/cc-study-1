@@ -317,7 +317,7 @@ const STUDY_DATA = {
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3315?menuid=154&referrerAllArticles=false"
         }
       },
-      "app_idea": "<후보 3가지>\n(1) 불량현황 실시간 대시보드",
+      "app_idea": "<후보 3가지>\n(1) 불량현황 실시간 대시보드 — 공정별 불량률, 불량 유형, 추이를 CSV 업로드만으로 시각화\n(2) 체크리스트 & 검사 기록 앱 — QC 체크리스트를 웹에서 작성하고 검사 이력을 저장·조회\n(3) 불량 원인 분석 AI 도우미 — 불량 증상과 공정 조건을 입력하면 AI가 잠재원인을 자동 제안",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMzcg/MDAxNzc1MDE3MjI0NTU0.RuEhDq9d_RrzCykEjeDw2GJ8iz-Y1MwPY2QRDuz5ygIg.U26GuR-VsVCsasM-skxaGpFeTSLnl_o7e73_UR04Fbcg.PNG/%EA%B7%B8%EB%A6%BC2.png?type=w1600",
       "max_day": 4
     },
