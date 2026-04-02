@@ -260,8 +260,7 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [1] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n클로드 구독및 설치 후 앱 개발 구상, 명령까지 실행해 보았다. 챗지피티보다 사려깊고 똑똑한 느낌.\n우선 한달동안 앱들 만들어 보고, 1년구독할지 결정해야겠다.\n✔ 실습한 내용을 캡처해주세요.\n목표달성트래커 어플을 만들어보려고 명령어 입력만 했는데 20분 넘게 뚝딱뚝딱 만드는 클로드...\n결과물이 기대된다...\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "클로드 구독및 설치 후 앱 개발 구상, 명령까지 실행해 보았다. 챗지피티보다 사려깊고 똑똑한 느낌.\n우선 한달동안 앱들 만들어 보고, 1년구독할지 결정해야겠다.",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjE3/MDAxNzc0ODUzNTM3Mjkx.u-tARyQ5qn9D0EYEyGNCozc8DFWMrGl0Ex25rVlb65Yg.GoFPFU8XB0ERu1Y_QYx2Or9pDRbFBdvfdrrsb9BzmsUg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMzIg/MDAxNzc0ODU5NTQ3NjAz.Zdq8i34ea4uYilOydCAK2RkgRdIrvAxC1hasUJ55cyog.t9Em_58qYTqsmF1WKnZUct2zAwe6voIlIqDm4nugVKIg.PNG/9e028275367805.Y3JvcCw5ODEsNzY4LDM2LDA.png?type=c77_77"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjE3/MDAxNzc0ODUzNTM3Mjkx.u-tARyQ5qn9D0EYEyGNCozc8DFWMrGl0Ex25rVlb65Yg.GoFPFU8XB0ERu1Y_QYx2Or9pDRbFBdvfdrrsb9BzmsUg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
