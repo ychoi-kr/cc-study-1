@@ -4,7 +4,7 @@ const STUDY_DATA = {
     "start_date": "2026-03-30",
     "duration": "2주 (10회)",
     "book": "클로드 코드를 활용한 바이브 코딩 완벽 입문 (위키북스)",
-    "current_day": 4,
+    "current_day": 5,
     "total_days": 10
   },
   "curriculum": [
@@ -34,9 +34,9 @@ const STUDY_DATA = {
     },
     {
       "day": 5,
-      "title": "중간 후기 미션",
+      "title": "챗봇 설계 + 구현",
       "chapter": "",
-      "status": "upcoming"
+      "status": "done"
     },
     {
       "day": 6,
@@ -70,9 +70,9 @@ const STUDY_DATA = {
     }
   ],
   "stats": {
-    "total_participants": 26,
+    "total_participants": 27,
     "day_counts": {
-      "1": 26,
+      "1": 27,
       "2": 19,
       "3": 13,
       "4": 8,
@@ -84,7 +84,7 @@ const STUDY_DATA = {
       "10": 0
     },
     "deploy_count": 11,
-    "current_day": 4
+    "current_day": 5
   },
   "curated_ideas": [
     "프리랜서 디자이너를 위한 고객 자동응대 툴",
@@ -111,7 +111,114 @@ const STUDY_DATA = {
     "생리주기 기반 여성 웰니스 플래너",
     "작업자 관리보드",
     "공공조달데이터 투찰분석",
-    "독서 기록앱 + 습관 달성률 트래커"
+    "독서 기록앱 + 습관 달성률 트래커",
+    "이미지 생성 기반 프롬프트 생성기"
+  ],
+  "hero_ideas": [
+    {
+      "full": "프리랜서 디자이너를 위한 고객 자동응대 툴",
+      "short": "고객 자동응대 툴"
+    },
+    {
+      "full": "불량현황 실시간 대시보드 — 공정별 불량률·추이 시각화",
+      "short": "불량현황 대시보드"
+    },
+    {
+      "full": "체크리스트 & 검사 기록 앱",
+      "short": "검사 기록 앱"
+    },
+    {
+      "full": "냉장고 재료로 만들 수 있는 메뉴 추천기",
+      "short": "메뉴 추천기"
+    },
+    {
+      "full": "일기를 쓰면 감정 피드백을 해주는 앱",
+      "short": "감정 피드백 일기장"
+    },
+    {
+      "full": "신혼부부용 가계부 앱",
+      "short": "가계부 앱"
+    },
+    {
+      "full": "옷입히기 게임 앱",
+      "short": "옷입히기 게임"
+    },
+    {
+      "full": "해빗 트래커 앱",
+      "short": "해빗 트래커"
+    },
+    {
+      "full": "반려동물 입양 홍보 및 입양신청서 관리",
+      "short": "입양 관리 앱"
+    },
+    {
+      "full": "학생별 과목별 숙제 관리 + 마감일 알림",
+      "short": "숙제 관리 앱"
+    },
+    {
+      "full": "교육 개정안 기반 수업계획서 자동 생성기",
+      "short": "수업계획서 생성기"
+    },
+    {
+      "full": "문제풀이 사이트 — 회원관리, 과목별 풀이 기능",
+      "short": "문제풀이 사이트"
+    },
+    {
+      "full": "고객별 코칭 기록 관리 시스템",
+      "short": "코칭 기록 시스템"
+    },
+    {
+      "full": "회의록 자동 정리기 — 결정사항·액션아이템 추출",
+      "short": "회의록 정리기"
+    },
+    {
+      "full": "메일함 자동 정리기",
+      "short": "메일 정리기"
+    },
+    {
+      "full": "순공 시간 관리 앱",
+      "short": "순공 시간 관리 앱"
+    },
+    {
+      "full": "기록·아카이빙 앱",
+      "short": "아카이빙 앱"
+    },
+    {
+      "full": "스레드·블로그 자동화 도구",
+      "short": "블로그 자동화 도구"
+    },
+    {
+      "full": "연령 맞춤 컬러링 도안 생성기",
+      "short": "컬러링 도안 생성기"
+    },
+    {
+      "full": "사다리 게임 앱",
+      "short": "사다리 게임"
+    },
+    {
+      "full": "음악놀이 게임과 무한 AI 음악 생성",
+      "short": "AI 음악 생성기"
+    },
+    {
+      "full": "생리주기 기반 여성 웰니스 플래너",
+      "short": "웰니스 플래너"
+    },
+    {
+      "full": "작업자 관리보드",
+      "short": "작업자 관리보드"
+    },
+    {
+      "full": "공공조달데이터 투찰분석",
+      "short": "투찰분석 도구"
+    },
+    {
+      "full": "독서 기록앱 + 습관 달성률 트래커",
+      "short": "독서 기록앱"
+    },
+    {
+      "full": "이미지 생성 기반 프롬프트 생성기",
+      "short": "프롬프트 생성기"
+    }
   ],
   "participants": [
     {
@@ -1240,6 +1347,30 @@ const STUDY_DATA = {
       "max_day": 1
     },
     {
+      "id": "1b797a3b",
+      "nickname": "월남쌈조아",
+      "masked_nickname": "월***아",
+      "days": {
+        "1": {
+          "day": 1,
+          "title": "[day1]클로드 설치+ 앱 구상",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n뒤늦게 시작했지만 벼락치기로 열심히 따라잡을게요!! 🔥\n✔ 실습한 내용을 캡처해주세요.\n앱 아이디어 : 프롬프트 생성기\n(이미지 생성 기반한, 제품 or 모델이미지)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "뒤늦게 시작했지만 벼락치기로 열심히 따라잡을게요!! 🔥",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQ5/MDAxNzc1MTgxOTY1MzQ4.YhuV9PeU6ayOTA6oVLDL94UKeN-vssmMCoipjCa4oo8g.6LNBhDmmS3rRGQK80zQfPPDgrUDHfBnnQn3P1Ow285kg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_%EC%98%A4%EC%A0%84_11.05.05.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100"
+          ],
+          "github_urls": [],
+          "deploy_urls": [],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3318?menuid=154&referrerAllArticles=false"
+        }
+      },
+      "app_idea": "이미지 생성 기반 프롬프트 생성기",
+      "thumb": "",
+      "max_day": 1
+    },
+    {
       "id": "57819aa8",
       "nickname": "위키북스",
       "masked_nickname": "위**스",
@@ -1282,108 +1413,6 @@ const STUDY_DATA = {
       "app_idea": "",
       "thumb": "",
       "max_day": 1
-    }
-  ],
-  "hero_ideas": [
-    {
-      "full": "프리랜서 디자이너를 위한 고객 자동응대 툴",
-      "short": "고객 자동응대 툴"
-    },
-    {
-      "full": "불량현황 실시간 대시보드 — 공정별 불량률·추이 시각화",
-      "short": "불량현황 대시보드"
-    },
-    {
-      "full": "체크리스트 & 검사 기록 앱",
-      "short": "검사 기록 앱"
-    },
-    {
-      "full": "냉장고 재료로 만들 수 있는 메뉴 추천기",
-      "short": "메뉴 추천기"
-    },
-    {
-      "full": "일기를 쓰면 감정 피드백을 해주는 앱",
-      "short": "감정 피드백 일기장"
-    },
-    {
-      "full": "신혼부부용 가계부 앱",
-      "short": "가계부 앱"
-    },
-    {
-      "full": "옷입히기 게임 앱",
-      "short": "옷입히기 게임"
-    },
-    {
-      "full": "해빗 트래커 앱",
-      "short": "해빗 트래커"
-    },
-    {
-      "full": "반려동물 입양 홍보 및 입양신청서 관리",
-      "short": "입양 관리 앱"
-    },
-    {
-      "full": "학생별 과목별 숙제 관리 + 마감일 알림",
-      "short": "숙제 관리 앱"
-    },
-    {
-      "full": "교육 개정안 기반 수업계획서 자동 생성기",
-      "short": "수업계획서 생성기"
-    },
-    {
-      "full": "문제풀이 사이트 — 회원관리, 과목별 풀이 기능",
-      "short": "문제풀이 사이트"
-    },
-    {
-      "full": "고객별 코칭 기록 관리 시스템",
-      "short": "코칭 기록 시스템"
-    },
-    {
-      "full": "회의록 자동 정리기 — 결정사항·액션아이템 추출",
-      "short": "회의록 정리기"
-    },
-    {
-      "full": "메일함 자동 정리기",
-      "short": "메일 정리기"
-    },
-    {
-      "full": "순공 시간 관리 앱",
-      "short": "순공 시간 관리 앱"
-    },
-    {
-      "full": "기록·아카이빙 앱",
-      "short": "아카이빙 앱"
-    },
-    {
-      "full": "스레드·블로그 자동화 도구",
-      "short": "블로그 자동화 도구"
-    },
-    {
-      "full": "연령 맞춤 컬러링 도안 생성기",
-      "short": "컬러링 도안 생성기"
-    },
-    {
-      "full": "사다리 게임 앱",
-      "short": "사다리 게임"
-    },
-    {
-      "full": "음악놀이 게임과 무한 AI 음악 생성",
-      "short": "AI 음악 생성기"
-    },
-    {
-      "full": "생리주기 기반 여성 웰니스 플래너",
-      "short": "웰니스 플래너"
-    },
-    {
-      "full": "작업자 관리보드",
-      "short": "작업자 관리보드"
-    },
-    {
-      "full": "공공조달데이터 투찰분석",
-      "short": "투찰분석 도구"
-    },
-    {
-      "full": "독서 기록앱 + 습관 달성률 트래커",
-      "short": "독서 기록앱"
     }
   ]
 };
