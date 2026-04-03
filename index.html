@@ -515,7 +515,20 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
 });
 
 /* ── HERO BADGE ── */
-document.getElementById('hero-badge').textContent = '🔥 2주 완성 · 10일 과정 · 현재 Day ' + curDay + ' 진행중';
+(function(){
+  const badge = document.getElementById('hero-badge');
+  const deadline = D.meta.deadline || '2026-04-15';
+  const today = new Date();
+  const deadlineDate = new Date(deadline + 'T23:59:59');
+  const daysLeft = Math.ceil((deadlineDate - today) / 86400000);
+  if (daysLeft < 0) {
+    badge.textContent = '✅ 2주 완성 · 10일 과정 · 스터디 종료';
+  } else if (curDay >= totalDays) {
+    badge.textContent = '🔥 2주 완성 · 10일 과정 · 인증 마감 D-' + daysLeft;
+  } else {
+    badge.textContent = '🔥 2주 완성 · 10일 과정 · 현재 Day ' + curDay + ' 진행중';
+  }
+})();
 
 /* ── STATS ── */
 (function(){

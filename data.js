@@ -5,7 +5,8 @@ const STUDY_DATA = {
     "duration": "2주 (10회)",
     "book": "클로드 코드를 활용한 바이브 코딩 완벽 입문 (위키북스)",
     "current_day": 5,
-    "total_days": 10
+    "total_days": 10,
+    "deadline": "2026-04-15"
   },
   "curriculum": [
     {
