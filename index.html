@@ -197,6 +197,16 @@
     overflow: hidden;
   }
   .p-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(124,111,247,0.08); }
+  .p-card.bubble-in {
+    animation: bubbleIn 0.8s ease-out both;
+    border-color: rgba(124,111,247,0.4);
+    box-shadow: 0 0 20px rgba(124,111,247,0.15);
+  }
+  @keyframes bubbleIn {
+    0% { opacity: 0; transform: translateY(60px) scale(0.95); }
+    60% { opacity: 1; transform: translateY(-8px) scale(1.02); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+  }
   .p-thumb {
     width: 100%; height: 160px; object-fit: cover;
     display: block; background: var(--surface2);
@@ -685,6 +695,31 @@ function renderGrid() {
 }
 renderFilters();
 renderGrid();
+
+/* ── NEW CARD BUBBLE ANIMATION ── */
+(function(){
+  const KEY = 'cc-study-seen';
+  const currentIds = D.participants.map(p => p.id + ':' + p.max_day);
+  const seen = JSON.parse(localStorage.getItem(KEY) || '[]');
+  const seenSet = new Set(seen);
+  const newIds = currentIds.filter(id => !seenSet.has(id));
+  if (newIds.length > 0 && seen.length > 0) {
+    // 새 카드에 버블 애니메이션 적용
+    const newPids = new Set(newIds.map(id => id.split(':')[0]));
+    document.querySelectorAll('.p-card').forEach((card, i) => {
+      const pid = card.getAttribute('onclick')?.match(/'([^']+)'/)?.[1];
+      if (pid && newPids.has(pid)) {
+        card.style.animationDelay = (i * 0.1) + 's';
+        card.classList.add('bubble-in');
+        card.addEventListener('animationend', () => {
+          card.classList.remove('bubble-in');
+          card.style.animationDelay = '';
+        }, {once: true});
+      }
+    });
+  }
+  localStorage.setItem(KEY, JSON.stringify(currentIds));
+})();
 
 /* ── DETAIL ── */
 const dayDesc = {};
