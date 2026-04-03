@@ -70,7 +70,7 @@ const STUDY_DATA = {
     }
   ],
   "stats": {
-    "total_participants": 28,
+    "total_participants": 68,
     "day_counts": {
       "1": 27,
       "2": 20,
@@ -1455,6 +1455,366 @@ const STUDY_DATA = {
       "app_idea": "",
       "thumb": "",
       "max_day": 1
+    },
+    {
+      "id": "ed73f99c",
+      "nickname": "ANDO",
+      "masked_nickname": "A**O",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "3c4e7078",
+      "nickname": "amy000",
+      "masked_nickname": "a****0",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "6c540518",
+      "nickname": "friday71",
+      "masked_nickname": "f******1",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "90695ad6",
+      "nickname": "kimen",
+      "masked_nickname": "k***n",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "118c9088",
+      "nickname": "koracleceo",
+      "masked_nickname": "k********o",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "ecc8ff67",
+      "nickname": "snowmoon",
+      "masked_nickname": "s******n",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "fe1a4cf5",
+      "nickname": "sooooooooovvv",
+      "masked_nickname": "s***********v",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "047c777d",
+      "nickname": "가갸거겨",
+      "masked_nickname": "가**겨",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "f8a3533d",
+      "nickname": "광인",
+      "masked_nickname": "광*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "d6688b8e",
+      "nickname": "깅또비",
+      "masked_nickname": "깅*비",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "4ed6b3b3",
+      "nickname": "녜니오",
+      "masked_nickname": "녜*오",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "a1fea5f7",
+      "nickname": "땅콩맛 사탕",
+      "masked_nickname": "땅****탕",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "47180536",
+      "nickname": "렛츠바이브",
+      "masked_nickname": "렛***브",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "19fe4ae9",
+      "nickname": "루우",
+      "masked_nickname": "루*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "c7d72a39",
+      "nickname": "맛동산",
+      "masked_nickname": "맛*산",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "a4504a12",
+      "nickname": "멜로디",
+      "masked_nickname": "멜*디",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "13e55d7e",
+      "nickname": "미도리07",
+      "masked_nickname": "미***7",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "1f0f6094",
+      "nickname": "밤다",
+      "masked_nickname": "밤*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "92fd9847",
+      "nickname": "밥소",
+      "masked_nickname": "밥*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "48bc90cb",
+      "nickname": "버나드J",
+      "masked_nickname": "버**J",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "70b63c92",
+      "nickname": "부천S피러킴",
+      "masked_nickname": "부****킴",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "3899e4e5",
+      "nickname": "블루두산",
+      "masked_nickname": "블**산",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "7308d7ba",
+      "nickname": "비타민",
+      "masked_nickname": "비*민",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "bab93a94",
+      "nickname": "사또",
+      "masked_nickname": "사*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "9bdae6b0",
+      "nickname": "새봄이아빠",
+      "masked_nickname": "새***빠",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "606c3e0e",
+      "nickname": "슈나누나",
+      "masked_nickname": "슈**나",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "97362f9e",
+      "nickname": "열두발자국",
+      "masked_nickname": "열***국",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "36972f88",
+      "nickname": "우리깐부",
+      "masked_nickname": "우**부",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "b7d9359b",
+      "nickname": "우주로가자H",
+      "masked_nickname": "우****H",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "67be0d83",
+      "nickname": "율리3",
+      "masked_nickname": "율*3",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "4a9f7495",
+      "nickname": "조만돌",
+      "masked_nickname": "조*돌",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "5b460d75",
+      "nickname": "진범이",
+      "masked_nickname": "진*이",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "a505522b",
+      "nickname": "채원nn",
+      "masked_nickname": "채**n",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "288b9c3c",
+      "nickname": "천성재",
+      "masked_nickname": "천*재",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "62463f9c",
+      "nickname": "최현주1001",
+      "masked_nickname": "최*****1",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "f583f6b3",
+      "nickname": "하이81",
+      "masked_nickname": "하**1",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "1d55f437",
+      "nickname": "헤이스콘",
+      "masked_nickname": "헤**콘",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "830f7244",
+      "nickname": "헿헿",
+      "masked_nickname": "헿*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "93f80244",
+      "nickname": "협스",
+      "masked_nickname": "협*",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
+    },
+    {
+      "id": "f4774ab2",
+      "nickname": "후추루추추",
+      "masked_nickname": "후***추",
+      "days": {},
+      "app_idea": "",
+      "thumb": "",
+      "max_day": 0
     }
   ]
 };

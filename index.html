@@ -212,6 +212,7 @@
   .badge-3 { background: var(--cyan-dim); color: var(--cyan); }
   .badge-2 { background: var(--amber-dim); color: var(--amber); }
   .badge-1 { background: rgba(136,136,160,0.12); color: var(--text-dim); }
+  .badge-0 { background: rgba(136,136,160,0.06); color: rgba(136,136,160,0.6); }
   .p-idea {
     font-size: 0.83rem; color: var(--text-dim); margin-bottom: 10px;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -631,8 +632,8 @@ function renderGrid() {
 
   const el = document.getElementById('pgrid');
   el.innerHTML = list.map(p => {
-    const bCls = p.max_day>=totalDays?'badge-5':p.max_day>=7?'badge-4':p.max_day>=4?'badge-3':p.max_day>=2?'badge-2':'badge-1';
-    const bTxt = p.max_day>=totalDays?'완주':`Day ${p.max_day}`;
+    const bCls = p.max_day>=totalDays?'badge-5':p.max_day>=7?'badge-4':p.max_day>=4?'badge-3':p.max_day>=2?'badge-2':p.max_day>=1?'badge-1':'badge-0';
+    const bTxt = p.max_day>=totalDays?'완주':p.max_day>=1?`Day ${p.max_day}`:'준비 완료';
 
     let idea = p.app_idea ? p.app_idea.split('\n')[0].replace(/^[>\-#\s✔️]+/,'').trim() : '';
     if (idea.length > 65) idea = idea.substring(0,63)+'…';
