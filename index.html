@@ -158,6 +158,12 @@
   .ff-2 { background: linear-gradient(90deg, #6d28d9, #a78bfa); }
   .ff-3 { background: linear-gradient(90deg, #1d4ed8, var(--cyan)); }
   .ff-4 { background: linear-gradient(90deg, #047857, var(--green)); }
+  .ff-5 { background: linear-gradient(90deg, #4338ca, #7c6ff7); }
+  .ff-6 { background: linear-gradient(90deg, #9333ea, #c084fc); }
+  .ff-7 { background: linear-gradient(90deg, #be185d, #f472b6); }
+  .ff-8 { background: linear-gradient(90deg, #b45309, #fbbf24); }
+  .ff-9 { background: linear-gradient(90deg, #0e7490, #22d3ee); }
+  .ff-10 { background: linear-gradient(90deg, #15803d, #4ade80); }
 
   /* OVERVIEW CARDS */
   .ov-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 2.5rem 0; }
@@ -529,10 +535,8 @@ document.querySelectorAll('.nav-btn:not(.nav-ext)').forEach(btn => {
 (function(){
   const el = document.getElementById('funnel');
   const tot = D.stats.total_participants;
-  const dayLabels = {
-    1:'설치 + 앱 구상', 2:'5분 앱 만들기',
-    3:'GitHub 배포 + MCP', 4:'Vercel 배포 + 테스트'
-  };
+  const dayLabels = {};
+  (D.curriculum||[]).forEach(c => { dayLabels[c.day] = c.title; });
   let html = '';
   for (let d = 1; d <= curDay; d++) {
     const cnt = D.stats.day_counts[d] || 0;
@@ -683,7 +687,8 @@ renderFilters();
 renderGrid();
 
 /* ── DETAIL ── */
-const dayDesc = {1:'설치 + 앱 구상', 2:'기본 사용법 + 5분 앱', 3:'GitHub 배포 + MCP', 4:'Vercel 배포 + 테스트'};
+const dayDesc = {};
+(D.curriculum||[]).forEach(c => { dayDesc[c.day] = c.title; });
 
 function openDetail(pid) {
   const p = D.participants.find(x => x.id === pid);
