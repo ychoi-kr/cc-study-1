@@ -773,7 +773,7 @@ function openDetail(pid) {
     let imgHtml = '';
     if (imgs.length) {
       imgHtml = '<div class="tl-imgs">' +
-        imgs.slice(0,4).map(s => `<img src="${s}" loading="lazy" onclick="event.stopPropagation();showLb('${s}')" />`).join('') +
+        imgs.slice(0,6).map(s => `<img src="${s}" loading="lazy" onclick="event.stopPropagation();showLb('${s}')" />`).join('') +
         '</div>';
     }
 
