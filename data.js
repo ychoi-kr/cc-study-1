@@ -386,7 +386,6 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- VScode 안의 Go Live는 HTML/CSS/JS 같은 정적 파일 확인용이라는 사실\n- 이번에 배포 설정 실수로 클로드 코드 소스 코드가 외부에 유출되었다는 소식을 들었어요. 저는 봐도 잘 모르지만 터미널 UI 구성 방식과 에이전트 워크플로우 설계 구조까지 공개되어 개발자들 사이에서는 엔트로픽같은 거대 AI 기업의 CLI 설계를 들여다볼 수 있는 사례가 된 거라 이 소스 코드를 보고 클로드코드를 더욱 효율적으로 활용하는 팁을 공유 중인 분위기더라구요. 지나가다 그런 내용을 보고 정리해봤어요.\n① 서브에이전트 & 실행 모델 구조\n✔ 핵심 내용\n서브에이전트 여러 개를 동시에 돌려도 비용은 거의 동일\n이유:\n부모 컨텍스트를 바이트 단위로 복사(fork)\nAPI가 이를 캐시\n여러 에이전트가 같은 캐시 공유\n👉 그래서 5개 돌려도 1개 돌리는 것과 비용이 거의 비슷\n✔ 실행 모델 3가지\n1. fork\n부모 컨텍스트 그대로 복사\n캐시 공유 → 가장 효율적\n2. teammate\ntmux / iTerm 같은 별도 터미널 패널\n파일 기반 메시지로 서로 통신\n3. worktree\nGit 워크트리를 따로 만들어서\n에이전트별 브랜치를 분리\n✔ 의미\n보안 감사\n리팩토링\n테스트 작성\n문서 업데이트\n버그 수정\n👉 이걸 동시에 병렬로 실행 가능\n✔ 초보 해설\n👉 지금 너는:\n하나씩 시킴 (순차 작업)\n👉 이 구조는:\n여러 Claude를 동시에 일시키는 구조\n예:\nA: 코드 고침\nB: 테스트 작성\nC: 문서 정리\n👉 동시에 돌아감 = 시간 단축 + 효율 증가\n② 권한 팝업 = 설정 실패\n✔ 핵심 내용\n“이 작업 허용할까요?” 계속 뜨면\n👉 설정 안 한 상태\n✔ 해결 방법\nsettings.json에 허용 범위 지정\n예:\nBash(npm*)\nBash(git *)\nEdit(src/**)\n✔ 권한 모드\nmanual → 매번 클릭\nauto → LLM이 자동 판단 (추천)\n✔ 초보 해설\n👉 지금 상태:\n클릭 → 클릭 → 클릭 반복\n👉 올바른 상태:\n한 번 설정 → 자동 실행\n✔ 핵심\n👉 이건 기능이 아니라 설정 문제다\n③ 컨텍스트 압축 전략 (5가지)\n✔ 핵심 내용\n컨텍스트 넘침 문제 해결을 위해 5가지 전략 존재\n✔ 종류\n1. microcompact\n오래된 tool 결과 삭제\n2. context collapse\n대화 구간 요약\n3. session memory\n중요한 정보만 파일로 분리 저장\n4. full compact\n전체 히스토리 요약\n5. PTL truncation\n가장 오래된 메시지 삭제\n✔ 핵심 조언\n👉 /compact를 수동 세이브처럼 사용\n✔ 초보 해설\n👉 Claude 특징:\n대화 길어지면 멍청해짐\n👉 해결:\n중요한 것만 남기고\n나머지 버림\n✔ 핵심\n👉 자동 압축만 믿으면 중요한 것도 날아간다\n④ Hook 시스템 & 세션 관리\n✔ Hook = 확장 API\n라이프사이클 이벤트 25개 이상\n✔ 주요 Hook\nPreToolUse → 실행 전 검사\nPostToolUse → 실행 후 처리\nUserPromptSubmit → 입력 가공\nSessionStart / End → 세션 관리\n✔ Hook 종류\ncommand → 쉘 실행\nprompt → LLM에 맥락 추가\nagent → 검증 루프\nHTTP → 웹 요청\nfunction → JS 실행\n✔ 중요한 포인트\nUserPromptSubmit\n👉 메시지 보낼 때 자동으로:\n테스트 결과\ngit diff\n붙여줌\n👉 반복 입력 필요 없음\n✔ 세션 관리\n모든 대화는 JSONL 파일로 저장됨\n명령어:\n--continue → 마지막 이어가기\n--resume → 특정 세션 불러오기\n--fork-session → 과거에서 분기\n✔ 핵심 개념\n👉 세션 이어가면:\nmemory 쌓임\n작업 맥락 유지됨\n✔ 초보 해설\n👉 매번 새로 시작 =\nIDE를 매번 껐다 켜는 것과 동일\n⑤ 도구 처리 방식 (병렬 vs 순차)\n✔ 핵심 내용\n도구 60개 이상 존재\n✔ 실행 방식\n읽기 (Read)\n👉 병렬 처리\n예:\n파일 10개 → 동시에 읽음\n쓰기 (Write)\n👉 순차 처리\n예:\n파일 3개 수정 → 하나씩 처리\n👉 이유: 충돌 방지\n✔ MCP 서버\n지연 로딩 방식\n사용 안 하면 비용 0\n✔ 초보 해설\n👉 “많이 연결해도 괜찮음”\n👉 “실제로 쓸 때만 비용 발생”\n⑥ 중단(Escape) 전략\n✔ 핵심 내용\n전체 구조 = 비동기 제너레이터 기반\n✔ 동작\nEscape 누르면:\n현재 작업만 중단\n기존 맥락 유지\n✔ 핵심\n👉 잘못된 방향이면 기다리지 말고 끊어라\n✔ 초보 해설\n👉 AI도 틀린 방향으로 갈 수 있음\n👉 이때:\n끝까지 기다리지 말고\n바로 끊고 다시 지시\n⑦ 결론 (핵심 메시지)\n✔ 잘 쓰는 사람 특징\n프롬프트 잘 쓰는 게 아님\n✔ 진짜 차이\n설정 해둠\n병렬 실행함\nHook 걸어둠\n세션 이어감\n✔ 본질\n👉 Claude Code = 터미널 채팅 ❌\n👉 Claude Code = 에이전트 오케스트레이션 플랫폼 ⭕\n⑧ Escape 전략 (재강조)\n✔ 문제\nAI 루프 빠짐\n예:\n같은 코드 반복 수정\n문제 해결 못함\n✔ 해결\n강제 종료\n새 세션 시작\n⑨ Hook 구조 요약\n✔ 역할\nAI 행동 중간 제어\n✔ 핵심 기능\n실행 전 검사\n실행 후 처리\n입력 자동 가공\n세션 관리\n✔ 한 줄\n👉 “자동화 규칙 엔진”\n⑩ 최종 결론\n✔ Claude Code의 본질\n코드 생성기 ❌\n자동화 개발 시스템 ⭕\n✔ 중요한 것\n프롬프트 ❌\n구조 설계 ⭕\n✔ 실습한 내용을 캡처해주세요.\nVercel 배포는 page.tsx 적용이랑 Next.js 실행될 때마다 자동 생성된다는 캐시 파일을 자꾸 커밋해버리는 바람에 애를 먹었습니다. 다시 지우는 것도 일이더라구요ㅡㅡ\nhttps://study-todo-jxawweulc-h********2-5593s-projects.vercel.app/\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- VScode 안의 Go Live는 HTML/CSS/JS 같은 정적 파일 확인용이라는 사실\n- 이번에 배포 설정 실수로 클로드 코드 소스 코드가 외부에 유출되었다는 소식을 들었어요. 저는 봐도 잘 모르지만 터미널 UI 구성 방식과 에이전트 워크플로우 설계 구조까지 공개되어 개발자들 사이에서는 엔트로픽같은 거대 AI 기업의 CLI 설계를 들여다볼 수 있는 사례가 된 거라 이 소스 코드를 보고 클로드코드를 더욱 효율적으로 활용하는 팁을 공유 중인 분위기더라구요. 지나가다 그런 내용을 보고 정리해봤어요.\n① 서브에이전트 & 실행 모델 구조",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjQ3/MDAxNzc1MTEzNjU2NjI3.zGbV2Sx3_xdBme7HzaTK6yniYZHMfWpTcwbrdJRZbEkg.Zxd8YRcxKgaDU3TI32443SCGolY4i7hJAH3GTeJK3uAg.PNG/%7B6DB02B83-FE2F-4D9C-95FD-9139F7ED2378%7D.png?type=w1600"
           ],
           "github_urls": [],
@@ -517,9 +516,7 @@ const STUDY_DATA = {
           "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nhttps://todo-delta-three-74.vercel.app",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjEg/MDAxNzc1MTkzNzg5MTU2.w1Z07h_2-LY-9qCr83fefv-BO9WLc5Mz19KJjt10jasg.Do9FA29HJzcZwmeLsgDkgKpU0jvQegn8YxkuNpiRf6sg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQx/MDAxNzc1MTkzODU4OTA2.D0XYC-ExjwEu_Xk5CuU957Urq1b5voJty7qhYkn0-HIg.DfkhxcyQsawIp4n-f8cp_5D9Niu2z81a6J8xYId94-Ug.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_134928.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQx/MDAxNzc1MTkzODU4OTA2.D0XYC-ExjwEu_Xk5CuU957Urq1b5voJty7qhYkn0-HIg.DfkhxcyQsawIp4n-f8cp_5D9Niu2z81a6J8xYId94-Ug.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_134928.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [
@@ -726,9 +723,7 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfOTIg/MDAxNzc1MjI0NzE4NjY5.TLd7SPnLn9fBqo9t3eLNEEMvf-198vAcLgbXzsjrztMg.5uX86ydl2hIYQJPVVlyU_pZaKW9-lQEobWqZwI1gKGIg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMSAg/MDAxNzc1MjI0NDY3MDE2.vk0aMzvdGUG5A4pgeaNxcpRkL6zMfbMWiskTJz59qiAg.OpCw8noySQ5JdXePQF4vxnkRnfgQtnK93nZ8w_BHnisg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTky/MDAxNzc1MjI0MTYxNTAw.e1lCZ9sy-cNVbbtyibMrTloUeymsMpwEDKFf4dWAcGUg.w4PDZD0zbQ5bPB1fjaYO1x94G0uflniU-ak1_rQGA0Eg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNTcg/MDAxNzc1MjI0MzE5ODEw.pryxJC94MceTfCNMor8FO7ZI_KcvF6P2yw7Z1KHewqgg.MGZFOI2T028Z7xCG7BR_zppQKDmHlfM5F06Xxp6sPEMg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNTcg/MDAxNzc1MjI0MzE5ODEw.pryxJC94MceTfCNMor8FO7ZI_KcvF6P2yw7Z1KHewqgg.MGZFOI2T028Z7xCG7BR_zppQKDmHlfM5F06Xxp6sPEMg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -810,9 +805,7 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNzUg/MDAxNzc1MjE4NTEzODgz.kHqM_M4kXpnRWxaHK35jBW6XHM5D6NDTOKIyMBpRTCAg.8LQITrXknBCt4qAsUOED7viDoczhMtTx9euHFUWT24wg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMzgg/MDAxNzc1MjE4Nzk1NDMy.dDFtwZQTT-_qfaAXpBsg7s41h-U-LH1vnA98Dw3ntdgg.-N3M4Q-APEWrHpSIJOUcCQRktxhTAPWYz0X88T5rL6cg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNDEg/MDAxNzc1MjE5ODE4NTQx.Xkfs-uW5MPfTBR-0N4XHI9N2Pvxc2g6GQDgeKFvr7jcg.cpTAwsKkC-v595dXsiq7IOUyF64uoOlK8oi5htadfV8g.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODcg/MDAxNzc1MjE5OTQ5NjU4.eF9ayMgdUEPfTxTJwt-MXNxWmnGLmoJTjlK4OmJ4o7Eg.5feJ4QsHB35wUiFBvXmBjEBgDqTb32TvarfW5tBjNUsg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODcg/MDAxNzc1MjE5OTQ5NjU4.eF9ayMgdUEPfTxTJwt-MXNxWmnGLmoJTjlK4OmJ4o7Eg.5feJ4QsHB35wUiFBvXmBjEBgDqTb32TvarfW5tBjNUsg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -1081,9 +1074,7 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvercel 회원가입 및 깃허브 연동\nvercel에 배포\n테스트케이스 작성\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nTODO App\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "vercel 회원가입 및 깃허브 연동\nvercel에 배포\n테스트케이스 작성",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODkg/MDAxNzc1MjIxODgxMzUw.y7CH8jPmkTDF3brxc4keZNWwJ9S3osY1YNvt_ajWWcgg.oDvsjLQMbq4dTDdyWehrGFyMUNDOF-7IdFhfmSHXbTsg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_145224.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODkg/MDAxNzc1MjIxODgxMzUw.y7CH8jPmkTDF3brxc4keZNWwJ9S3osY1YNvt_ajWWcgg.oDvsjLQMbq4dTDdyWehrGFyMUNDOF-7IdFhfmSHXbTsg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_145224.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [
@@ -1426,9 +1417,7 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [1] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n클로드 설치 : 어려워서 gpt와 antigravity의 도움으로 설치\ngit 설치\ngithub 연결\n✔ 실습한 내용을 캡처해주세요.\n만들고 싶은 것\n- 독서 기록 어플 (사진 포함된)\n- 특허 신청을 위한 신청서 자동 생성기\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "클로드 설치 : 어려워서 gpt와 antigravity의 도움으로 설치\ngit 설치\ngithub 연결",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQy/MDAxNzc1MjI1NDQ2NjM0.3or7ndtH1M8gPraY1w67lBMSuNnI-F0w39MfPw7GTvEg.lnvHp8cXhG-U-Rdf-8UcgCySMgPjXXsU1P6cDCIjQzgg.PNG/image.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQy/MDAxNzc1MjI1NDQ2NjM0.3or7ndtH1M8gPraY1w67lBMSuNnI-F0w39MfPw7GTvEg.lnvHp8cXhG-U-Rdf-8UcgCySMgPjXXsU1P6cDCIjQzgg.PNG/image.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -1462,9 +1451,7 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTU5/MDAxNzc1MTkzODEzNTQy.2E6idbIw1PdfOc9jZc5sklbR92rHqyqzrVswI673yIwg.GAB7o9dwczx_zT9XDD-YXkInI6ry6odiFdVS0kwru74g.GIF/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_141549.gif?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTU5/MDAxNzc1MTkzODEzNTQy.2E6idbIw1PdfOc9jZc5sklbR92rHqyqzrVswI673yIwg.GAB7o9dwczx_zT9XDD-YXkInI6ry6odiFdVS0kwru74g.GIF/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_141549.gif?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
@@ -1621,9 +1608,7 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [1 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n뒤늦게 시작했지만 벼락치기로 열심히 따라잡을게요!! 🔥\n✔ 실습한 내용을 캡처해주세요.\n앱 아이디어 : 프롬프트 생성기\n(이미지 생성 기반한, 제품 or 모델이미지)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "뒤늦게 시작했지만 벼락치기로 열심히 따라잡을게요!! 🔥",
           "images": [
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQ5/MDAxNzc1MTgxOTY1MzQ4.YhuV9PeU6ayOTA6oVLDL94UKeN-vssmMCoipjCa4oo8g.6LNBhDmmS3rRGQK80zQfPPDgrUDHfBnnQn3P1Ow285kg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_%EC%98%A4%EC%A0%84_11.05.05.png?type=w1600",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfOSAg/MDAxNzc1MTEyNTk5ODM2.2GgCkciuH6Nz-veQ2ZGcfp_KFG637oHcawimBTz-U4Qg.bmD74ULmWsqWuIzazdsm5vduA1RWNZVzG9DMZ3Qzwh0g.PNG/%7B6A2158BE-3FE2-4877-A8C6-66FCF7B2F868%7D.png?type=f100_100",
-            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjUx/MDAxNzc1MTE0NzE5MjMy.4mxdBB-Q4PUBCb6wNR89X4kCVjsB4aDtY4sPBdw2q0Mg.-eXdhe-VPtW1numXufTf45sxXdaoU7cN5zbts2MDU5gg.PNG/image.png?type=f100_100"
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQ5/MDAxNzc1MTgxOTY1MzQ4.YhuV9PeU6ayOTA6oVLDL94UKeN-vssmMCoipjCa4oo8g.6LNBhDmmS3rRGQK80zQfPPDgrUDHfBnnQn3P1Ow285kg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_%EC%98%A4%EC%A0%84_11.05.05.png?type=w1600"
           ],
           "github_urls": [],
           "deploy_urls": [],
