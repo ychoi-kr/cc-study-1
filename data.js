@@ -71,11 +71,11 @@ const STUDY_DATA = {
     }
   ],
   "stats": {
-    "total_participants": 69,
+    "total_participants": 70,
     "day_counts": {
       "1": 31,
       "2": 25,
-      "3": 17,
+      "3": 18,
       "4": 15,
       "5": 13,
       "6": 6,
@@ -1508,6 +1508,31 @@ const STUDY_DATA = {
       "max_day": 3,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjY4/MDAxNzc0OTYxMTQwNzc1.2a_mH40rXgeyQwWMJfmSe-l5ayeUvbBcoo2B_KWfgPgg.lmoy6pQ9NuZNRvEIgk_Zt-Zw5d6A5AMe37XRcCvmolIg.PNG/image.png?type=w1600"
+      ]
+    },
+    {
+      "id": "f17b6059",
+      "masked_nickname": "M*****S",
+      "days": {
+        "3": {
+          "day": 3,
+          "title": "[day3]github 배포 + vercel 배포 + mcp 연결",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [3] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- github 배포 방법\n- vercel 배포 방법\n- mcp 연결 방법\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "journey_excerpt": "- github 배포 방법\n- vercel 배포 방법\n- mcp 연결 방법",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfNCAg/MDAxNzc1NTgxNDkzNTMz.WJlBNnPSJeF98Yv9DMn2feltIZZ8mELWoDkjh7LFMlYg.V_WypO95M-HhQn4gicALVo3AjZCUctIBC3WB_n5svb0g.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfMTY5/MDAxNzc1NTgxNTA4NTA3.9_yRu63lf37NCfWsG8XBaklN8HtUYczriI9q2uUhjscg.nkBmvaQh2HhNVgjPF7VhNL3WwNtO62L07tsTwbU1pZgg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfMjEg/MDAxNzc1NTgxNTc0Njkz.6YsaBdbME4jvU5CKip8rklH13yteMfxv51C9D2Zzn1Eg.RllWnK_2KN-lbARiROwrmXXKk1m4iaY8kkkAyEA_otEg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfMjYx/MDAxNzc1NTgxNTgzMzI1.fHBz9qRkzfflEbygXRj4jI94OQ7pEWl4xCzcBhNrweQg.nGHxOniD_Yw7-IOeZHafvYPeFCM5vKQV5XInPs3001Qg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfMjY3/MDAxNzc1NTgxNjAwOTA3.FagCcau6xGZT6-53I2WZOxAc_9pk4lkhpjWZUcu1VxAg.ebzM3RykshgdoG3oo2wV26e2_vllkwbEdT1KK2_p2AUg.PNG/image.png?type=w1600"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3368?menuid=154&referrerAllArticles=false"
+        }
+      },
+      "max_day": 3,
+      "app_idea": "",
+      "safe_images": [
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDhfMjYx/MDAxNzc1NTgxNTgzMzI1.fHBz9qRkzfflEbygXRj4jI94OQ7pEWl4xCzcBhNrweQg.nGHxOniD_Yw7-IOeZHafvYPeFCM5vKQV5XInPs3001Qg.PNG/image.png?type=w1600"
       ]
     },
     {
