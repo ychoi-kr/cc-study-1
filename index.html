@@ -781,11 +781,15 @@ function openDetail(pid) {
   const sortedDays = Object.keys(p.days).map(Number).sort();
   const tlHtml = sortedDays.map(d => {
     const day = p.days[d];
-    let text = day.content || '';
-    text = text.replace(/^🧡[^\n]*\n?/, '')
-               .replace(/^✔[^\n]*\n?/gm, '')
-               .replace(/클로드 코드를 활용한 바이브 코딩 완벽 입문[\s\S]*$/, '')
-               .trim();
+    let text = day.journey_excerpt;
+    if (!text) {
+      text = (day.content || '')
+        .replace(/^🧡[^\n]*\n?/, '')
+        .replace(/^✔[^\n]*\n?/gm, '')
+        .replace(/클로드 코드를 활용한 바이브 코딩 완벽 입문[\s\S]*$/, '')
+        .replace(/\n{3,}/g, '\n\n')
+        .trim();
+    }
     if (text.length > 500) text = text.substring(0,500)+'…';
 
     const safeSet = new Set(p.safe_images || []);
