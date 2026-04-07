@@ -155,16 +155,11 @@
     padding-left: 10px; font-size: 0.75rem; font-weight: 700;
     transition: width 1s ease-out; min-width: 30px;
   }
-  .ff-1 { background: linear-gradient(90deg, #4338ca, var(--accent)); }
-  .ff-2 { background: linear-gradient(90deg, #6d28d9, #a78bfa); }
-  .ff-3 { background: linear-gradient(90deg, #1d4ed8, var(--cyan)); }
-  .ff-4 { background: linear-gradient(90deg, #047857, var(--green)); }
-  .ff-5 { background: linear-gradient(90deg, #4338ca, #7c6ff7); }
-  .ff-6 { background: linear-gradient(90deg, #9333ea, #c084fc); }
-  .ff-7 { background: linear-gradient(90deg, #be185d, #f472b6); }
-  .ff-8 { background: linear-gradient(90deg, #b45309, #fbbf24); }
-  .ff-9 { background: linear-gradient(90deg, #0e7490, #22d3ee); }
-  .ff-10 { background: linear-gradient(90deg, #15803d, #4ade80); }
+  /* Day별 통일 색상 스케일: 1~3 보라, 4~6 청록, 7~9 초록, 10 골드(완주) */
+  .ff-1, .ff-2, .ff-3 { background: linear-gradient(90deg, #4338ca, var(--accent)); }
+  .ff-4, .ff-5, .ff-6 { background: linear-gradient(90deg, #0e7490, var(--cyan)); }
+  .ff-7, .ff-8, .ff-9 { background: linear-gradient(90deg, #047857, var(--green)); }
+  .ff-10 { background: linear-gradient(90deg, #b45309, var(--amber)); }
 
   /* OVERVIEW CARDS */
   .ov-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 2.5rem 0; }
@@ -224,12 +219,12 @@
   .badge {
     font-size: 0.72rem; padding: 3px 10px; border-radius: 10px; font-weight: 650;
   }
-  .badge-5 { background: var(--green-dim); color: var(--green); }
-  .badge-4 { background: var(--accent-glow); color: var(--accent-light); }
-  .badge-3 { background: var(--cyan-dim); color: var(--cyan); }
-  .badge-2 { background: var(--amber-dim); color: var(--amber); }
-  .badge-1 { background: rgba(136,136,160,0.12); color: var(--text-dim); }
-  .badge-0 { background: rgba(136,136,160,0.06); color: rgba(136,136,160,0.6); }
+  /* 배지: max_day 기준, funnel과 동일한 색 스케일 사용 */
+  .badge-d0 { background: rgba(136,136,160,0.06); color: rgba(136,136,160,0.6); }
+  .badge-d1, .badge-d2, .badge-d3 { background: var(--accent-glow); color: var(--accent-light); }
+  .badge-d4, .badge-d5, .badge-d6 { background: var(--cyan-dim); color: var(--cyan); }
+  .badge-d7, .badge-d8, .badge-d9 { background: var(--green-dim); color: var(--green); }
+  .badge-d10 { background: var(--amber-dim); color: var(--amber); }
   .p-idea {
     font-size: 0.83rem; color: var(--text-dim); margin-bottom: 10px;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -240,8 +235,11 @@
     flex: 1; height: 5px; border-radius: 3px; background: var(--surface3);
     max-width: 40px;
   }
+  /* 점: 같은 4단계 색 스케일 */
   .dot.on { background: var(--accent); }
-  .dot.on.g { background: var(--green); }
+  .dot.on.tier-2 { background: var(--cyan); }
+  .dot.on.tier-3 { background: var(--green); }
+  .dot.on.tier-4 { background: var(--amber); }
   .dot-labels { display: flex; gap: 3px; margin-top: 3px; }
   .dot-labels span { flex:1; text-align:center; font-size:0.65rem; color:var(--text-dim); max-width:40px; }
   .p-tags { display: flex; gap: 5px; margin-top: 8px; flex-wrap: wrap; }
@@ -287,7 +285,9 @@
     flex: 1; height: 6px; border-radius: 3px; background: var(--surface3); max-width: 60px;
   }
   .d-progress .dp.on { background: var(--accent); }
-  .d-progress .dp.on.g { background: var(--green); }
+  .d-progress .dp.on.tier-2 { background: var(--cyan); }
+  .d-progress .dp.on.tier-3 { background: var(--green); }
+  .d-progress .dp.on.tier-4 { background: var(--amber); }
   .d-progress-label {
     font-size: 0.78rem; color: var(--text-dim); margin-top: 6px;
   }
@@ -657,11 +657,12 @@ if (location.hash) { showSec(location.hash.slice(1)); }
 let curFilter = 'all';
 function renderFilters() {
   const el = document.getElementById('filters');
-  const filters = [
-    {key:'all', label:`전체 ${D.participants.length}`},
-    {key:'4', label:'Day 4+'},
-    {key:'3', label:'Day 3+'},
-  ];
+  const filters = [{key:'all', label:`전체 ${D.participants.length}`}];
+  // current_day 기준으로 동적 임계값 2개 추가
+  const cur = curDay;
+  const mid = Math.ceil(cur/2);
+  if (cur >= 4 && mid >= 2) filters.push({key: String(mid), label: `Day ${mid}+`});
+  if (cur >= 5 && cur > mid) filters.push({key: String(cur), label: `Day ${cur}+`});
   el.innerHTML = filters.map(f =>
     `<button class="fbtn ${f.key===curFilter?'active':''}" onclick="setFilter('${f.key}')">${f.label}</button>`
   ).join('');
@@ -673,12 +674,14 @@ function setFilter(f) {
 }
 function renderGrid() {
   let list = D.participants;
-  if (curFilter==='4') list = list.filter(p => p.max_day>=4);
-  else if (curFilter==='3') list = list.filter(p => p.max_day>=3);
+  if (curFilter !== 'all') {
+    const threshold = parseInt(curFilter, 10);
+    if (!isNaN(threshold)) list = list.filter(p => p.max_day >= threshold);
+  }
 
   const el = document.getElementById('pgrid');
   el.innerHTML = list.map(p => {
-    const bCls = p.max_day>=totalDays?'badge-5':p.max_day>=7?'badge-4':p.max_day>=4?'badge-3':p.max_day>=2?'badge-2':p.max_day>=1?'badge-1':'badge-0';
+    const bCls = `badge-d${p.max_day || 0}`;
     const bTxt = p.max_day>=totalDays?'완주':p.max_day>=1?`Day ${p.max_day}`:'준비 완료';
 
     let idea = p.app_idea ? p.app_idea.split('\n')[0].replace(/^[>\-#\s✔️]+/,'').trim() : '';
@@ -688,8 +691,8 @@ function renderGrid() {
     const dots = Array.from({length: Math.min(totalDays, curDay)}, (_,i) => {
       const d = i+1;
       const on = p.days[d] ? 'on' : '';
-      const g = d >= 4 && on ? 'g' : '';
-      return `<div class="dot ${on} ${g}"></div>`;
+      const tier = on ? (d===10?'tier-4':d>=7?'tier-3':d>=4?'tier-2':'') : '';
+      return `<div class="dot ${on} ${tier}"></div>`;
     }).join('');
     const labels = Array.from({length: Math.min(totalDays, curDay)}, (_,i) =>
       `<span>D${i+1}</span>`
@@ -762,8 +765,10 @@ function openDetail(pid) {
   if (!p) return;
 
   const dots = Array.from({length: Math.min(totalDays, curDay)}, (_,i) => {
-    const d = i+1, on = p.days[d] ? 'on' : '', g = d>=4&&on ? 'g' : '';
-    return `<div class="dp ${on} ${g}"></div>`;
+    const d = i+1;
+    const on = p.days[d] ? 'on' : '';
+    const tier = on ? (d===10?'tier-4':d>=7?'tier-3':d>=4?'tier-2':'') : '';
+    return `<div class="dp ${on} ${tier}"></div>`;
   }).join('');
 
   const completedDays = Object.keys(p.days).length;
