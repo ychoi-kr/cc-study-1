@@ -2,3 +2,4 @@
 check_privacy.py
 excluded_images.json
 cafe_articles_full.json
+.known_ids.json
