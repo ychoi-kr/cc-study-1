@@ -1617,7 +1617,8 @@ const STUDY_DATA = {
       "thumb": "",
       "max_day": 2,
       "safe_images": [
-        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDdfMTcx/MDAxNzc1NDk2MTY5OTEy.6Zlz_LIKdF7dDYAOxtuLmuvLeSfCTWrHsuxq9CVMU-og.bS1e9eHTMcOsRDFxm9mgC6x_1SKLjRtAzWgGrv8-Un4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-07_%EC%98%A4%EC%A0%84_2.21.33.png?type=w1600"
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDdfMTcx/MDAxNzc1NDk2MTY5OTEy.6Zlz_LIKdF7dDYAOxtuLmuvLeSfCTWrHsuxq9CVMU-og.bS1e9eHTMcOsRDFxm9mgC6x_1SKLjRtAzWgGrv8-Un4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-07_%EC%98%A4%EC%A0%84_2.21.33.png?type=w1600",
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDdfMjIy/MDAxNzc1NDk4MjQ0NzE4.nelLbRATVZQcRYTz7UZVsdP28_uOjjPi1bhxYyLrSAUg.xaTCOdFd4EtCjjA-h4VF7Hckvx5YthO0yBKjlDpMBlYg.PNG/image.png?type=w1600"
       ]
     },
     {
