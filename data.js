@@ -235,10 +235,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTE5/MDAxNzc1MDUxNDYxMzk3.0NPoMSnyuWmxtDUwOnqz6KD1PhDyMCkThctU4kW9DZQg.aCRx9vZFfAvrwuiLH6avkcol02XCtCK9dElxH5fPzjcg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNyAg/MDAxNzc1MTMxMTY4ODQ0.SAqzentqvs64QuU9ohUjYoo1DwBzPB1JLkyqkv93S_Qg.cy1osVY3qOIOks-P2oybNsLDDAb93JaEqCh9PR_U70og.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://k*****r.github.io/todo-list/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3289?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -249,8 +245,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjY5/MDAxNzc0OTQ3Nzc0NjU4.pE5_15F55EP1lK-ZSavQzn1n_apBHeb89hTttosHDpog.ecoU9IRiNcu5gPN7sxcnN4uK7PZSZ1pomXZfHYz_oI0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3265?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -261,21 +255,15 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTcw/MDAxNzc0ODc2ODc4ODg1.m3riD8aNsoalE5w42JFM6xf9WDPQPFjAd6Sz87f6Hwwg.76h21l_4b-iJdN1LPYQGMOnSR7xJnIJwyWxQysOnex0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3244?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
           "day": 4,
           "title": "[day4]Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [4] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nVercel배포.\n전반적인 개념은 아직 잘 안 잡히는데 뭔가 뚝딱 나오는게 신기하다.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nhttps://todo-nu-gray-20.vercel.app/\nTodo\nTodo 🌙 + 전체 미완료 완료 ✓ 할 일이 없습니다 0개 남음\ntodo-nu-gray-20.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [4] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nVercel배포.\n전반적인 개념은 아직 잘 안 잡히는데 뭔가 뚝딱 나오는게 신기하다.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n[배포 URL 생략]\nTodo\nTodo 🌙 + 전체 미완료 완료 ✓ 할 일이 없습니다 0개 남음\n[배포 URL 생략]\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "Vercel배포.\n전반적인 개념은 아직 잘 안 잡히는데 뭔가 뚝딱 나오는게 신기하다.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTcw/MDAxNzc1MTMyMjU1NjYw.l44XG0n5RgvDWevzhZL2vLYO1aK0Nf6C3b6RX_OWdwYg.2g4fOrBKAoNib_yKf5ISRYHT75Q1295vVzbMVNY0AsIg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-nu-gray-20.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3311?menuid=154&referrerAllArticles=false"
         },
@@ -297,8 +285,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTky/MDAxNzc1MjI0MTYxNTAw.e1lCZ9sy-cNVbbtyibMrTloUeymsMpwEDKFf4dWAcGUg.w4PDZD0zbQ5bPB1fjaYO1x94G0uflniU-ak1_rQGA0Eg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNTcg/MDAxNzc1MjI0MzE5ODEw.pryxJC94MceTfCNMor8FO7ZI_KcvF6P2yw7Z1KHewqgg.MGZFOI2T028Z7xCG7BR_zppQKDmHlfM5F06Xxp6sPEMg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3326?menuid=154&referrerAllArticles=false"
         },
         "6": {
@@ -316,8 +302,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTE3/MDAxNzc1NDc5MjYyMDA2.YvwYuMaejDZqEQwZ2M2lKx0L3uxk4RShHjq4kMoAQHUg.htPnevFAB58EmSFggsiAgHk1AuPvwiXG3lQ5sID2cmQg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTQ3/MDAxNzc1NDc5MjI3NzY1.yyU67cg2-t_UZeG3oGALicDN0zrHzEV_ma6HqMiQz1kg.ynR4noIpXCGO5B0bI1pfS4NAiEOVgd4ne7tVqqRclXIg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3354?menuid=154&referrerAllArticles=false"
         }
       },
@@ -344,8 +328,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjMg/MDAxNzc1MDUyOTcxNjU3.Nni3MKaeu5sd8w3lT5qi7LXwy7aq4Q3sAI1nsM93Bokg.NioJiNUAAyc--sQMaWx3G4m-bNYLtwAq3Z68P4PoZPsg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTM5/MDAxNzc1MDU0MTI1MzMw.HDpl5OAFIzoli48n3_TpM9L9uhvuEQfD_2Obcv1H0AEg.ubkt2nVRPe6UWZyx12GiVWh1ugntXIc7QGtyOx15sZUg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3293?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -359,8 +341,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjk3/MDAxNzc0OTY1MzE5ODkx.uSROKYIw86FnBfhTgqNV4HpkBJWNU43_rKe_aQa22yMg.R0Vdd5cKJCVDlOFC6_y57i5xUK7XY_xclsVooKvPQosg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTMg/MDAxNzc0OTY1NTcxOTE4.XAH_F-7fY2sAHY8xZqfHT3J5SwNDhaxULvoJZH9Lk6og.a-8NKJcFPxjhPPAIw89T0AAU16CG8FgdtmckmGOn50Qg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3273?menuid=154&referrerAllArticles=false&page=2"
         },
         "1": {
@@ -371,8 +351,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTcz/MDAxNzc0ODc4NTkyODUy.z9V2lYO0gD1cwOx_ymKhHgfCOvHnnkVAS7B9hfExPFwg.7RYzK1DiizO3-RHc8c75QmVZ91f74zsDotnTXPnpTYcg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3248?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
@@ -388,8 +366,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg3/MDAxNzc1MTQwMzg4NjQy.Q756As8hUuLdxaBwqUKe68AjVG1a9hhWntA7JDQeR5Ug.1OY9P2GiVbPtu_2G_KobNyx2M0VGT-eS_OxTmQ9R09Yg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMzkg/MDAxNzc1MTQxNTUyOTg4.um8mcmvlCZGFkXiLMDhXX2Qmi4oTbU12wT4T3JH5H0Mg.XCsGAppDFP_DHDijUVl_VvL_jDttGJJ1I6ajQ7JP3mcg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3314?menuid=154&referrerAllArticles=false"
         },
         "5": {
@@ -403,8 +379,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNDEg/MDAxNzc1MjE5ODE4NTQx.Xkfs-uW5MPfTBR-0N4XHI9N2Pvxc2g6GQDgeKFvr7jcg.cpTAwsKkC-v595dXsiq7IOUyF64uoOlK8oi5htadfV8g.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODcg/MDAxNzc1MjE5OTQ5NjU4.eF9ayMgdUEPfTxTJwt-MXNxWmnGLmoJTjlK4OmJ4o7Eg.5feJ4QsHB35wUiFBvXmBjEBgDqTb32TvarfW5tBjNUsg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3323?menuid=154&referrerAllArticles=false"
         },
         "6": {
@@ -417,8 +391,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjg3/MDAxNzc1NDc4NjYzNTMz.I1drXnlEyFu3pskeydkUFEzkbyWF_NqDFdSOwWIBgUIg.tR7e3m2dC-ARqYGDT4hv5sTyhlKBmv_swg0mzgvyqfcg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTgy/MDAxNzc1NDc2NDg4MTk4.3m-NBebgI9pUDwxNoJc8LzaAR8HsGt_kM6q36dPlAegg.eRVd97Vh75ZLwNKU6owjEW2UQXp5LuCPE5LBtUIw6H0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3353?menuid=154&referrerAllArticles=false"
         }
       },
@@ -437,14 +409,10 @@ const STUDY_DATA = {
         "4": {
           "day": 4,
           "title": "[day4]vercel 배포 및 테스트 코드 실행",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [4] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\ngithub로 공유가 어려운 경우 vercel로 편리하게 배포가 가능하다는 점을 배웠다.\n✔ 실습한 내용을 캡처해주세요.\n배포 todo 앱 : https://todo-next-eight-teal.vercel.app\n테스트 코드 실행 결과\n41 / 41 통과 ✅\n---\n테스트 구성\n| 파일 | 대상 | 케이스 수 |\n|------|------|-----------|\n| useTodos.test.ts | 핵심 훅 로직 | 15개 |\n| TodoInput.test.tsx | 입력 컴포넌트 | 6개 |\n| TodoItem.test.tsx | 항목 컴포넌트 | 7개 |\n| FilterBar.test.tsx | 필터 바 | 7개 |\n주요 커버리지\nuseTodos — addTodo (공백/트림/우선순위), toggleTodo, deleteTodo, editTodo, clearCompleted, 필터 3종, 카운터, localStorage 읽기/쓰기\nTodoInput — Enter/버튼 제출, 제출 후 초기화, 빈 입력 방지, 우선순위 전달\nTodoItem — 렌더링, 토글, 완료 취소선, 더블클릭 편집, Enter 저장, Escape 취소\nFilterBar — 버튼 렌더링, 활성 스타일, 클릭 콜백, 카운터 표시, 완료 삭제 노출 조건\n실행 명령:\nBASH\nnpm run test:run # 1회 실행\nnpm run test # watch 모드\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [4] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\ngithub로 공유가 어려운 경우 vercel로 편리하게 배포가 가능하다는 점을 배웠다.\n✔ 실습한 내용을 캡처해주세요.\n배포 todo 앱 : [배포 URL 생략]\n테스트 코드 실행 결과\n41 / 41 통과 ✅\n---\n테스트 구성\n| 파일 | 대상 | 케이스 수 |\n|------|------|-----------|\n| useTodos.test.ts | 핵심 훅 로직 | 15개 |\n| TodoInput.test.tsx | 입력 컴포넌트 | 6개 |\n| TodoItem.test.tsx | 항목 컴포넌트 | 7개 |\n| FilterBar.test.tsx | 필터 바 | 7개 |\n주요 커버리지\nuseTodos — addTodo (공백/트림/우선순위), toggleTodo, deleteTodo, editTodo, clearCompleted, 필터 3종, 카운터, localStorage 읽기/쓰기\nTodoInput — Enter/버튼 제출, 제출 후 초기화, 빈 입력 방지, 우선순위 전달\nTodoItem — 렌더링, 토글, 완료 취소선, 더블클릭 편집, Enter 저장, Escape 취소\nFilterBar — 버튼 렌더링, 활성 스타일, 클릭 콜백, 카운터 표시, 완료 삭제 노출 조건\n실행 명령:\nBASH\nnpm run test:run # 1회 실행\nnpm run test # watch 모드\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "github로 공유가 어려운 경우 vercel로 편리하게 배포가 가능하다는 점을 배웠다.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-next-eight-teal.vercel.app"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3307?menuid=154&referrerAllArticles=false"
         },
@@ -456,10 +424,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjE5/MDAxNzc1MDI2NTk4MDU4.EUTe1XiE8Kfb-HqrNnVMWk1zq1Dce418OiQzj0bmVAUg.TjeCHBLQSBaX--ngQbXwWKptuRxNdumjNaZE1-D8R48g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://j**********4.github.io/todo-list-app/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3281?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -469,10 +433,6 @@ const STUDY_DATA = {
           "learned": "클로드 코드를 활용한 TODO 앱 만들기를 진행해 보았다.\n삼십분만에 github 배포까지!! 넘 뿌듯하다.\nTODO LIST\nTODO LIST\nTODO LIST 0 남음 추가 전체 진행중 완료 완료 항목 삭제 정렬: 직접 정렬 우선순위 마감일 생성일\nj**********4.github.io",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjcy/MDAxNzc0OTQ0MjY5MjQ1.4tr2MrY06uGJARu6YoxbcWWWEEIHELO6rwZub8GccgMg.5cmFUSIVe5J8HGOneGxiQCXSPnIucscMLOGm9WBkyuMg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://j**********4.github.io/todo-list-app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3262?menuid=154&referrerAllArticles=false&page=3"
         },
@@ -484,8 +444,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjE3/MDAxNzc0ODUzNTM3Mjkx.u-tARyQ5qn9D0EYEyGNCozc8DFWMrGl0Ex25rVlb65Yg.GoFPFU8XB0ERu1Y_QYx2Or9pDRbFBdvfdrrsb9BzmsUg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3232?menuid=154&referrerAllArticles=false&page=4"
         },
         "5": {
@@ -497,8 +455,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTE2/MDAxNzc1Mjk5ODAzNTQ0.eSmIzPgZhuEIrid-IOCo4vOKeYhn1yy03Q8NN2W9cg0g.tNz3LydRj1Zm310XTmLEWGcA_3r3aBCYn2IJIwUb8FEg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTA3/MDAxNzc1Mjk5NjQ0MDc2.rLz590TbSuMpgCWX9M56qdiykRlMhzuDePcr-SACnE4g.GoSuvQrsfEDf5Yhr87m75UhcFQicvwxly9vCVMg7S5Mg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3340?menuid=154&referrerAllArticles=false"
         },
         "6": {
@@ -510,8 +466,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjU2/MDAxNzc1NDYzNDMyMzIw.9zXq0oFlTeGGZqxcTltmhe2saATzKQxTC9BNQdw1E6og.1lXAYBZBnF-x9sxXZthHv5vMESOMSzY6KMSuzga6FCsg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjU3/MDAxNzc1NDYzMTY4MDQ1.X-S7PnKE8l3wK2tIwkRVx3ABzoKT9EBg1kMC1SZ3WdYg.imtmohrRcwh9I1Y5NQ6qVaww46GREY222SQBLhCO8dcg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3351?menuid=154&referrerAllArticles=false"
         }
       },
@@ -539,12 +493,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTIx/MDAxNzc1MDE3MjUwOTc5.eSPwfcpFCR9ATFlAFX9pwAfVGSqDash1uM0K0xDYtwsg.LwZ3giZ5SqSfh0pnIPVacto_j3jiac_QvuM1eY4Cn-4g.PNG/%EA%B7%B8%EB%A6%BC5.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjcg/MDAxNzc1MDE3MjUwOTc3.9SlVPpIWeytA3o4SFPfGLcs1Sq14Q_F1VdI_v7QIVS4g.Lb6Kgx3LWrPk6axX67WZqrEgOag2I2uDTYza81A5vM4g.PNG/%EA%B7%B8%EB%A6%BC6.png?type=w1600"
           ],
-          "github_urls": [
-            "https://github.com/h********1/TODO-app"
-          ],
-          "deploy_urls": [
-            "https://h********1.github.io/TODO-app/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3279?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -559,8 +507,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTIg/MDAxNzc0OTI4OTI2ODMx.PcNBCJtmv7I1-xCi6dS8iwUXjAginXf0uL8MJYVnVakg.GQDyA1GGsW3Jx_VSgyJeNqvT0Bv-JGYuomY0uV-MIn0g.PNG/4.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTE2/MDAxNzc0OTI4OTI2ODU2.1lQRMD-qt7G7kPYS_8kz0huoGTsz-RkOzzO_0rG18n4g.l_pZi4T5USipIUDqxifFNc6g1W5dk4ngAEb2fcyDtdMg.PNG/5.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3259?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -572,14 +518,12 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTM3/MDAxNzc0ODQ3MjgyNDU2.EUlirTj35WXdnGCwIExMKvWxnj9xn6tWFEMHP_RW3H4g.IxEKULVfwYYu6hWnvgDadIWYUk4sewD8wKWo2uc0m6Yg.PNG/%EA%B7%B8%EB%A6%BC1.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjAw/MDAxNzc0ODQ3Mjg5NDc0.f5hTuUiBnP6C7TVnASvF-LzI4poRxHz6Y5aXsZMOWfEg.aGc9RJpN3p-P8CdbSXJ1tA_xJsWG7_mnmUPm4fzInaAg.PNG/%EA%B7%B8%EB%A6%BC2.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3229?menuid=154&referrerAllArticles=false&page=5"
         },
         "4": {
           "day": 4,
           "title": "[day4]Day 4: Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nVercel: 웹사이트/웹앱을 자동으로 빌드하고 배포해 호스팅해 주는 클라우드 플랫폼.\n=> 보통 GitHub 등 저장소에 코드를 푸시하면 Vercel이 코드를 가져와 빌드하고, 전 세계 CDN을 통해 빠르게 서비스하는 흐름으로 사용.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n* Next.js에서 앱만들기 + 여러 차례 오류 수정 후, 배포 전 확인\nhttp://localhost:3000\nhttps://todo-next-virid.vercel.app\nTODO App\nTODO ✓ No tasks yet. Add one above! Double-click to edit  ·  Drag to reorder\ntodo-next-virid.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n테스트 코드 작성\n테스트 코드 결과\n모두 통과\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nVercel: 웹사이트/웹앱을 자동으로 빌드하고 배포해 호스팅해 주는 클라우드 플랫폼.\n=> 보통 GitHub 등 저장소에 코드를 푸시하면 Vercel이 코드를 가져와 빌드하고, 전 세계 CDN을 통해 빠르게 서비스하는 흐름으로 사용.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n* Next.js에서 앱만들기 + 여러 차례 오류 수정 후, 배포 전 확인\nhttp://localhost:3000\n[배포 URL 생략]\nTODO App\nTODO ✓ No tasks yet. Add one above! Double-click to edit  ·  Drag to reorder\n[배포 URL 생략]\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n테스트 코드 작성\n테스트 코드 결과\n모두 통과\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "Vercel: 웹사이트/웹앱을 자동으로 빌드하고 배포해 호스팅해 주는 클라우드 플랫폼.\n=> 보통 GitHub 등 저장소에 코드를 푸시하면 Vercel이 코드를 가져와 빌드하고, 전 세계 CDN을 통해 빠르게 서비스하는 흐름으로 사용.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNDgg/MDAxNzc1MTQ1OTA2Mzg3.WfI-K_UJKawn0RJ0bDpKUbxqQ2oghCBPNI1KPnCmXhAg.xYm-a2QsiV0g1ebltVI5_hN1zAgmTIWn1eQJxPKpBfkg.PNG/%EA%B7%B8%EB%A6%BC1.png?type=w1600",
@@ -588,11 +532,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTkx/MDAxNzc1MTQ2MDI4NzE2.MBC9nguqGdqk4QGjzjo-3DTYu02-BA-L64zvgQQQ_Lsg.FDptP28EOYQSKrdghP3NFXcQyos5AISUiNMIrLIQKCAg.PNG/%EA%B7%B8%EB%A6%BC4.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjIg/MDAxNzc1MTQ2MDI4NDI5.E46LvBr4tpz6zkTX0A6-_hqfI_sC5612k7POffVmxJog.WrT80Kg3ixB-PW4G-A-jInQYZHywxtgc9SL0gMgn9FYg.PNG/%EA%B7%B8%EB%A6%BC5.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTk3/MDAxNzc1MTQ2MDI4NDM1.zRfKWBWGK6i4r2jPTukUYLvqQrw0qTZFQ0H-RuejGSgg.F4jYzhsd4k-l8JhICl9bsYq_GIfgnBwEoqUE5LQlznAg.PNG/%EA%B7%B8%EB%A6%BC6.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-next-virid.vercel.app/",
-            "https://todo-next-virid.vercel.app"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3315?menuid=154&referrerAllArticles=false"
         },
@@ -619,8 +558,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTAy/MDAxNzc1MjI2NTUwNzgz.Spw7j4YIVRriRLjYrIYSwfq9alWGy0GWVZ4SidouCNQg.ayzlaa0YHhZ0QMoRfmVfwgJMiNWRePQ83Gd-UUYIL1kg.PNG/%EA%B7%B8%EB%A6%BC14.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMzEg/MDAxNzc1MjI2NTc4NDU5.CXW8ppuIvOuNckU99drCvl6ZVl4PqpCK7bLAJtGpPtgg.bBTEYp_jMO3tJ_c8sEsYlaCRfmHS1ASdh2PFO3z0yIEg.PNG/%EA%B7%B8%EB%A6%BC15.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3331?menuid=154&referrerAllArticles=false"
         },
         "6": {
@@ -635,8 +572,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMzAw/MDAxNzc1NDg3MjA5MDMx.bznO53QI_cpJuMfxsxV72T0pNnVjplnIdeJjt4hZM6Ag.mDPKlAbu296nJnbhnhc7xaDSASLMdFZkHwX-OYCgQuEg.PNG/%EA%B7%B8%EB%A6%BC4.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjE3/MDAxNzc1NDg3MjQ5NDAy.CTJMZ-TtIT9FS5wpWlOCLcsMrFWw9Msaw6Tu13P8lLwg.0ZAMSBz2Ie8JR0AugVyoBL0ekYUO1UOjg4bl82rvXs4g.PNG/%EA%B7%B8%EB%A6%BC5.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3355?menuid=154&referrerAllArticles=false"
         }
       },
@@ -660,8 +595,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjY1/MDAxNzc1MTEzMjM2NTQ0.6JXkosAqTZQ4XbHZUDuRa8m9VYq9hNqb97TD2NGntTog.JjCtXv29WJ0zai9t6urarLQexbmavRrFZ9AW9Bu8pC0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3303?menuid=154&referrerAllArticles=false"
         },
         "1": {
@@ -672,23 +605,17 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjMw/MDAxNzc1MDQ5OTkxMjg3.hhg34oX2y8AkmmvZQL_Dc3JxzbJQX5Awq2T7KibVsUog.zmj1auX6280qAv6UFLaBU_qKFXOTZcz0kBcJeH76HVsg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3288?menuid=154&referrerAllArticles=false&page=2"
         },
         "4": {
           "day": 4,
           "title": "[day4]Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n완전 초보라 다 새로워요ㅠㅠ\n✔ 실습한 내용을 캡처해주세요.\nhttps://todo-app-eight-rosy-80.vercel.app/\nTodo\n할 일 목록 오늘도 하나씩 해내봐요 0 전체 0 진행중 0 완료 0 % 달성률 새 할 일 추가... 전체 진행중 완료 불러오는 중...\ntodo-app-eight-rosy-80.vercel.app\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n완전 초보라 다 새로워요ㅠㅠ\n✔ 실습한 내용을 캡처해주세요.\n[배포 URL 생략]\nTodo\n할 일 목록 오늘도 하나씩 해내봐요 0 전체 0 진행중 0 완료 0 % 달성률 새 할 일 추가... 전체 진행중 완료 불러오는 중...\n[배포 URL 생략]\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "완전 초보라 다 새로워요ㅠㅠ",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTM5/MDAxNzc1MjIyNzkxMzMx.Lhqsnkw4l7RvLcp77FH1XDqhvIT6yyNtUYqQUTwfdZkg.Qj91DmRyVd67F5eaAZxksFZNO9848qwUqzfEfzrfj9sg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQ2/MDAxNzc1MjI0NjQ5NDk4.HrmyKWIl6DCL9WAhTHqDCga04WSulFVztCcSc2P51nEg.-6PeqM7N73bf6trvafHvxfm--b8JGIiSkEg3P9xi5_4g.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMzMg/MDAxNzc1MjI0OTY2ODI5.748uV0e6XpLhk1YaJS2l5Zf77jy2WCO6gRtLRWNeZAEg.D1wnP7dO5UojnkRbotVfDvnV6Ek0t5fPIOxxaocgthIg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-app-eight-rosy-80.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3327?menuid=154&referrerAllArticles=false"
         },
@@ -700,10 +627,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjU2/MDAxNzc1MjEzMzI0MDQ5.lAWzxEnc9KS1Dp4nl-ZqUJiZSJf7nG-vHS93vmJ0kVcg.AnaKgDDsTlHW4nj6hNQSe-IMOqtH0QQ-YUmZzdG2SAIg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [
-            "https://github.com/y*****k/TODO-APP"
-          ],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3322?menuid=154&referrerAllArticles=false"
         },
         "5": {
@@ -716,8 +639,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjU1/MDAxNzc1NDY0ODY2NzIy.Bcel5QwLcUmf4o7c7vDpPpiWK8r2oFxvPy_hBBU9xCIg.ZJewsj-8sZSvUh8Pen5guOKJ8ZBfZSltpZ-csgHvY34g.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfNDkg/MDAxNzc1NDY1NDU0OTU2.neZs7y-_VK2A3VYLffiBFMEsElUOdzcMa9E5Uu2gVxIg.P-zOmfYLx0erMyPIPOZaE6uYmbWBqejMIr97cP79f0kg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3352?menuid=154&referrerAllArticles=false"
         }
       },
@@ -740,8 +661,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTgz/MDAxNzc0OTY4NTkwMzA3.13FTO4PdINOCrXSDdnzAYAEil2K6HR1zXnVF6Rv7EhIg.SjBQ_BeWOqAKKGSubE8HKui0Gqmm0MhirKK_KC2aWSEg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3274?menuid=154&referrerAllArticles=false&page=2"
         },
         "1": {
@@ -752,22 +671,16 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTkz/MDAxNzc0ODczNTA2MDI5.sX-Kc1CPht86u4LPUE4eOGDuORhMXRn9wiV060eR37wg.c8apOj2wl0H8o49hHXyBFInFihzsgVI-qe0HAtemmGQg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3242?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
           "day": 4,
           "title": "[day4]Day 4 | Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n배포 구조 이해 (핵심 개념)\nVercel은 로컬 실행이 아니라 GitHub 코드 기반으로 자동 빌드·배포되는 구조\n즉, “내 PC 환경”이 아니라 “클라우드 환경에서 실행”\nNode.js 미설치로 인한 오류 → npm, build, dev 명령 자체가 실행 불가\nNode 버전, 패키지, 환경변수 차이로 → 동일 코드도 실행 결과 달라짐\nNode 미설치 → npm 실패\nnpm 실패 → build 실패\nbuild 실패 → Vercel 배포 실패\n에러의 원인이 되는 오류를 찾고 수정하는 게 어려웠습니다.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nTodo App\nTodo App\nTodo 추가 할 일이 없습니다. 새 항목을 추가해보세요!\ntodo-next-mu-flame.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n배포 구조 이해 (핵심 개념)\nVercel은 로컬 실행이 아니라 GitHub 코드 기반으로 자동 빌드·배포되는 구조\n즉, “내 PC 환경”이 아니라 “클라우드 환경에서 실행”\nNode.js 미설치로 인한 오류 → npm, build, dev 명령 자체가 실행 불가\nNode 버전, 패키지, 환경변수 차이로 → 동일 코드도 실행 결과 달라짐\nNode 미설치 → npm 실패\nnpm 실패 → build 실패\nbuild 실패 → Vercel 배포 실패\n에러의 원인이 되는 오류를 찾고 수정하는 게 어려웠습니다.\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nTodo App\nTodo App\nTodo 추가 할 일이 없습니다. 새 항목을 추가해보세요!\n[배포 URL 생략]\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "배포 구조 이해 (핵심 개념)\nVercel은 로컬 실행이 아니라 GitHub 코드 기반으로 자동 빌드·배포되는 구조\n즉, “내 PC 환경”이 아니라 “클라우드 환경에서 실행”\nNode.js 미설치로 인한 오류 → npm, build, dev 명령 자체가 실행 불가\nNode 버전, 패키지, 환경변수 차이로 → 동일 코드도 실행 결과 달라짐\nNode 미설치 → npm 실패\nnpm 실패 → build 실패\nbuild 실패 → Vercel 배포 실패\n에러의 원인이 되는 오류를 찾고 수정하는 게 어려웠습니다.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTEy/MDAxNzc1MjI1Nzc2ODIz.xOpmwR8YIVTUkhn1l9oIY1OEsoVKy4dZ6KjWky3BD4gg.CFYT6ei6o4LcejdU5apVT6hrn3RVC5xw1GGndADuHbMg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjYx/MDAxNzc1MjI2MDk2NTg3.b2s_il816d0H2zuYVdOWG0sOY_yPy4LFTWd4ZZFraUYg.kO_C6qSlgP-UWjaJTuT9MwOpiB0yb6sRy85kWl4k8B0g.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-next-mu-flame.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3330?menuid=154&referrerAllArticles=false"
         },
@@ -781,8 +694,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMiAg/MDAxNzc1MjIzMjEwNzgw.-hOdJpN8vH0PYdZwxJqdKsC4OvqOkA2i9sVkhWPgAPcg.BdC4Y6qCmU5FOM996gCz5JeN3WabIzYqTKP3jD2_61Mg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfNDAg/MDAxNzc1MjIzMjU1MTU4.8ysAaQv4znfdmXjvxcga_SLLM44UMNIDzTlqDuBZDqgg.4lfxudNrVFxFL-SJvh19uZeQNv2UBu1h1R_8s9bqVMkg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3325?menuid=154&referrerAllArticles=false"
         },
         "5": {
@@ -796,8 +707,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTk4/MDAxNzc1NDYwMzM3OTQw.D4QxYkLnG5P8-DNfT5ZAOT2v6-kVrZm5enbl0QmiXzMg.Ntn--bEP7pbyV1q2ozFCWzrbB6c1t452zmRU6371Hscg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTEx/MDAxNzc1NDYwNjQ4MDY5.m5oYGGf-0TfKJy01FUVn00S9kE_Jo9A9Q4TkYv8k2PYg.tcmbxTfr_sJ4dVpUU9pGt-lhLmtt921duKVFx_YqEVEg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3350?menuid=154&referrerAllArticles=false"
         }
       },
@@ -819,14 +728,10 @@ const STUDY_DATA = {
         "4": {
           "day": 4,
           "title": "[day4]vercel에 깃허브 연동해서 앱 배포,",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvercel과 깃허브 연동.\nvercel을 이용한 앱 배포.\n테스트 코드 작성명령\n✔ 실습한 내용을 캡처해주세요.\nTodo App\nTodo App\nto do 더블클릭으로 수정  ·  Enter 확인  ·  Esc 취소\ntodo-coral-one-98.vercel.app\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvercel과 깃허브 연동.\nvercel을 이용한 앱 배포.\n테스트 코드 작성명령\n✔ 실습한 내용을 캡처해주세요.\nTodo App\nTodo App\nto do 더블클릭으로 수정  ·  Enter 확인  ·  Esc 취소\n[배포 URL 생략]\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "vercel과 깃허브 연동.\nvercel을 이용한 앱 배포.\n테스트 코드 작성명령",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjYg/MDAxNzc1MTA4MzEwNTMw.p-p3FDdsXQAIkIvr1L7F7eIfCroXbq5pkmw2XgzLvd0g.g35kWlCAxpr_luYmfaok9lUVZ_XZ-PnbV92u-rqgQ0wg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-coral-one-98.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3302?menuid=154&referrerAllArticles=false"
         },
@@ -836,10 +741,6 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nmcp는 내일 해봐야겠어요.\n책 순서대로 하다보니 3일차와 4일차가 합쳐짐.\n명확하게 아직 잘 모르겠지만 클로드와의 협업으로 시간 순삭이네요.\n✔ 실습한 내용을 캡처해주세요.\nTodo App\nTodo App\nto do 더블클릭으로 수정  ·  Enter 확인  ·  Esc 취소\nm***********d.github.io\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "mcp는 내일 해봐야겠어요.\n책 순서대로 하다보니 3일차와 4일차가 합쳐짐.\n명확하게 아직 잘 모르겠지만 클로드와의 협업으로 시간 순삭이네요.",
           "images": [],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://m***********d.github.io/todo/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3301?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -850,8 +751,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjQ0/MDAxNzc1MTAwMTM5MjY2.WFvDmJEGf209yhbas-bSje-hGsT0L-1p_CLyCa_hlAIg.h5UYUW7XpNSrQ885SpzkPexJn_d666psIOUy5EZZ0Hcg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_122014.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3300?menuid=154&referrerAllArticles=false"
         },
         "1": {
@@ -862,8 +761,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjQg/MDAxNzc0OTI1NDQ1OTI3.KZLZ2Qxo7rjUy4vGs834Co4FEFmFD-exnFcxxSqMyKQg._mlgXJQEEO2_FVq5b5bA62UNbnslfi3-WF-6PXe_-XYg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_114541.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3258?menuid=154&referrerAllArticles=false&page=3"
         },
         "5": {
@@ -874,8 +771,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTM2/MDAxNzc1NDU0NzQwMTgy.QtQBaxQTfhnc-avfDVsUbqwDVJtAm-wDQM2LJLou9YQg.-atewMjkmWx-PNnkqlNxbOLLGuQrkiHTaRAtUdZMI1og.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-06_142624.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3348?menuid=154&referrerAllArticles=false"
         }
       },
@@ -909,10 +804,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjU5/MDAxNzc1MDQ3OTk1NjY0.IoJrJrfGlzy_e_tcrcZN3UKqjcMEvX9u3v4771z4V_Yg.lm6I-fDLEKo8dyWg2K40apJLdZA3cwZFVCaGoziRJTUg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQy/MDAxNzc1MDQ4MDM2ODAy.SDbDJY-JhJknKY7hTpYkuUL62ViQHQGakDpgpdLOJrYg.F2XSSgM73dpl79w9ed63bO_p56VQjeFrsrKINpL-yv4g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://l***********1.github.io/claudemd/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3286?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -925,8 +816,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjQ0/MDAxNzc0OTU4Mjc3NDEy.mxBbO6tmxg9v_t1k5-UfhYrmIVDkfhsj65F_V1zLThQg.ZR1lBpi7txDUqtTz9TOyMSb2xKTbmryznBwfga7_mGIg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfOTcg/MDAxNzc0OTU4NDE3MTY5.2_eJPtlqYmykpIUMMeJ5Ek2HVND4EKz1R_mUDYHXt7wg.CSdd4ue7HI_SutTPHbqwHT_kxvWeoTxKOD1aIAIbE_8g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3268?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -941,8 +830,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTEg/MDAxNzc0OTU3ODQ4Mzk5.eSaMfqUREbRxD3g-7qBJFbgtT4WLhiksViwrAFy8KLEg.rTRlnDvWIMx6iuqyKnn9nrnMgLQXAW_cNR3U8x6cE1wg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjYw/MDAxNzc0ODczNTM2NjAy.37vPv38iMWiGqrvJr7Li-gLKadPc1ITzJp0JzmoWrf8g.gaPixGLTyl-ObIJV2zLvP7ruLMlSPDWBo1kXvft8UCUg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3243?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
@@ -952,10 +839,6 @@ const STUDY_DATA = {
           "learned": "vercel 회원가입 및 깃허브 연동\nvercel에 배포\n테스트케이스 작성",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfODkg/MDAxNzc1MjIxODgxMzUw.y7CH8jPmkTDF3brxc4keZNWwJ9S3osY1YNvt_ajWWcgg.oDvsjLQMbq4dTDdyWehrGFyMUNDOF-7IdFhfmSHXbTsg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_145224.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://frontend-3wmqkh2j2-l***********1s-projects.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3324?menuid=154&referrerAllArticles=false"
         },
@@ -967,8 +850,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfMzEg/MDAxNzc1Mzk0NDQ5NzMx.-bDW7Zj9tpwa_mbannKK_S28-wgtnzY5RAgE28LXakog.cstuInsmsM184zesFd4AJxLXwAQ0A72ZUD-YaLgMLGwg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3345?menuid=154&referrerAllArticles=false"
         }
       },
@@ -994,10 +875,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQ4/MDAxNzc1MDQ2NTEyMjgy.SrlDG4N7Lft2cHHkBgMqUng6xKqw1Hl4-EaQyq7O18wg._WD4MO9v66l-GYgAlSw7uTp74bMHsZy8uEnP9kgjXIsg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_8.57.35.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://f**********o.github.io/ffe400/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3285?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -1008,8 +885,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNjcg/MDAxNzc0OTYxMDM5MzA4.COzsMymBt3FhQ0zkiOcU87DYbd1e9lNuTRpZDo10g0Yg.IwZ1OyQNI8hRplLtxS3TA0J0ZrD5hEzynlFsIowLCIMg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-31_%EC%98%A4%ED%9B%84_9.35.25.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3269?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1020,22 +895,15 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTU2/MDAxNzc0ODc3NTYwMDQ5.TSD1sl9nDf-dlLX0dfH2rxCFfPVpr5uBvRn3MPjiAiMg.aqQC_zMeC3lSvoaRyr1Qv33BFK6OXC8WNmBnEg1yVUMg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3245?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
           "day": 4,
           "title": "[day4]4일차 스터디 인증[vercel/핵심기능 테스트코드]",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nNext.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\nhttps://todo-nextjs-woad-nu.vercel.app\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\ntodo-nextjs-woad-nu.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\nhttps://todo-nextjs-woad-nu.vercel.app\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\ntodo-nextjs-woad-nu.vercel.app",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nNext.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\n[배포 URL 생략]\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\n[배포 URL 생략]\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\ntodo 앱에 새로운 기능 몇가지를 넣어보았습니당...!\n[배포 URL 생략]\n오늘 할 일\n오늘 할 일 추가 전체 진행 중 완료 할 일이 없어요 🎉 0 개 남음 완료 항목 삭제\n[배포 URL 생략]",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTQy/MDAxNzc1MTM1MjczMjYw.h1aH9C1XLqacE2pTNicF7yF_jU8N5PR3gPNfZBiqJH0g.JSHE-WCnUubeHW2m3phrzetZAApyUXZg0wnDFHc2FmYg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_10.04.47.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-nextjs-woad-nu.vercel.app/",
-            "https://todo-nextjs-woad-nu.vercel.app"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3312?menuid=154&referrerAllArticles=false"
         },
@@ -1048,8 +916,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfMTQ2/MDAxNzc1Mzg5NjgyMTM4.Qo1CsMXFfMwhqvtzmVpL0uDErw-mHTVfN2eF2bXAdgIg.nwK5YKPwZlITMqN67Oii-C-uHevdyCR2OjiVXv9rfgIg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfODEg/MDAxNzc1Mzg5OTY2MzUw.sm6etC0FuuOHvGLv0aLPFgzrFpyVO-Oqq-9BO0OjEn8g.oHWhysAv2M8YZaY4dDXASeoJl58Wr2IhvKOowZX5P3sg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3344?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1075,10 +941,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjgx/MDAxNzc1MDU3MzQ1MDg4.OFzpZrtzKp4Dy4obVnxbyRTXesdoHEiVfOnJCkaZ8B4g.eDxsFedePEplFdJmtlpliOMM6euyj1emQXmUrwD9Ysgg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002024.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg5/MDAxNzc1MDU3MzU3ODE1.5AWH2NH7ULiYngw5pnhklYb9BWeuUhxOOmXxsq7R54wg.gsx9bxoANuspXIfDzBNMdpbesOFDgmKHFqURY8mpQW0g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-02_002448.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://i*****************u.github.io/todo-app/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3295?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1089,8 +951,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTc5/MDAxNzc1MDUzNjY2NjAx.Leu1iPlw6wWGVnDhtJDsmBxt9N13pEXvWYxAtJ0OhTgg.q7Xj7a6U1_oZ4mb1yd7pHpHdIXGp_zwUkALo4PBJT2sg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-01_232512.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3290?menuid=154&referrerAllArticles=false&page=2"
         },
         "1": {
@@ -1101,8 +961,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTEg/MDAxNzc1MDQ1OTAyOTc4.FJ8QhYuu3-K3fGgNgVVrFsFSJkKWW41oKrGC66jJ9pMg.RzKgDXFDTs85DsnKiof5LX0xdnqxHetUjf-vWgR7rLMg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-01_203427.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3284?menuid=154&referrerAllArticles=false&page=2"
         },
         "5": {
@@ -1113,22 +971,15 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfNjQg/MDAxNzc1MzY1OTQ3Njkw.BEZqw1-FimgWo8N1dMxXO3RDLW5Kh9dN7bEOAaV4rRog.2S2Ijo5B4ilitdexFKCAi3L90Vt8LdR107ueFMmesfgg.JPEG/KakaoTalk_20260405_140029121.jpg?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3343?menuid=154&referrerAllArticles=false"
         },
         "4": {
           "day": 4,
           "title": "[day4]Vercel배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nCLUDE.MD 라는 것에 대해서 알게 됨\n아직도 생소한 것이 많아서, 더 알아가야 할 것 같아요.\n✔ 실습한 내용을 캡처해주세요.\nhttps://todo-nu-gray-71.vercel.app/\nTodo\nTodo 추가 전체 0 진행중 0 완료 0 할 일을 추가해보세요!\ntodo-nu-gray-71.vercel.app\nhttps://todo-next-khaki-beta.vercel.app/\nCreate Next App\nTODO App Next.js로 만든 간단한 할 일 앱 추가 남은 할 일: 0 완료 항목 지우기 아직 할 일이 없습니다.\ntodo-next-khaki-beta.vercel.app\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nCLUDE.MD 라는 것에 대해서 알게 됨\n아직도 생소한 것이 많아서, 더 알아가야 할 것 같아요.\n✔ 실습한 내용을 캡처해주세요.\n[배포 URL 생략]\nTodo\nTodo 추가 전체 0 진행중 0 완료 0 할 일을 추가해보세요!\n[배포 URL 생략]\n[배포 URL 생략]\nCreate Next App\nTODO App Next.js로 만든 간단한 할 일 앱 추가 남은 할 일: 0 완료 항목 지우기 아직 할 일이 없습니다.\n[배포 URL 생략]\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "CLUDE.MD 라는 것에 대해서 알게 됨\n아직도 생소한 것이 많아서, 더 알아가야 할 것 같아요.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTA3/MDAxNzc1MjMxNjE3MTIy.VP1TvJWZ3B465n2UZWzOg0fwddNwZcL88lWgkVcrMpYg.ywBof8e9XW9Qb1HgLumR3BSnbMcdq1p0kC8Xs3sekhUg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2026-04-04_004906.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-nu-gray-71.vercel.app/",
-            "https://todo-next-khaki-beta.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3334?menuid=154&referrerAllArticles=false"
         }
@@ -1149,14 +1000,10 @@ const STUDY_DATA = {
         "4": {
           "day": 4,
           "title": "[day4]Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- VScode 안의 Go Live는 HTML/CSS/JS 같은 정적 파일 확인용이라는 사실\n- 이번에 배포 설정 실수로 클로드 코드 소스 코드가 외부에 유출되었다는 소식을 들었어요. 저는 봐도 잘 모르지만 터미널 UI 구성 방식과 에이전트 워크플로우 설계 구조까지 공개되어 개발자들 사이에서는 엔트로픽같은 거대 AI 기업의 CLI 설계를 들여다볼 수 있는 사례가 된 거라 이 소스 코드를 보고 클로드코드를 더욱 효율적으로 활용하는 팁을 공유 중인 분위기더라구요. 지나가다 그런 내용을 보고 정리해봤어요.\n① 서브에이전트 & 실행 모델 구조\n✔ 핵심 내용\n서브에이전트 여러 개를 동시에 돌려도 비용은 거의 동일\n이유:\n부모 컨텍스트를 바이트 단위로 복사(fork)\nAPI가 이를 캐시\n여러 에이전트가 같은 캐시 공유\n👉 그래서 5개 돌려도 1개 돌리는 것과 비용이 거의 비슷\n✔ 실행 모델 3가지\n1. fork\n부모 컨텍스트 그대로 복사\n캐시 공유 → 가장 효율적\n2. teammate\ntmux / iTerm 같은 별도 터미널 패널\n파일 기반 메시지로 서로 통신\n3. worktree\nGit 워크트리를 따로 만들어서\n에이전트별 브랜치를 분리\n✔ 의미\n보안 감사\n리팩토링\n테스트 작성\n문서 업데이트\n버그 수정\n👉 이걸 동시에 병렬로 실행 가능\n✔ 초보 해설\n👉 지금 너는:\n하나씩 시킴 (순차 작업)\n👉 이 구조는:\n여러 Claude를 동시에 일시키는 구조\n예:\nA: 코드 고침\nB: 테스트 작성\nC: 문서 정리\n👉 동시에 돌아감 = 시간 단축 + 효율 증가\n② 권한 팝업 = 설정 실패\n✔ 핵심 내용\n“이 작업 허용할까요?” 계속 뜨면\n👉 설정 안 한 상태\n✔ 해결 방법\nsettings.json에 허용 범위 지정\n예:\nBash(npm*)\nBash(git *)\nEdit(src/**)\n✔ 권한 모드\nmanual → 매번 클릭\nauto → LLM이 자동 판단 (추천)\n✔ 초보 해설\n👉 지금 상태:\n클릭 → 클릭 → 클릭 반복\n👉 올바른 상태:\n한 번 설정 → 자동 실행\n✔ 핵심\n👉 이건 기능이 아니라 설정 문제다\n③ 컨텍스트 압축 전략 (5가지)\n✔ 핵심 내용\n컨텍스트 넘침 문제 해결을 위해 5가지 전략 존재\n✔ 종류\n1. microcompact\n오래된 tool 결과 삭제\n2. context collapse\n대화 구간 요약\n3. session memory\n중요한 정보만 파일로 분리 저장\n4. full compact\n전체 히스토리 요약\n5. PTL truncation\n가장 오래된 메시지 삭제\n✔ 핵심 조언\n👉 /compact를 수동 세이브처럼 사용\n✔ 초보 해설\n👉 Claude 특징:\n대화 길어지면 멍청해짐\n👉 해결:\n중요한 것만 남기고\n나머지 버림\n✔ 핵심\n👉 자동 압축만 믿으면 중요한 것도 날아간다\n④ Hook 시스템 & 세션 관리\n✔ Hook = 확장 API\n라이프사이클 이벤트 25개 이상\n✔ 주요 Hook\nPreToolUse → 실행 전 검사\nPostToolUse → 실행 후 처리\nUserPromptSubmit → 입력 가공\nSessionStart / End → 세션 관리\n✔ Hook 종류\ncommand → 쉘 실행\nprompt → LLM에 맥락 추가\nagent → 검증 루프\nHTTP → 웹 요청\nfunction → JS 실행\n✔ 중요한 포인트\nUserPromptSubmit\n👉 메시지 보낼 때 자동으로:\n테스트 결과\ngit diff\n붙여줌\n👉 반복 입력 필요 없음\n✔ 세션 관리\n모든 대화는 JSONL 파일로 저장됨\n명령어:\n--continue → 마지막 이어가기\n--resume → 특정 세션 불러오기\n--fork-session → 과거에서 분기\n✔ 핵심 개념\n👉 세션 이어가면:\nmemory 쌓임\n작업 맥락 유지됨\n✔ 초보 해설\n👉 매번 새로 시작 =\nIDE를 매번 껐다 켜는 것과 동일\n⑤ 도구 처리 방식 (병렬 vs 순차)\n✔ 핵심 내용\n도구 60개 이상 존재\n✔ 실행 방식\n읽기 (Read)\n👉 병렬 처리\n예:\n파일 10개 → 동시에 읽음\n쓰기 (Write)\n👉 순차 처리\n예:\n파일 3개 수정 → 하나씩 처리\n👉 이유: 충돌 방지\n✔ MCP 서버\n지연 로딩 방식\n사용 안 하면 비용 0\n✔ 초보 해설\n👉 “많이 연결해도 괜찮음”\n👉 “실제로 쓸 때만 비용 발생”\n⑥ 중단(Escape) 전략\n✔ 핵심 내용\n전체 구조 = 비동기 제너레이터 기반\n✔ 동작\nEscape 누르면:\n현재 작업만 중단\n기존 맥락 유지\n✔ 핵심\n👉 잘못된 방향이면 기다리지 말고 끊어라\n✔ 초보 해설\n👉 AI도 틀린 방향으로 갈 수 있음\n👉 이때:\n끝까지 기다리지 말고\n바로 끊고 다시 지시\n⑦ 결론 (핵심 메시지)\n✔ 잘 쓰는 사람 특징\n프롬프트 잘 쓰는 게 아님\n✔ 진짜 차이\n설정 해둠\n병렬 실행함\nHook 걸어둠\n세션 이어감\n✔ 본질\n👉 Claude Code = 터미널 채팅 ❌\n👉 Claude Code = 에이전트 오케스트레이션 플랫폼 ⭕\n⑧ Escape 전략 (재강조)\n✔ 문제\nAI 루프 빠짐\n예:\n같은 코드 반복 수정\n문제 해결 못함\n✔ 해결\n강제 종료\n새 세션 시작\n⑨ Hook 구조 요약\n✔ 역할\nAI 행동 중간 제어\n✔ 핵심 기능\n실행 전 검사\n실행 후 처리\n입력 자동 가공\n세션 관리\n✔ 한 줄\n👉 “자동화 규칙 엔진”\n⑩ 최종 결론\n✔ Claude Code의 본질\n코드 생성기 ❌\n자동화 개발 시스템 ⭕\n✔ 중요한 것\n프롬프트 ❌\n구조 설계 ⭕\n✔ 실습한 내용을 캡처해주세요.\nVercel 배포는 page.tsx 적용이랑 Next.js 실행될 때마다 자동 생성된다는 캐시 파일을 자꾸 커밋해버리는 바람에 애를 먹었습니다. 다시 지우는 것도 일이더라구요ㅡㅡ\nhttps://study-todo-jxawweulc-h********2-5593s-projects.vercel.app/\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- VScode 안의 Go Live는 HTML/CSS/JS 같은 정적 파일 확인용이라는 사실\n- 이번에 배포 설정 실수로 클로드 코드 소스 코드가 외부에 유출되었다는 소식을 들었어요. 저는 봐도 잘 모르지만 터미널 UI 구성 방식과 에이전트 워크플로우 설계 구조까지 공개되어 개발자들 사이에서는 엔트로픽같은 거대 AI 기업의 CLI 설계를 들여다볼 수 있는 사례가 된 거라 이 소스 코드를 보고 클로드코드를 더욱 효율적으로 활용하는 팁을 공유 중인 분위기더라구요. 지나가다 그런 내용을 보고 정리해봤어요.\n① 서브에이전트 & 실행 모델 구조\n✔ 핵심 내용\n서브에이전트 여러 개를 동시에 돌려도 비용은 거의 동일\n이유:\n부모 컨텍스트를 바이트 단위로 복사(fork)\nAPI가 이를 캐시\n여러 에이전트가 같은 캐시 공유\n👉 그래서 5개 돌려도 1개 돌리는 것과 비용이 거의 비슷\n✔ 실행 모델 3가지\n1. fork\n부모 컨텍스트 그대로 복사\n캐시 공유 → 가장 효율적\n2. teammate\ntmux / iTerm 같은 별도 터미널 패널\n파일 기반 메시지로 서로 통신\n3. worktree\nGit 워크트리를 따로 만들어서\n에이전트별 브랜치를 분리\n✔ 의미\n보안 감사\n리팩토링\n테스트 작성\n문서 업데이트\n버그 수정\n👉 이걸 동시에 병렬로 실행 가능\n✔ 초보 해설\n👉 지금 너는:\n하나씩 시킴 (순차 작업)\n👉 이 구조는:\n여러 Claude를 동시에 일시키는 구조\n예:\nA: 코드 고침\nB: 테스트 작성\nC: 문서 정리\n👉 동시에 돌아감 = 시간 단축 + 효율 증가\n② 권한 팝업 = 설정 실패\n✔ 핵심 내용\n“이 작업 허용할까요?” 계속 뜨면\n👉 설정 안 한 상태\n✔ 해결 방법\nsettings.json에 허용 범위 지정\n예:\nBash(npm*)\nBash(git *)\nEdit(src/**)\n✔ 권한 모드\nmanual → 매번 클릭\nauto → LLM이 자동 판단 (추천)\n✔ 초보 해설\n👉 지금 상태:\n클릭 → 클릭 → 클릭 반복\n👉 올바른 상태:\n한 번 설정 → 자동 실행\n✔ 핵심\n👉 이건 기능이 아니라 설정 문제다\n③ 컨텍스트 압축 전략 (5가지)\n✔ 핵심 내용\n컨텍스트 넘침 문제 해결을 위해 5가지 전략 존재\n✔ 종류\n1. microcompact\n오래된 tool 결과 삭제\n2. context collapse\n대화 구간 요약\n3. session memory\n중요한 정보만 파일로 분리 저장\n4. full compact\n전체 히스토리 요약\n5. PTL truncation\n가장 오래된 메시지 삭제\n✔ 핵심 조언\n👉 /compact를 수동 세이브처럼 사용\n✔ 초보 해설\n👉 Claude 특징:\n대화 길어지면 멍청해짐\n👉 해결:\n중요한 것만 남기고\n나머지 버림\n✔ 핵심\n👉 자동 압축만 믿으면 중요한 것도 날아간다\n④ Hook 시스템 & 세션 관리\n✔ Hook = 확장 API\n라이프사이클 이벤트 25개 이상\n✔ 주요 Hook\nPreToolUse → 실행 전 검사\nPostToolUse → 실행 후 처리\nUserPromptSubmit → 입력 가공\nSessionStart / End → 세션 관리\n✔ Hook 종류\ncommand → 쉘 실행\nprompt → LLM에 맥락 추가\nagent → 검증 루프\nHTTP → 웹 요청\nfunction → JS 실행\n✔ 중요한 포인트\nUserPromptSubmit\n👉 메시지 보낼 때 자동으로:\n테스트 결과\ngit diff\n붙여줌\n👉 반복 입력 필요 없음\n✔ 세션 관리\n모든 대화는 JSONL 파일로 저장됨\n명령어:\n--continue → 마지막 이어가기\n--resume → 특정 세션 불러오기\n--fork-session → 과거에서 분기\n✔ 핵심 개념\n👉 세션 이어가면:\nmemory 쌓임\n작업 맥락 유지됨\n✔ 초보 해설\n👉 매번 새로 시작 =\nIDE를 매번 껐다 켜는 것과 동일\n⑤ 도구 처리 방식 (병렬 vs 순차)\n✔ 핵심 내용\n도구 60개 이상 존재\n✔ 실행 방식\n읽기 (Read)\n👉 병렬 처리\n예:\n파일 10개 → 동시에 읽음\n쓰기 (Write)\n👉 순차 처리\n예:\n파일 3개 수정 → 하나씩 처리\n👉 이유: 충돌 방지\n✔ MCP 서버\n지연 로딩 방식\n사용 안 하면 비용 0\n✔ 초보 해설\n👉 “많이 연결해도 괜찮음”\n👉 “실제로 쓸 때만 비용 발생”\n⑥ 중단(Escape) 전략\n✔ 핵심 내용\n전체 구조 = 비동기 제너레이터 기반\n✔ 동작\nEscape 누르면:\n현재 작업만 중단\n기존 맥락 유지\n✔ 핵심\n👉 잘못된 방향이면 기다리지 말고 끊어라\n✔ 초보 해설\n👉 AI도 틀린 방향으로 갈 수 있음\n👉 이때:\n끝까지 기다리지 말고\n바로 끊고 다시 지시\n⑦ 결론 (핵심 메시지)\n✔ 잘 쓰는 사람 특징\n프롬프트 잘 쓰는 게 아님\n✔ 진짜 차이\n설정 해둠\n병렬 실행함\nHook 걸어둠\n세션 이어감\n✔ 본질\n👉 Claude Code = 터미널 채팅 ❌\n👉 Claude Code = 에이전트 오케스트레이션 플랫폼 ⭕\n⑧ Escape 전략 (재강조)\n✔ 문제\nAI 루프 빠짐\n예:\n같은 코드 반복 수정\n문제 해결 못함\n✔ 해결\n강제 종료\n새 세션 시작\n⑨ Hook 구조 요약\n✔ 역할\nAI 행동 중간 제어\n✔ 핵심 기능\n실행 전 검사\n실행 후 처리\n입력 자동 가공\n세션 관리\n✔ 한 줄\n👉 “자동화 규칙 엔진”\n⑩ 최종 결론\n✔ Claude Code의 본질\n코드 생성기 ❌\n자동화 개발 시스템 ⭕\n✔ 중요한 것\n프롬프트 ❌\n구조 설계 ⭕\n✔ 실습한 내용을 캡처해주세요.\nVercel 배포는 page.tsx 적용이랑 Next.js 실행될 때마다 자동 생성된다는 캐시 파일을 자꾸 커밋해버리는 바람에 애를 먹었습니다. 다시 지우는 것도 일이더라구요ㅡㅡ\nhttps://study-todo-jxawweulc-h********[배포 URL 생략]/\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- VScode 안의 Go Live는 HTML/CSS/JS 같은 정적 파일 확인용이라는 사실\n- 이번에 배포 설정 실수로 클로드 코드 소스 코드가 외부에 유출되었다는 소식을 들었어요. 저는 봐도 잘 모르지만 터미널 UI 구성 방식과 에이전트 워크플로우 설계 구조까지 공개되어 개발자들 사이에서는 엔트로픽같은 거대 AI 기업의 CLI 설계를 들여다볼 수 있는 사례가 된 거라 이 소스 코드를 보고 클로드코드를 더욱 효율적으로 활용하는 팁을 공유 중인 분위기더라구요. 지나가다 그런 내용을 보고 정리해봤어요.\n① 서브에이전트 & 실행 모델 구조",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjQ3/MDAxNzc1MTEzNjU2NjI3.zGbV2Sx3_xdBme7HzaTK6yniYZHMfWpTcwbrdJRZbEkg.Zxd8YRcxKgaDU3TI32443SCGolY4i7hJAH3GTeJK3uAg.PNG/%7B6DB02B83-FE2F-4D9C-95FD-9139F7ED2378%7D.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://study-todo-jxawweulc-h********2-5593s-projects.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3304?menuid=154&referrerAllArticles=false"
         },
@@ -1168,10 +1015,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjIz/MDAxNzc1MDU3NjkyODI5.VxtVAfQDFFCb6xOB9_IULuGTH8Sz0BajEWyg3KyGKXIg.nQrXu0a-MBL2dztjUMF6TL1CZ-BS3dB17TX2xa5Nh8cg.PNG/%7B61B406F2-8D52-4B20-B926-294E43D267DA%7D.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTQ2/MDAxNzc1MDU4OTg2MDY0.kvDlZ2M8GZqsrDZj07pbpKLdLoNiaSQu_wSXl00ICFog.gEOqSnjCTYZa5qTjGVfOU8GlEQXsHqodJ-4Ek61Dr4Qg.PNG/%7BA1009071-B85B-4543-9428-C15C623BAE92%7D.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://h************t.github.io/vibe-code-study/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3296?menuid=154&referrerAllArticles=false"
         },
@@ -1186,10 +1029,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjUz/MDAxNzc0OTU1MTk0NjY0.ZQDMQ-sBxjbTLzbhKWhIJXP1-mmLtB_xr296pgLlCaUg.uw9CJzmY6WKJuRkTD3qL430O8SG82oaC592XuXs9k-4g.PNG/%7BC19F7973-FC88-449A-AAB0-F3B73849B610%7D.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTQw/MDAxNzc0OTU0ODIxMzgz.4BPk9nUUMSLz3gIbxe_cXh_7Es1Xo7vh77LntixLcKwg.w6b7UaSa6jpEEU6mvefHEsf-hV4vNSPWNGPou4ZyIkcg.PNG/%7B7CE8229F-2A40-464D-911A-1A54238C0923%7D.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://h************t.github.io/vibe-code-study/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3267?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1200,14 +1039,12 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTM4/MDAxNzc0ODcxOTA5NzQx.UnrrVixRJyzRFFE8HmelwyMtOuV0I7bI_aKf2TyhY3Ag.jKF0TU5wIsLNny4nF0HIxxinzdalwF_1-KPiTBM3Y38g.PNG/%7B282D9CEB-A5CC-4B1A-9E44-7DFEBDDE953B%7D.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3241?menuid=154&referrerAllArticles=false&page=4"
         },
         "5": {
           "day": 5,
           "title": "[day5]챗봇 설계 + 구현",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 5 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- MCP 활용방법\n> Context7 = 최신 공식 문서/라이브러리 문서 찾아주는 MCP\n> Serena = 코드 구조를 “심볼 단위”로 이해하고 찾고 고치는 코딩용 MCP\n- 파일 여러 개에 걸친 구조 수정\n- 특정 함수/컴포넌트 참조 관계 분석\n- “이 심볼 어디서 쓰이는지 찾아줘”\n- “이 컴포넌트 구조만 바꿔줘”\n- 큰 프로젝트에서 Claude가 파일 전체를 매번 읽지 않게 하고 싶을 때\n- LSP를 프로젝트 단위로 실행해야하므로 스코프 설치x. 프로젝트마다 서버를 다시 설치해야함\n- Context7과 달리 자동으로 연동되어 작동하기때문에 실행할 때마다 호출할 필요가 없음\n> Playwright = 브라우저를 실제로 열어서 클릭, 입력, 화면 확인, 테스트하는 MCP\n- 태스크 단위 설정/ 리스트 기반 구현(단계를 나눠 구현하는 것이 효율적)\n✔ 실습한 내용을 캡처해주세요.\n챗봇에 사용할 AI 모델/서비스)\nAnthropic Claude API (claude-sonnet-4-5)\n이유:\n- Next.js랑 구조적으로 잘 맞다는 점.\n- 별도 서버 없이 API 구성 가능한 점.\n- 개발 난이도 대비 구현 효율이 좋은 점.\n- 크레딧 부족에 멈췄습니다 나머지는 이후에 보고 업뎃하겠습니다.\nUI 디버깅 및 Vercel 재배포)\nhttps://study-todo-app-l1cp.vercel.app/\nCreate Next App\n☀️ Morning Circle 1 / 3 완료 추가 🏋️ GYM Session Active For: 0 min 진행중 ✏️ ☕ Morning Stretch Last Updated: Today 시작 ✏️ 🥦 Vegetable Diet 오늘 완수 완료 ✏️ 🌙 Evening Circle 0 / 2 완료 추가 📚 Reading Last Updated: Today 시작 ✏️ 🎮 Playing Games Last Updated: Today 시작 ✏️\nstudy-todo-app-l1cp.vercel.app\nPlaywright, Serena MCP 설치)\nContext7 활용)\n작업단위 세분화 및 단계적 태스크 수행)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 5 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n- MCP 활용방법\n> Context7 = 최신 공식 문서/라이브러리 문서 찾아주는 MCP\n> Serena = 코드 구조를 “심볼 단위”로 이해하고 찾고 고치는 코딩용 MCP\n- 파일 여러 개에 걸친 구조 수정\n- 특정 함수/컴포넌트 참조 관계 분석\n- “이 심볼 어디서 쓰이는지 찾아줘”\n- “이 컴포넌트 구조만 바꿔줘”\n- 큰 프로젝트에서 Claude가 파일 전체를 매번 읽지 않게 하고 싶을 때\n- LSP를 프로젝트 단위로 실행해야하므로 스코프 설치x. 프로젝트마다 서버를 다시 설치해야함\n- Context7과 달리 자동으로 연동되어 작동하기때문에 실행할 때마다 호출할 필요가 없음\n> Playwright = 브라우저를 실제로 열어서 클릭, 입력, 화면 확인, 테스트하는 MCP\n- 태스크 단위 설정/ 리스트 기반 구현(단계를 나눠 구현하는 것이 효율적)\n✔ 실습한 내용을 캡처해주세요.\n챗봇에 사용할 AI 모델/서비스)\nAnthropic Claude API (claude-sonnet-4-5)\n이유:\n- Next.js랑 구조적으로 잘 맞다는 점.\n- 별도 서버 없이 API 구성 가능한 점.\n- 개발 난이도 대비 구현 효율이 좋은 점.\n- 크레딧 부족에 멈췄습니다 나머지는 이후에 보고 업뎃하겠습니다.\nUI 디버깅 및 Vercel 재배포)\n[배포 URL 생략]\nCreate Next App\n☀️ Morning Circle 1 / 3 완료 추가 🏋️ GYM Session Active For: 0 min 진행중 ✏️ ☕ Morning Stretch Last Updated: Today 시작 ✏️ 🥦 Vegetable Diet 오늘 완수 완료 ✏️ 🌙 Evening Circle 0 / 2 완료 추가 📚 Reading Last Updated: Today 시작 ✏️ 🎮 Playing Games Last Updated: Today 시작 ✏️\n[배포 URL 생략]\nPlaywright, Serena MCP 설치)\nContext7 활용)\n작업단위 세분화 및 단계적 태스크 수행)\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "- MCP 활용방법\n> Context7 = 최신 공식 문서/라이브러리 문서 찾아주는 MCP\n> Serena = 코드 구조를 “심볼 단위”로 이해하고 찾고 고치는 코딩용 MCP\n- 파일 여러 개에 걸친 구조 수정\n- 특정 함수/컴포넌트 참조 관계 분석\n- “이 심볼 어디서 쓰이는지 찾아줘”\n- “이 컴포넌트 구조만 바꿔줘”\n- 큰 프로젝트에서 Claude가 파일 전체를 매번 읽지 않게 하고 싶을 때\n- LSP를 프로젝트 단위로 실행해야하므로 스코프 설치x. 프로젝트마다 서버를 다시 설치해야함\n- Context7과 달리 자동으로 연동되어 작동하기때문에 실행할 때마다 호출할 필요가 없음\n> Playwright = 브라우저를 실제로 열어서 클릭, 입력, 화면 확인, 테스트하는 MCP\n- 태스크 단위 설정/ 리스트 기반 구현(단계를 나눠 구현하는 것이 효율적)",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfOCAg/MDAxNzc1MjUwNDQxOTc5.MWSCL3feXglg9zVMUi_cjInZ3qOfEvnb0x5mVukdx_Ig.sZhNAizSn5HNFjzINrnS9Z4XHHHufVp_w-2tbFhdXpwg.PNG/%7BEA2AA2F9-D3D4-47F8-A563-525CCE159871%7D.png?type=w1600",
@@ -1215,10 +1052,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfNDQg/MDAxNzc1MjQ3NDkyNDIy.s66bQ8GPgl_ozRr0EsoAwcnkMMbo2lQ255VHFpy2vYIg.gCLd43wXw4w2zlKmlerlIUgmzla3TZPNX9zDpNVcDlog.PNG/%7B745C6DB4-34DD-4D7F-83C1-BF720BEEAA9C%7D.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMzMg/MDAxNzc1MjQ3Nzg4OTA5.healuJmHkErLGIDZxZdyhjeF7KYoNdnacPY4SNUrrosg.4Rfq_WC6iMWV7joatr-GR6cfv8N8vTXDovNENed9J_Yg.PNG/%7B90779322-CE6A-4EB5-950C-50ADDCCE5D33%7D.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMjYy/MDAxNzc1MjQ4Nzk0Mzg5.Iwx2rMuhfG6mWsf5KNT-1sAe-w2z14gChIuOXlv9YyIg.qbhT6GmC4PsHzg87JfGNmb5PMKtK44zmHTdyilGzz_Eg.PNG/%7BC4A9F10F-04AE-45BC-B7A0-1EF0C3A5F623%7D.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://study-todo-app-l1cp.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3336?menuid=154&referrerAllArticles=false"
         }
@@ -1245,10 +1078,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjk2/MDAxNzc1MDkzMDgyODc4.DTet_-LF0QGpU19r6Lq6kKMkTQnDTarJraxdUqFmAjwg.3cTwf4VY6n_HqlmFpzGVtQS_nkfYYv3RzvEd-vpyJZwg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://l************m.github.io/todo/todo.html"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3298?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1264,8 +1093,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTQ1/MDAxNzc0OTQ2MTc2MzMw.2Arizw1D-k_hu98Mu_1Gsms3xmWZtbIvCtC0H5FxGsMg.95qdZ-D80QWEFj4twpboPmocckvO3pj6cuJhEYLZMm4g.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjI2/MDAxNzc0OTQ2NDA0NjE1.S2rem0p1Hcdo0IR7vbaYzpJkt4bQ-EeDvlB9jn1ddsYg.-y-9eCYLN_leBHnH073Oj2P4t1UYC-UNgfP9T5VyFWYg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3263?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1276,23 +1103,16 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMzcg/MDAxNzc0ODUyMzU1MzMw.anUwJGPoFuyNj4STI3MyLLf6n4sEtnkNVuIbJKb2LPog.T6mpCGTqYGu_krZZusP4o0eP1MfUhxj0OjI90jdnYzwg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3231?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
           "day": 4,
           "title": "[day4]Vercel 배포+디버깅+테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nNext.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nhttps://todo-delta-three-74.vercel.app\n✔ 실습한 내용을 캡처해주세요.\n앱이 올바로 작동하는지 자동으로 확인해주는 코드를 사용하여 디버깅 절차를 여러번 걸쳐 테스트를 함\n일단 오늘도 이렇게 한발짝을 걸었습니다!!\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
-          "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\nhttps://todo-delta-three-74.vercel.app",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nNext.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n[배포 URL 생략]\n✔ 실습한 내용을 캡처해주세요.\n앱이 올바로 작동하는지 자동으로 확인해주는 코드를 사용하여 디버깅 절차를 여러번 걸쳐 테스트를 함\n일단 오늘도 이렇게 한발짝을 걸었습니다!!\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "learned": "Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n[배포 URL 생략]",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjEg/MDAxNzc1MTkzNzg5MTU2.w1Z07h_2-LY-9qCr83fefv-BO9WLc5Mz19KJjt10jasg.Do9FA29HJzcZwmeLsgDkgKpU0jvQegn8YxkuNpiRf6sg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQx/MDAxNzc1MTkzODU4OTA2.D0XYC-ExjwEu_Xk5CuU957Urq1b5voJty7qhYkn0-HIg.DfkhxcyQsawIp4n-f8cp_5D9Niu2z81a6J8xYId94-Ug.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_134928.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-delta-three-74.vercel.app/",
-            "https://todo-delta-three-74.vercel.app"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3321?menuid=154&referrerAllArticles=false"
         },
@@ -1305,8 +1125,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjUx/MDAxNzc1MjI2MDkyODk0.SPOqU784irStCNqeISKTrjrcuQ3kFrtkqZPUfuH5Xskg.jPTVjxamQ-32fy684ioTReTb4WMahLqlNep2RIYiEtIg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTA2/MDAxNzc1MjI4NTQ0ODI0.qCW-8UTYhStnLh71JirKLGeE6QV7YNXg9GNcWjGrjPsg.zmyKjCJmjpDIBO21Yf_zi1ZkZ4194DFpbWeYHzMpSRUg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3333?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1332,10 +1150,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTI0/MDAxNzc1MDU3MTY0MTg1.IGjJo9ntwekvitMi3jrwjKmfyQW2j3GKzt8gKpAR0y8g.cFCuTqPeHam3Ril9XvBDDMR4Z1XtaJ1UUHpkE6APbD0g.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjYx/MDAxNzc1MDU3MTgxNTI2.5WHBuc3WgorhOi-MBFm-MB6---OBVJONKNmdCDCCzkgg.iOAwiJdyVKovSq8E6BA43Dd0WBn7yj0y1VuRMkc6yZsg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [
-            "https://github.com/p*********s/todo2"
-          ],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3294?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1346,8 +1160,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTI2/MDAxNzc0OTY5MTgxMjIz.u07EhrBxVX55AVtK1eiN_xpwgt7ZiYECA2opVvyuqnAg.akFw5ccaKl8_DA_dxgD-12TRUXJr8HzlKDLKBFCInm0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3275?menuid=154&referrerAllArticles=false&page=2"
         },
         "1": {
@@ -1358,22 +1170,16 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjQg/MDAxNzc0ODgwMzcxMjYx.UP5lEmpRJctEL7PnCmAv9I_I0zvnGfb3ECUzZ2RdVUEg.Ohlx0z25FXHEhH4oWrQcLHb5fM9i33XSntNdjO57qA4g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3249?menuid=154&referrerAllArticles=false&page=4"
         },
         "4": {
           "day": 4,
           "title": "[day4]Vercel 배포 + 디버깅 + 테스트",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvercel을 통한 자동배포\n근데 매우 몹시 엄청 어렵다.....\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n할 일 목록\n할 일 목록\n✅ 할 일 목록 추가 전체 진행 중 (0) 완료 (0) 할 일이 없습니다 🎉 0 개 남음\ntodo2-alpha-three.vercel.app\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\nvercel을 통한 자동배포\n근데 매우 몹시 엄청 어렵다.....\n✔ 실습한 내용을 캡처해주세요.\n✔️ Next.js TODO 앱을 만들고, Vercel에 배포하세요. 배포 URL을 인증글에 공유하세요.\n할 일 목록\n할 일 목록\n✅ 할 일 목록 추가 전체 진행 중 (0) 완료 (0) 할 일이 없습니다 🎉 0 개 남음\n[배포 URL 생략]\n✔️ “핵심 기능의 테스트 코드를 작성해줘”라고 지시하고, 테스트 실행 결과를 캡처하세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "vercel을 통한 자동배포\n근데 매우 몹시 엄청 어렵다.....",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfOTYg/MDAxNzc1MjI4NzUxMzUz.h46VVKQOn2ec_vqUoZ7Q5gL7KwfR3Ur5uqiQ753umUcg.tNqUrVhqAh4un07Q0USiD2ry9QCPYQLskHmqWwCy-XYg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTQ3/MDAxNzc1MjI4ODU3ODEx.T0O4IRg8osUYy913g0F4o5dRomfbjFUjN8OeQgu0qVcg.S03Bz3vjI1giP-2T5Q-hc5t6FNR4SKVcnbR5yLCe5isg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo2-alpha-three.vercel.app/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3332?menuid=154&referrerAllArticles=false"
         }
@@ -1393,14 +1199,10 @@ const STUDY_DATA = {
         "4": {
           "day": 4,
           "title": "[day4]클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차_드*톡",
-          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n버셀에 대해 이해하게 되었다.\n클로드 md 테스트 코드 작성할 수 있어 좋았음.\n✔ 실습한 내용을 캡처해주세요.\nhttps://todo-app-livid-phi-49.vercel.app/index.html\nVibe Todo | 프리미엄 투두\n나만의 할 일 ✨ 오늘도 빛나는 하루를 만들어봐요! + 데이터 로드 완료! ✨  Browser Integration Test Task   Frontend Integration Test   우유 2팩, 계란 한 판 사오기 (이마트)   리액트 투두앱 컴포넌트 구조 1차 설계   개발 관련 기술 블로그 주간 회고 작성   아침 7시 조깅 후 샤워하기 \ntodo-app-livid-phi-49.vercel.app\n테스트코드 실행결과\n:\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ 4 ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n버셀에 대해 이해하게 되었다.\n클로드 md 테스트 코드 작성할 수 있어 좋았음.\n✔ 실습한 내용을 캡처해주세요.\n[배포 URL 생략]\nVibe Todo | 프리미엄 투두\n나만의 할 일 ✨ 오늘도 빛나는 하루를 만들어봐요! + 데이터 로드 완료! ✨  Browser Integration Test Task   Frontend Integration Test   우유 2팩, 계란 한 판 사오기 (이마트)   리액트 투두앱 컴포넌트 구조 1차 설계   개발 관련 기술 블로그 주간 회고 작성   아침 7시 조깅 후 샤워하기 \n[배포 URL 생략]\n테스트코드 실행결과\n:\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "버셀에 대해 이해하게 되었다.\n클로드 md 테스트 코드 작성할 수 있어 좋았음.",
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTM2/MDAxNzc1MTI2NDg2OTI0.Z585It9PqiP2cy33kAsPnGHvUV_o7hSonMs3YIuHqM0g.Q444pkAcvUWTfPBpa7kgdouhMUz3hgKjjsJXJUJGrjgg.PNG/image.png?type=w1600"
-          ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://todo-app-livid-phi-49.vercel.app/index.html"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3308?menuid=154&referrerAllArticles=false"
         },
@@ -1413,10 +1215,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjg5/MDAxNzc1MDM1NDk2ODY3.BgQE4TIv6wKEDvH5AJA5QFFz2O5cXr5b4H5Anhl_HoUg.wfExo7fcqdup_4IWZoLQRRTjgY_skrnTtCxBm3Q8Jtwg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNDkg/MDAxNzc1MDM4NjU0ODc1.Yw12XDo7-zHtcHakaY_I34V2ma5K-soF8An8miWP_dgg.QCAZQs4ibn_yzYwuti6FBUTONbmc7a8WDoieUjPcZNEg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://k*******8.github.io/todo-app/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3283?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -1427,8 +1225,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTA2/MDAxNzc0OTM3NzQwMjEw.5oO145ohUOooQyaY7P_heAv5NDSHRuKOYGBn-mFaT50g.BPEcHMvQzbtw9Vrvr0bXL7fBI18YQfuJ0H9avxSWPgAg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3261?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1440,8 +1236,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjcw/MDAxNzc0ODY3OTk2NzA2.wDOxuGdFy5dTG2Syn00cojQh_OPkPiNhK9Go989qBisg.TIAUaDhJ2p8D6wzeexs27XoBPA-m154BGq4FdwQi3rQg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTIw/MDAxNzc0ODU5NzE2OTUx.E_frsXkbUwFVy-onAXrb2MwjdHwFED4-LxUfAIF5JqYg.pNQWAGJLjCwpB6_Lx9bkAZPximx5mOcDt_B_2_SSNxgg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3237?menuid=154&referrerAllArticles=false&page=4"
         }
       },
@@ -1465,8 +1259,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjM1/MDAxNzc1MDUzNTg4NTc2.P5paJPq9xIcTWT_lSXpf1Rq6Lnfe79lQN4U-0qso3mcg.ZpR5AlRTXkUXewDkFgTBdvUrpqteOgOXXvRarlBiGEkg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-01_%EC%98%A4%ED%9B%84_11.25.15.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3291?menuid=154&referrerAllArticles=false"
         },
         "1": {
@@ -1477,8 +1269,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjQx/MDAxNzc0ODc4ODQ3ODU4.Myo25DOmU-AIttYFYHTUnlN7SQ9kYhvPF9-kB7qeOBAg.d8J9w8EMleVG9MEkNdCr2U9SqCH4BoXee8TO_yJBx-Mg.PNG/day1_screen.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3247?menuid=154&referrerAllArticles=false&page=4"
         },
         "3": {
@@ -1490,12 +1280,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMTIx/MDAxNzc1MTM5Njg5ODM4.2Zj2oPn8JYMXdbN5f2PzjaWpcqfidswD8q7ll9ODq0Mg.UZA_XvlXaeITFcQzSoKx0sU10WDfpFlLgVa_We4_x1Ig.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.21.04.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjg3/MDAxNzc1MTM5NzQwMTEz.p6jyIjWI7Ka1JNmgiLNBVGGlgHl9ra_q_PYilkMpfS0g.nDGIBNDXatGmyHqEV1bZxhvuD3-IqSb4t3DIqdFOvSAg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.22.11.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjI2/MDAxNzc1MTQwNjc3MDgx.yBZoYhh6xOuqaySkSk1h-zszxlartg4d-G-pkI1Cfusg.cF8-F1-lvLm5YpfXG2XC92wJERUv5aRwe6N-_hvcKD4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-02_%EC%98%A4%ED%9B%84_11.37.15.png?type=w1600"
-          ],
-          "github_urls": [
-            "https://github.com/U******m/todo"
-          ],
-          "deploy_urls": [
-            "https://u******m.github.io/todo/"
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3313?menuid=154&referrerAllArticles=false"
         }
@@ -1515,10 +1299,6 @@ const STUDY_DATA = {
           "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n깃허브 연동하면\n공개 버전으로 배포가 가능해서,\n다른사람들에게도 사용가능하게 할 수 있다는 점이\n새로웠습니다.\n✔ 실습한 내용을 캡처해주세요.\nhttps://r************g.github.io/todo/\nTODO\nTODO 🌙 추가 전체 진행 중 완료 📋 할 일이 없습니다. 추가해보세요! 진행 중 0개 · 완료 0개 완료 항목 삭제\nr************g.github.io\n시간관계상\nMcp까지는\n못해서;; 목요일 정도에 이어서 해보겠습니다.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
           "learned": "깃허브 연동하면\n공개 버전으로 배포가 가능해서,\n다른사람들에게도 사용가능하게 할 수 있다는 점이\n새로웠습니다.",
           "images": [],
-          "github_urls": [],
-          "deploy_urls": [
-            "https://r************g.github.io/todo/"
-          ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3287?menuid=154&referrerAllArticles=false&page=2"
         },
         "2": {
@@ -1529,8 +1309,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjY4/MDAxNzc0OTYxMTQwNzc1.2a_mH40rXgeyQwWMJfmSe-l5ayeUvbBcoo2B_KWfgPgg.lmoy6pQ9NuZNRvEIgk_Zt-Zw5d6A5AMe37XRcCvmolIg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3270?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1541,8 +1319,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTQw/MDAxNzc0ODgwNjY1MzEy.lxEWgwaIRF7TwuRGbcIRK4cwe3jmPr1bFpKET1BAVX4g.AgF5hw3_kJfPXPzxK8ZF7FsTY2LbBxESKrR42nxRBicg.JPEG/IMG_5260.jpeg?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3250?menuid=154&referrerAllArticles=false&page=4"
         }
       },
@@ -1565,8 +1341,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQ5/MDAxNzc1MTgxOTY1MzQ4.YhuV9PeU6ayOTA6oVLDL94UKeN-vssmMCoipjCa4oo8g.6LNBhDmmS3rRGQK80zQfPPDgrUDHfBnnQn3P1Ow285kg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_%EC%98%A4%EC%A0%84_11.05.05.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3318?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1577,8 +1351,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfOSAg/MDAxNzc1NDU2NzA4MzMz.BbgqOScTaBJDvk3VziIjMn0OgbsmHGP9UQkVnwFEL04g.iMDjCOoqzH7Sm9u4IHNtPcZVuz0ppZAVlIOC64wNpfcg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-06_%EC%98%A4%ED%9B%84_3.25.00.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3349?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1601,8 +1373,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjc5/MDAxNzc1MTI3Mjc2OTQx.lb7l4f0n900TOXF5r7YKNV7eyjukvlmm-U3fq88IjgEg.y9bpM7y9ph6X007N_ESloQHC1cM1tL1AB_3PiIiaOXEg.JPEG/KakaoTalk_20260402_195420589.jpg?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3309?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1613,8 +1383,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfMTQg/MDAxNzc1Mzk2Mjk4NjY3.XbNzh8412JMGKyD2-qH8bVp5Xl1htsXoULktJPI_f5wg.5kUYGdgpyxtjOzm7p_IVe6YAY1f6dn_1eGFBOqz6BXUg.PNG/Screenshot_2026-04-05_at_22.37.28.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3346?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1637,8 +1405,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfNDEg/MDAxNzc1MjcxMTI4NTE4.QSvynS1hXN2xmMcFN3_uUyopf6orKwAgwT2B3eK66zEg.A_1hP8xyNvgZGJV2zRXadE_i0fLX6NZhG_qvd-XvoAsg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3339?menuid=154&referrerAllArticles=false"
         },
         "1": {
@@ -1649,8 +1415,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTYg/MDAxNzc1MjcwMTg1MjMy.psPqmh5KXcOAQ07F1J_vk6gZa7WeQ5VRcyJS-aFHy9Eg.h2mWWFHMEU7dVPbfnyGW8_wnK_Wn5ZvcZVAR_GXqGJYg.PNG/1%EC%9D%BC%EC%B0%A8_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-04_112252.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3338?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1674,8 +1438,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjQy/MDAxNzc1MjI1NDQ2NjM0.3or7ndtH1M8gPraY1w67lBMSuNnI-F0w39MfPw7GTvEg.lnvHp8cXhG-U-Rdf-8UcgCySMgPjXXsU1P6cDCIjQzgg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3328?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1686,8 +1448,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfODYg/MDAxNzc1MjMzMTM2Nzg4.EOoGkK5Ofuhi7140evwmF0ludLtYBd_4Oh12AK6gkdkg.maEUdEZ7zDJEe7slF4ziO0HthNRf3SC9KOa6pwTDSQQg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3335?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1708,8 +1468,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMTU5/MDAxNzc1MTkzODEzNTQy.2E6idbIw1PdfOc9jZc5sklbR92rHqyqzrVswI673yIwg.GAB7o9dwczx_zT9XDD-YXkInI6ry6odiFdVS0kwru74g.GIF/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-03_141549.gif?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3320?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1732,8 +1490,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNCAg/MDAxNzc1MTI4OTEwNjQ4.yR9n3diso9587CR2ngo62KG2Lq-XwV7WgvSYdX3TxTMg.ppogCCfa61d5aX5zz-F9O56SIPwgweZxMhTkOc5t9Isg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3310?menuid=154&referrerAllArticles=false"
         },
         "1": {
@@ -1744,8 +1500,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTY1/MDAxNzc0OTQ3NjIzMTE0.UauHENcP1vhrc2VrEseICLfK00wO6aiEn6hEJTVbGLQg.ijfyl7N36uGD9YJV72WnESrs2yzaJB_LkIw9JRrxdbYg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3264?menuid=154&referrerAllArticles=false&page=3"
         }
       },
@@ -1768,8 +1522,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMjk3/MDAxNzc0OTYyNjQzNDg1.LTOU3AHs8CkqVBEU_n3yLT5zwmJbIBgdMwvUyt7wLEwg.pzZK9CEifebVOGIRT36vpJ6HV5WvTBIxcb-s4SZQR7wg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3271?menuid=154&referrerAllArticles=false&page=2"
         },
         "1": {
@@ -1780,8 +1532,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMjA1/MDAxNzc0ODgxOTg3Nzc3.q1O9KH8aHoKSV21-PqXLfW7jQziQe2Nhwowfnu6P4yMg.NaFuB6PXg2eY9mCbV6AIo12rCygt52kYmTKGgLEwbtIg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3253?menuid=154&referrerAllArticles=false&page=3"
         }
       },
@@ -1816,8 +1566,6 @@ const STUDY_DATA = {
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMTIz/MDAxNzc0OTk4NTA2ODg5.AzsaMC-VVfYOo8oM7g4h5msv3zHDFBcQeyflHdkMheUg.SFtS1QFvsyEoIn3a8O8J6DMHh0wNCYkaqHcfPT6KWwQg.PNG/image.png?type=w1600",
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfMjQw/MDAxNzc0OTk5MDYwODU1.P1cVqCwRKrst76R0oGhEosCbDK-XmLRx9i1z7LbAXhsg.3U1NSsvTQXyP-ggfLPK7iXirWGp_8RoeAYYS7OgvBu0g.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3266?menuid=154&referrerAllArticles=false&page=3"
         },
         "1": {
@@ -1828,8 +1576,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTkg/MDAxNzc0ODQ4NzA1MDYx.RPP3-XmtOfmRloBZ7unoHSThXsVs0PlA0pDIhdi6th8g.8-TObNSQ5MfY9TgWTNTo20pr-VI0Dvdd5kBfyQmYCZQg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3239?menuid=154&referrerAllArticles=false&page=4"
         }
       },
@@ -1854,8 +1600,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDdfMTcx/MDAxNzc1NDk2MTY5OTEy.6Zlz_LIKdF7dDYAOxtuLmuvLeSfCTWrHsuxq9CVMU-og.bS1e9eHTMcOsRDFxm9mgC6x_1SKLjRtAzWgGrv8-Un4g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-07_%EC%98%A4%EC%A0%84_2.21.33.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3356?menuid=154&referrerAllArticles=false"
         },
         "2": {
@@ -1866,8 +1610,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDdfMjIy/MDAxNzc1NDk4MjQ0NzE4.nelLbRATVZQcRYTz7UZVsdP28_uOjjPi1bhxYyLrSAUg.xaTCOdFd4EtCjjA-h4VF7Hckvx5YthO0yBKjlDpMBlYg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3357?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1890,8 +1632,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMjgx/MDAxNzc1MzE0Mzg4MDQw.eN6jGXs-I8mkyETpOWOiiXMt4YchOpaZdWkHprN4nhcg.n6sZ_QMJ6hef5piCaALhRUEQATzud4l2hsgtfRYH5XQg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3341?menuid=154&referrerAllArticles=false"
         }
       },
@@ -1912,8 +1652,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNTkg/MDAxNzc1MDAxNjkwODUx.kPiTo5ciml_wNxBHwJxlx7brIHFBGTgMqh7MXolv9tog.VgYzLwOASR7EaAv3zsjMmt6mUgUPyef0uOaQYkWg7hQg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%28140%29.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3278?menuid=154&referrerAllArticles=false&page=2"
         }
       },
@@ -1934,8 +1672,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTgw/MDAxNzc0ODgzNTA2MzEx.FT0HExY7jFut5Q8zr9B47RoGFWQ0BWgLJFqk9RX8Znsg.cfPvimSygRjdgEDfol3Ji_efnYQeTCHsGfyUe_kgm0wg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3255?menuid=154&referrerAllArticles=false&page=3"
         }
       },
@@ -1956,8 +1692,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfNDkg/MDAxNzc0ODgyNTU0ODY3.gl5vWpA706rRasqyeCQ5eK-Opwibcb5HVxasYTiCjk4g.j1-crBIN37bStPkbB_-2U0JT-7QnGq6ZJlgT51p9YLQg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3254?menuid=154&referrerAllArticles=false&page=3"
         }
       },
@@ -1980,8 +1714,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfNTMg/MDAxNzc0ODgxNTc0Nzc0.sMqTY10_GDDtHGVpL0ndqYnsWEbC6eXXjoK6e4sC60Mg.O5PW9p6JICnqeM38mfIP4DZIUVjW3jRBcqt-zJnG_7Ig.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3252?menuid=154&referrerAllArticles=false&page=4"
         }
       },
@@ -2002,8 +1734,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfOSAg/MDAxNzc0ODU4NjI4NTgy.C4kcnb-qkFsg8r8yI_iKHtCS4PPWDMVV4AcY0FiiI74g.VdYwdG8nBOVFjYLRId_GkIwijYmP0RmjEV9EAamyBlYg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-03-30_%EC%98%A4%ED%9B%84_5.16.21.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3235?menuid=154&referrerAllArticles=false&page=4"
         }
       },
@@ -2024,8 +1754,6 @@ const STUDY_DATA = {
           "images": [
             "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTQ4/MDAxNzc0ODMyODQyNzY0.yMreWGOpofuFFFNhVjts42bfsSrdbe3B_HfzlQsNNk0g.T6vICko3GgkwTmj5pRMAEf5AtdsLMUtcq-YLfRpmLHUg.PNG/image.png?type=w1600"
           ],
-          "github_urls": [],
-          "deploy_urls": [],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3218?menuid=154&referrerAllArticles=false&page=5"
         }
       },
