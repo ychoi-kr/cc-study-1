@@ -1002,7 +1002,7 @@ const STUDY_DATA = {
           "journey_excerpt": "git의 원리를 뜯어보고, 이슈들도 생성해보았다."
         }
       },
-      "app_idea": "클로드 구독및 설치 후 앱 개발\n우선 한달동안 앱들 만들어 보고, 1년구독할지 결정해야겠다.",
+      "app_idea": "목표달성 트래커 앱",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600",
       "max_day": 6,
       "safe_images": [
