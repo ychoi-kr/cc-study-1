@@ -590,7 +590,7 @@ const STUDY_DATA = {
           "journey_excerpt": "- Claude 훅은 \"이벤트 시 자동 실행되는 규칙\"으로 반복 작업(빌드·테스트·포맷)을 자동화하는 역할을 함. 가장 효과적인 활용은 코드 변경 직후 lint/test 실행 → 실패 시 자동 수정 루프 연결... 훅은 크게 만들지 말고 단일 책임(예: 포맷팅, 테스트, PR 생성) 단위로 분리해야 안정성이 높다.\n- figma MCP 서버 연결을 통해 디자인파일에서 코드를 생성할 수는 있으나 최대한 작은 단위로 나누는 게 가장 효율적이고 정확도가 높아진다.\n- SKILL.md 작성을 통해 MCP 서버보다 덜 복잡하게 특정 스킬을 지정해 호출할 수 있다."
         }
       },
-      "app_idea": "- ChatGPT랑 프로젝트\n- CLAUDE.md 작성\n하는 방법을 알아봤어요",
+      "app_idea": "아이스크림 추천 서비스 — 하루 느낀점을 얘기하면 그에 맞게 아이스크림을 추천해주고, 추천을 저장하면 캘린더에 기록할 수 있는 앱",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfOCAg/MDAxNzc1MjUwNDQxOTc5.MWSCL3feXglg9zVMUi_cjInZ3qOfEvnb0x5mVukdx_Ig.sZhNAizSn5HNFjzINrnS9Z4XHHHufVp_w-2tbFhdXpwg.PNG/%7BEA2AA2F9-D3D4-47F8-A563-525CCE159871%7D.png?type=w1600",
       "max_day": 8,
       "safe_images": [
