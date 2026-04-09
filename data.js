@@ -4,7 +4,7 @@ const STUDY_DATA = {
     "start_date": "2026-03-30",
     "duration": "2주 (10회)",
     "book": "클로드 코드를 활용한 바이브 코딩 완벽 입문 (위키북스)",
-    "current_day": 8,
+    "current_day": 9,
     "total_days": 10,
     "deadline": "2026-04-15"
   },
@@ -59,9 +59,9 @@ const STUDY_DATA = {
     },
     {
       "day": 9,
-      "title": "미공개",
+      "title": "내 앱 구현 + 배포",
       "chapter": "",
-      "status": "upcoming"
+      "status": "done"
     },
     {
       "day": 10,
@@ -78,14 +78,14 @@ const STUDY_DATA = {
       "3": 18,
       "4": 15,
       "5": 13,
-      "6": 7,
-      "7": 6,
+      "6": 8,
+      "7": 7,
       "8": 3,
       "9": 0,
       "10": 0
     },
     "deploy_count": 15,
-    "current_day": 8
+    "current_day": 9
   },
   "curated_ideas": [
     "프리랜서 디자이너를 위한 고객 자동응대 툴",
@@ -1000,14 +1000,25 @@ const STUDY_DATA = {
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3351?menuid=154&referrerAllArticles=false",
           "journey_excerpt": "git의 원리를 뜯어보고, 이슈들도 생성해보았다."
+        },
+        "7": {
+          "day": 7,
+          "title": "[day7]이슈 기반 개발 + github actions 설정",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [7] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n코드 리뷰 및 github의 ai를 통해 PR을 만드는 방법을 알게 됐다.\n✔ 실습한 내용을 캡처해주세요.\n1) 코드리뷰\n생성 PR 결과\nPR이 생성됐어요! 결과를 정리하면:\n---\n결과\nPR #12 — j**********4/ai-chat/pull/12\nPLAINTEXT\nfix: 주석과 코드 불일치 수정 (30 → 20)\n브랜치: claude/issue-2-20260409-0125 → master\n변경: 1개 파일, +1 / -1\n- \"최근 30개 메시지만 유지\" → \"최근 20개 메시지만 유지\"\nGitHub Actions 실행 흐름:\nPLAINTEXT\n이슈 #2에 @claude 코멘트\n↓\nGitHub Actions 트리거 (issue_comment)\n↓\nClaude Code가 이슈 분석 (43초)\n↓\n브랜치 claude/issue-2-20260409-0125 생성\n↓\nmemory.ts 주석 수정 + 커밋 + 푸시\n↓\n이슈에 완료 코멘트 (체크리스트 포함)\n↓\nPR #12 생성 ✅\n---\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfODUg/MDAxNzc1Njk2OTAzMTg4.RkU5o5VQkTViR6cbixZW-7L55Ks6EN4uJc0EszQGDfwg.B9a2pbwnZ1mE7Xr9JWOVk8QCmrA2zwhIPICo9xxRnkUg.PNG/image.png?type=w1600"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3378?menuid=154&referrerAllArticles=false",
+          "journey_excerpt": "코드 리뷰 및 github의 ai를 통해 PR을 만드는 방법을 알게 됐다."
         }
       },
       "app_idea": "목표달성 트래커 앱",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600",
-      "max_day": 6,
+      "max_day": 7,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600",
-        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTA3/MDAxNzc1Mjk5NjQ0MDc2.rLz590TbSuMpgCWX9M56qdiykRlMhzuDePcr-SACnE4g.GoSuvQrsfEDf5Yhr87m75UhcFQicvwxly9vCVMg7S5Mg.PNG/image.png?type=w1600"
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTA3/MDAxNzc1Mjk5NjQ0MDc2.rLz590TbSuMpgCWX9M56qdiykRlMhzuDePcr-SACnE4g.GoSuvQrsfEDf5Yhr87m75UhcFQicvwxly9vCVMg7S5Mg.PNG/image.png?type=w1600",
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfODUg/MDAxNzc1Njk2OTAzMTg4.RkU5o5VQkTViR6cbixZW-7L55Ks6EN4uJc0EszQGDfwg.B9a2pbwnZ1mE7Xr9JWOVk8QCmrA2zwhIPICo9xxRnkUg.PNG/image.png?type=w1600"
       ]
     },
     {
@@ -1067,11 +1078,22 @@ const STUDY_DATA = {
           ],
           "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3352?menuid=154&referrerAllArticles=false",
           "journey_excerpt": "바이브코딩을 아예 처음 접하는거라 책 한장 한장 모든게 다 새롭습니다.."
+        },
+        "6": {
+          "day": 6,
+          "title": "[day6]Git 기초 복습 + GitHub Issue 작성",
+          "content": "🧡클로드 코드 바이브 코딩 스터디 [ ] 일 차\n✔ 오늘 새로 알게된 부분이 있다면 간략히 설명해주세요.\n이슈에 대해서 새롭게 배웠어요\n✔ 실습한 내용을 캡처해주세요.\n클로드 코드를 활용한 바이브 코딩 완벽 입문 | 위키북스\nhttps://wikibook.co.kr/claude-code/",
+          "images": [
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfMTgw/MDAxNzc1NzAwODczMzE3.iNvjv3BbrXMNhYrEhRnickRAQKc31OqCwsMVgvxl10Eg.v_oTyAB-WnWAK_WeoQip4hjgmXneJ4iWy-PVrluiFhkg.PNG/image.png?type=w1600",
+            "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjg5/MDAxNzc1NDY2MjE1NDA4.WMVn4PIO4OFJ2Q6a0f9Xq6Bnj8PQFlsVbIXZ_qq5_M8g.kEfKtDfG26My65CWJ4skG9hgoQ3jOY8hcg1s41uWvtQg.PNG/image.png?type=w1600"
+          ],
+          "cafe_url": "https://cafe.naver.com/f-e/cafes/30853297/articles/3379?menuid=154&referrerAllArticles=false",
+          "journey_excerpt": "이슈에 대해서 새롭게 배웠어요"
         }
       },
       "app_idea": "스레드, 블로그 자동화!",
       "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjY4/MDAxNzc1NDYzMTA2Njg4.WdI33wiL-_IvAw1yfngqboohyHzRvHg0O-HCqcWNZA0g.ltZOgmppXsMEjyEwnRnmdRLVY3i5s73tz_dMAESJAvkg.PNG/image.png?type=w1600",
-      "max_day": 5,
+      "max_day": 6,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMjY4/MDAxNzc1NDYzMTA2Njg4.WdI33wiL-_IvAw1yfngqboohyHzRvHg0O-HCqcWNZA0g.ltZOgmppXsMEjyEwnRnmdRLVY3i5s73tz_dMAESJAvkg.PNG/image.png?type=w1600"
       ]
