@@ -783,7 +783,7 @@ function openDetail(pid) {
     </div>`;
   }
 
-  const sortedDays = Object.keys(p.days).map(Number).sort();
+  const sortedDays = Object.keys(p.days).map(Number).sort((a,b)=>a-b);
   const tlHtml = sortedDays.map(d => {
     const day = p.days[d];
     let text = day.journey_excerpt;
