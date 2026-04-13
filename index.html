@@ -204,8 +204,15 @@
     100% { opacity: 1; transform: translateY(0) scale(1); }
   }
   .p-thumb {
-    width: 100%; height: 160px; object-fit: cover;
+    width: 100%; height: 160px; object-fit: cover; object-position: top;
     display: block; background: var(--surface2);
+  }
+  .p-thumb-pair {
+    width: 100%; height: 160px; display: flex; gap: 2px;
+    background: var(--surface2); overflow: hidden;
+  }
+  .p-thumb-pair img {
+    flex: 1; min-width: 0; height: 100%; object-fit: cover; object-position: top;
   }
   .p-thumb-empty {
     width: 100%; height: 80px;
@@ -709,9 +716,11 @@ function renderGrid() {
         if (imgs && imgs.length > 0) { thumb = imgs[0]; break; }
       }
     }
-    const thumbHtml = thumb
-      ? `<img class="p-thumb" src="${thumb}" loading="lazy" alt="${esc(p.masked_nickname)}" />`
-      : `<div class="p-thumb-empty">💻</div>`;
+    const thumbHtml = Array.isArray(thumb)
+      ? `<div class="p-thumb-pair">${thumb.map(u=>`<img src="${u}" loading="lazy" alt="${esc(p.masked_nickname)}" />`).join('')}</div>`
+      : thumb
+        ? `<img class="p-thumb" src="${thumb}" loading="lazy" alt="${esc(p.masked_nickname)}" />`
+        : `<div class="p-thumb-empty">💻</div>`;
 
     return `<div class="p-card" onclick="openDetail('${p.id}')">
       ${thumbHtml}

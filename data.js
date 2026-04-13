@@ -352,7 +352,10 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "후보1. 신혼부부용 가계부 앱\n후보2. 옷입히기 게임 앱\n후보3. 해빗트래커 앱",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfMjA5/MDAxNzc1NzM3MzA5NzYw.VeQYG1HtTYKv5MF83wHSNb_Zud17KuQBCv61oiRSyJYg.EiTxXAugV3dZMEzXLCQ3Hr7u6xzdBLwR2qOpiJhbadAg.PNG/image.png?type=w1600",
+      "thumb": [
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfMjA5/MDAxNzc1NzM3MzA5NzYw.VeQYG1HtTYKv5MF83wHSNb_Zud17KuQBCv61oiRSyJYg.EiTxXAugV3dZMEzXLCQ3Hr7u6xzdBLwR2qOpiJhbadAg.PNG/image.png?type=w1600",
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDlfMTM5/MDAxNzc1NzM3MzM2ODQx.VYKDxYZPEL2VBkM4nxoip9457S7HpNmKUCDzAdL3_s0g.7lL6olfvzpBvbDKYLNR3UNyfLNN3QmPyXTT8hBiPAvUg.PNG/image.png?type=w1600"
+      ],
       "max_day": 10,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDZfMTgw/MDAxNzc1NDc5NjI4Njc5.VXpJnL-B9qf_NTB1OSndDIguOGOMk4Bwqbur0qCza1Ag.9bsdulnMstWrzWM0cy032Dh2IdHXl5hkOPb23eVjZwUg.PNG/image.png?type=w1600",
@@ -537,7 +540,7 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "<후보 3가지>\n(1) 불량현황 실시간 대시보드 — 공정별 불량률, 불량 유형, 추이를 CSV 업로드만으로 시각화\n(2) 체크리스트 & 검사 기록 앱 — QC 체크리스트를 웹에서 작성하고 검사 이력을 저장·조회\n(3) 불량 원인 분석 AI 도우미 — 불량 증상과 공정 조건을 입력하면 AI가 잠재원인을 자동 제안",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjI0/MDAxNzc1MjI2MTQ4ODg4.A6UCDOS2c64OOzzLakdN78ScRBfOw4weFEwdotCeZZwg.4xlGqo2-WKCfiT_7wMwUnjv8IxGB5WosPvAnnBQDL2wg.PNG/%EA%B7%B8%EB%A6%BC4.png?type=w1600",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTBfMTYg/MDAxNzc1ODIxOTA5NjI1.YHm8L-e8DvZzh5VFFavgGoQi_g7FS-ifY8ual_2ks9cg.gewA6kShX2qfT0esaiBlC6iN1Y139XxtDSTrhjFH3rMg.PNG/%EA%B7%B8%EB%A6%BC6.png?type=w1600",
       "max_day": 10,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDNfMjI0/MDAxNzc1MjI2MTQ4ODg4.A6UCDOS2c64OOzzLakdN78ScRBfOw4weFEwdotCeZZwg.4xlGqo2-WKCfiT_7wMwUnjv8IxGB5WosPvAnnBQDL2wg.PNG/%EA%B7%B8%EB%A6%BC4.png?type=w1600",
@@ -1007,7 +1010,7 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "문제풀이 사이트\n- 회원가입, 로그인, 회원정보수정, 회원관리 등 (일반회원, 관리자)\n- 과목 등록 (관리자), 문제 등록/ 수정 / 삭제 (회원만)",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNjgg/MDAxNzc1MDQ3MTc4OTk0.pUT9hRnznPa8itjIseUmjK4DOeYm9MNe5UqYcyAg4BQg.G-4924ZfOcvSapn6OkwLjcL657QNZX90AvgbywB3xvIg.PNG/image.png?type=w1600",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfMjY1/MDAxNzc2MDQzMzUwMTAz.qP5NuSLPUHBfXXR_LIvAFTyZFj-Bz37xM0gh_Ia7jX8g.hjwZN_ymxzw5BLzxLJnYdW82RIJrj16oaxkgTdNJCtIg.PNG/image.png?type=w1600",
       "max_day": 10,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfNTcg/MDAxNzc0OTU3NDY3NjU3.OvDDm_R6tOZ7JZYT1mlJvY9LbvqCtT9eJzMiRRrrcukg.KIzmipnk7xm4_nks96adsbYcpFW8uL3npN-8XNi-PiAg.PNG/image.png?type=w1600",
@@ -1146,7 +1149,10 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "> 프리랜서 디자이너를 위한 고객 자동응대 툴",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfMTQ0/MDAxNzc2MDQzMDI1NTE0.oe_W6DfjTf16MOXRcqGtcEoi_D8yIJODzGxscnQR4bwg.Z8XgiAUOJcKBBfrMRUzb9PG1LsNNhQmnCi-Zfd5p2iYg.PNG/image.png?type=w1600",
+      "thumb": [
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfMTQ0/MDAxNzc2MDQzMDI1NTE0.oe_W6DfjTf16MOXRcqGtcEoi_D8yIJODzGxscnQR4bwg.Z8XgiAUOJcKBBfrMRUzb9PG1LsNNhQmnCi-Zfd5p2iYg.PNG/image.png?type=w1600",
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfNTkg/MDAxNzc2MDQzMDQ2Nzkw.4c3SIPOJyxPRjKwgWzAyv3Dzu7HZrNYsJT_bfEaZBw0g.MOGu-bdniWyt-OQx57YXDHRFEy9FIyYg1GMVmqY2Ougg.PNG/image.png?type=w1600"
+      ],
       "max_day": 10,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDVfMTQ2/MDAxNzc1Mzg5NjgyMTM4.Qo1CsMXFfMwhqvtzmVpL0uDErw-mHTVfN2eF2bXAdgIg.nwK5YKPwZlITMqN67Oii-C-uHevdyCR2OjiVXv9rfgIg.PNG/image.png?type=w1600",
