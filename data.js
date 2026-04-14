@@ -1437,7 +1437,7 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "목표달성 트래커 앱",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfNzUg/MDAxNzc2MDYxMzY1NDQ1.3q6YYzX-pjGHpxtlh9aK4bgP2cR24322BYaMA-Dc908g.tHCt6QiR4rPGuoqUBCzAozfv1eE0bgXYq3YTDvEhtKQg.PNG/image.png?type=w1600",
       "max_day": 9,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfNTEg/MDAxNzc1MTE5NTA4MTQ4.eAwbWRkE4GsEqN8-bzR6OoPZk6842zpBh5gMT_7KLn8g.cfgxLi-hbxUoT4rYEPghEIOP9O8OlC4LI1T5UuR-WAkg.PNG/image.png?type=w1600",
@@ -1878,7 +1878,7 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "고객별 코칭 기록 관리 시스템",
-      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDJfMjYx/MDAxNzc1MDU3MTgxNTI2.5WHBuc3WgorhOi-MBFm-MB6---OBVJONKNmdCDCCzkgg.iOAwiJdyVKovSq8E6BA43Dd0WBn7yj0y1VuRMkc6yZsg.PNG/image.png?type=w1600",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTQ3/MDAxNzc1MjI4ODU3ODEx.T0O4IRg8osUYy913g0F4o5dRomfbjFUjN8OeQgu0qVcg.S03Bz3vjI1giP-2T5Q-hc5t6FNR4SKVcnbR5yLCe5isg.PNG/image.png?type=w1600",
       "max_day": 5,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzFfMTI2/MDAxNzc0OTY5MTgxMjIz.u07EhrBxVX55AVtK1eiN_xpwgt7ZiYECA2opVvyuqnAg.akFw5ccaKl8_DA_dxgD-12TRUXJr8HzlKDLKBFCInm0g.PNG/image.png?type=w1600",
@@ -1936,7 +1936,7 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "",
-      "thumb": "",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDFfNDkg/MDAxNzc1MDM4NjU0ODc1.Yw12XDo7-zHtcHakaY_I34V2ma5K-soF8An8miWP_dgg.QCAZQs4ibn_yzYwuti6FBUTONbmc7a8WDoieUjPcZNEg.PNG/image.png?type=w1600",
       "max_day": 4,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMzBfMTIw/MDAxNzc0ODU5NzE2OTUx.E_frsXkbUwFVy-onAXrb2MwjdHwFED4-LxUfAIF5JqYg.pNQWAGJLjCwpB6_Lx9bkAZPximx5mOcDt_B_2_SSNxgg.PNG/image.png?type=w1600",
@@ -1989,11 +1989,12 @@ const STUDY_DATA = {
         }
       },
       "app_idea": "",
-      "thumb": "",
+      "thumb": "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfOTYg/MDAxNzc2MDkxNTY0NTI0.dh7LFRUOXy85GM3CndDPvIjO-sbTnJahjZBTqHuQgl0g.F8fdBPE_Edaaa3QWYBEZZf5oEiMqniO1be_81D9LmRsg.PNG/image.png?type=w1600",
       "max_day": 4,
       "safe_images": [
         "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfMTYg/MDAxNzc1MjcwMTg1MjMy.psPqmh5KXcOAQ07F1J_vk6gZa7WeQ5VRcyJS-aFHy9Eg.h2mWWFHMEU7dVPbfnyGW8_wnK_Wn5ZvcZVAR_GXqGJYg.PNG/1%EC%9D%BC%EC%B0%A8_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2026-04-04_112252.png?type=w1600",
-        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfNDEg/MDAxNzc1MjcxMTI4NTE4.QSvynS1hXN2xmMcFN3_uUyopf6orKwAgwT2B3eK66zEg.A_1hP8xyNvgZGJV2zRXadE_i0fLX6NZhG_qvd-XvoAsg.PNG/image.png?type=w1600"
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MDRfNDEg/MDAxNzc1MjcxMTI4NTE4.QSvynS1hXN2xmMcFN3_uUyopf6orKwAgwT2B3eK66zEg.A_1hP8xyNvgZGJV2zRXadE_i0fLX6NZhG_qvd-XvoAsg.PNG/image.png?type=w1600",
+        "https://cafeptthumb-phinf.pstatic.net/MjAyNjA0MTNfOTYg/MDAxNzc2MDkxNTY0NTI0.dh7LFRUOXy85GM3CndDPvIjO-sbTnJahjZBTqHuQgl0g.F8fdBPE_Edaaa3QWYBEZZf5oEiMqniO1be_81D9LmRsg.PNG/image.png?type=w1600"
       ]
     },
     {
